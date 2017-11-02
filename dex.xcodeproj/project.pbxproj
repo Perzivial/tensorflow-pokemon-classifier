@@ -23,6 +23,8 @@
 		E4191D8B1FAA2C9F0089B718 /* loading.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4191D8A1FAA2C9F0089B718 /* loading.storyboard */; };
 		E4191D8E1FAA5BB50089B718 /* Icon-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4191D8C1FAA5BB40089B718 /* Icon-29@3x.png */; };
 		E4191D8F1FAA5BB50089B718 /* Icon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4191D8D1FAA5BB50089B718 /* Icon-29@2x.png */; };
+		E43BB1681FAB5F4A00529D42 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = E43BB1671FAB5F4800529D42 /* camera.png */; };
+		E43BB16D1FAB8AEC00529D42 /* DexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43BB16C1FAB8AEC00529D42 /* DexViewController.swift */; };
 		E46FBF6A1FAA094500717046 /* xcodeimage in Resources */ = {isa = PBXBuildFile; fileRef = E46FBF691FAA094500717046 /* xcodeimage */; };
 		E49AABD31FAA22AE00F99F80 /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49AABD21FAA22AE00F99F80 /* AppIcon.xcassets */; };
 		E4BA212D1FA8D3BE00CFC4EC /* retrained_labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = E4BA212B1FA8D3BE00CFC4EC /* retrained_labels.txt */; };
@@ -60,6 +62,9 @@
 		E4191D8A1FAA2C9F0089B718 /* loading.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = loading.storyboard; sourceTree = "<group>"; };
 		E4191D8C1FAA5BB40089B718 /* Icon-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-29@3x.png"; path = "../../../../../../tensorflow-for-poets-2/tf_files/pokemon/Icon-29@3x.png"; sourceTree = "<group>"; };
 		E4191D8D1FAA5BB50089B718 /* Icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-29@2x.png"; path = "../../../../../../tensorflow-for-poets-2/tf_files/pokemon/Icon-29@2x.png"; sourceTree = "<group>"; };
+		E43BB1671FAB5F4800529D42 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = SOURCE_ROOT; };
+		E43BB1691FAB7A5400529D42 /* dex-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dex-Bridging-Header.h"; sourceTree = "<group>"; };
+		E43BB16C1FAB8AEC00529D42 /* DexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DexViewController.swift; sourceTree = "<group>"; };
 		E46FBF691FAA094500717046 /* xcodeimage */ = {isa = PBXFileReference; lastKnownFileType = folder; name = xcodeimage; path = "../../../../../tensorflow-for-poets-2/xcodeimage"; sourceTree = "<group>"; };
 		E49AABD21FAA22AE00F99F80 /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = AppIcon.xcassets; path = tf_camera_example/AppIcon.xcassets; sourceTree = "<group>"; };
 		E49AABE21FAA2C3600F99F80 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
@@ -126,10 +131,12 @@
 				1CDB2D451ED3A9CD007929E9 /* CameraExampleViewController.mm */,
 				1CDB2D471ED3A9CD007929E9 /* tensorflow_utils.h */,
 				1CDB2D481ED3A9CD007929E9 /* tensorflow_utils.mm */,
+				E43BB16C1FAB8AEC00529D42 /* DexViewController.swift */,
 				59A3CFF31CF4E68100C4259F /* data */,
 				5911579C1CF4011C00C31E3A /* Products */,
 				3E9FC355632FB928EA23BEED /* Pods */,
 				24D7686C331131624F4454A0 /* Frameworks */,
+				E43BB1691FAB7A5400529D42 /* dex-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,6 +163,7 @@
 		E49AABDF1FAA2C2D00F99F80 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				E43BB1671FAB5F4800529D42 /* camera.png */,
 				E4D1B63A1FAA68CD00F4D280 /* Icon-60@2x.png */,
 				E4D1B63B1FAA68CD00F4D280 /* Icon-60@3x.png */,
 				E4191D8D1FAA5BB50089B718 /* Icon-29@2x.png */,
@@ -202,6 +210,7 @@
 					1C564C0C1ED3A92E00087306 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 7L7JVRBPSE;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -230,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4CFF5921FAA1EEF00F64B6A /* overlay.png in Resources */,
+				E43BB1681FAB5F4A00529D42 /* camera.png in Resources */,
 				E46FBF6A1FAA094500717046 /* xcodeimage in Resources */,
 				1C968D171ED3B8F20054F5C3 /* grace_hopper.jpg in Resources */,
 				E4D1B63C1FAA68CD00F4D280 /* Icon-60@2x.png in Resources */,
@@ -310,6 +320,7 @@
 				1C3C9DCB1ED3AB4200B8B5FA /* ios_image_load.mm in Sources */,
 				1CDB2D4A1ED3A9CD007929E9 /* CameraExampleViewController.mm in Sources */,
 				1CDB2D491ED3A9CD007929E9 /* CameraExampleAppDelegate.m in Sources */,
+				E43BB16D1FAB8AEC00529D42 /* DexViewController.swift in Sources */,
 				1C3C9DCC1ED3AB4200B8B5FA /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +356,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				DEVELOPMENT_TEAM = 7L7JVRBPSE;
 				INFOPLIST_FILE = Info.plist;
@@ -353,6 +365,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "dex-detector";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "dex-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -366,6 +379,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				DEVELOPMENT_TEAM = 7L7JVRBPSE;
 				INFOPLIST_FILE = Info.plist;
@@ -373,6 +387,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dex-detector";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "dex-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 			};

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="BRu-3r-hRh">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -14,7 +14,7 @@
         </array>
     </customFonts>
     <scenes>
-        <!--Camera Example View Controller-->
+        <!--Scanner-->
         <scene sceneID="5">
             <objects>
                 <viewController id="2" customClass="CameraExampleViewController" sceneMemberID="viewController">
@@ -29,11 +29,11 @@
                                 <gestureRecognizers/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iD8-yH-eWH">
-                                <rect key="frame" x="13.5" y="450.5" width="284.5" height="93.5"/>
+                                <rect key="frame" x="14" y="455" width="151" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0018226333195343614" green="0.55423963069915771" blue="0.86990946531295776" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="20"/>
-                                <state key="normal" title="Take Picture">
+                                <state key="normal" title="Capture">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -41,42 +41,110 @@
                                     <action selector="takePicture:" destination="2" eventType="touchUpInside" id="BTy-7E-XUS"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" misplaced="YES" id="QN7-We-Jr7">
-                                <rect key="frame" x="7.5" y="22.5" width="299" height="44.5"/>
+                            <view tag="5" contentMode="scaleToFill" misplaced="YES" id="zaF-TL-ffH">
+                                <rect key="frame" x="156" y="455" width="148" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" misplaced="YES" id="XhI-H7-07x">
-                                        <rect key="frame" x="0.0" y="30" width="350" height="52"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <view contentMode="scaleToFill" misplaced="YES" id="Yop-ro-dZz">
-                                                <rect key="frame" x="0.0" y="34" width="350" height="37"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.0" green="0.55462167747033031" blue="0.87116566870000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </view>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.0" green="0.62403737576691354" blue="0.87116566870000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HvK-qk-1xr">
+                                        <rect key="frame" x="0.0" y="0.0" width="148" height="91"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.00065802258909999998" green="0.69173306229999998" blue="0.871348083" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="20"/>
+                                        <state key="normal" title="View">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="uEj-Ik-umL" kind="push" id="qAa-aX-O8g"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.69101705106226974" blue="0.87116566870000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="overlay.png" id="AaS-Bz-unX">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <view alpha="0.69999999999999996" contentMode="scaleToFill" misplaced="YES" id="L7y-QI-7Ru">
+                                <rect key="frame" x="75" y="20" width="170" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <color key="backgroundColor" red="0.0018226333195343614" green="0.55423963069915771" blue="0.86990946531295776" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.87116566870000001" green="0.33466603630000002" blue="0.20376289089999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Scanner" id="NON-Aw-jit">
+                        <barButtonItem key="backBarButtonItem" title=" " id="VJX-7B-OfL"/>
+                    </navigationItem>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="previewView" destination="12" id="13"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="25.5" y="29.5"/>
+            <point key="canvasLocation" x="1129" y="10"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="uqB-bw-mEG">
+            <objects>
+                <viewController title="Main" id="uEj-Ik-umL" customClass="DexViewController" customModule="dex" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gYr-c4-t6w">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.86852645874023438" green="0.12664663791656494" blue="0.15478363633155823" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="yEE-Kl-EcM">
+                        <barButtonItem key="backBarButtonItem" title=" " id="nHs-Ug-wwb"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="bUV-Vl-Ndz">
+                            <connections>
+                                <segue destination="wzK-hK-42K" kind="push" id="4ip-1M-cRs"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sFV-7x-6rn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1561" y="10"/>
+        </scene>
+        <!--Dex-->
+        <scene sceneID="Ted-P9-Ma0">
+            <objects>
+                <viewController title="Dex" id="wzK-hK-42K" customClass="DexViewController" customModule="dex" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QR0-dz-QOZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.8685264587" green="0.1266466379" blue="0.1547836363" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Pokedex" id="M6a-s1-obb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Wx-VM-swS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1991" y="10"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="HxB-lm-NZV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BRu-3r-hRh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" leftItemsSupplementBackButton="YES" id="Olx-us-0Wa"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Bse-xd-gp6">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.00065802258909999998" green="0.69173306229999998" blue="0.871348083" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="0WE-Nw-Yva"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xyc-kJ-Ygy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="655" y="-425"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="overlay.png" width="3475" height="5425"/>
-    </resources>
 </document>

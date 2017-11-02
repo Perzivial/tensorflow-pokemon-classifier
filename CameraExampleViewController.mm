@@ -98,12 +98,13 @@ static void *AVCaptureStillImageIsCapturingStillImageContext =
 
   previewLayer = [[AVCaptureVideoPreviewLayer alloc] initWithSession:session];
   [previewLayer setBackgroundColor:[[UIColor blackColor] CGColor]];
-  [previewLayer setVideoGravity:AVLayerVideoGravityResizeAspect];
+  [previewLayer setVideoGravity:AVLayerVideoGravityResizeAspectFill];
   CALayer *rootLayer = [previewView layer];
   [rootLayer setMasksToBounds:YES];
   [previewLayer setFrame:[rootLayer bounds]];
   [rootLayer addSublayer:previewLayer];
   [session startRunning];
+  
     rootLayer.zPosition = -3;
   if (error) {
     NSString *title = [NSString stringWithFormat:@"Failed with error %d", (int)[error code]];
@@ -176,8 +177,9 @@ static void *AVCaptureStillImageIsCapturingStillImageContext =
 - (IBAction)takePicture:(id)sender {
   if ([session isRunning]) {
     [session stopRunning];
-    [sender setTitle:@"Continue" forState:UIControlStateNormal];
-
+    [sender setTitle:@"Cancel" forState:UIControlStateNormal];
+      UIButton *subBtn = (UIButton *) [self.view viewWithTag:5];
+      subBtn.hidden = false;
     flashView = [[UIView alloc] initWithFrame:[previewView frame]];
     [flashView setBackgroundColor:[UIColor whiteColor]];
     [flashView setAlpha:0.f];
@@ -200,7 +202,9 @@ static void *AVCaptureStillImageIsCapturingStillImageContext =
 
   } else {
     [session startRunning];
-    [sender setTitle:@"Take Picture" forState:UIControlStateNormal];
+    [sender setTitle:@"Capture" forState:UIControlStateNormal];
+      UIButton *subBtn = (UIButton *) [self.view viewWithTag:5];
+      subBtn.hidden = true;
   }
 }
 
@@ -402,7 +406,11 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
   if (!labels_status.ok()) {
     LOG(FATAL) << "Couldn't load labels: " << labels_status;
   }
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor]; 
   [self setupAVCapture];
+    UIButton *subBtn = (UIButton *) [self.view viewWithTag:5];
+   subBtn.hidden = true;
+
 }
 
 - (void)viewDidUnload {
@@ -489,7 +497,7 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
       sortedArrayUsingDescriptors:[NSArray arrayWithObject:sort]];
 
   const float leftMargin = 10.0f;
-  const float topMargin = 23.0f;
+  const float topMargin = 50.0f;
 
   const float labelWidth = CGRectGetWidth(self.view.bounds)-20;
   const float labelHeight = 26.0f;

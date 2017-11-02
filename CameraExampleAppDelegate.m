@@ -21,6 +21,7 @@
 - (BOOL)application:(UIApplication *)application
     didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   [self.window makeKeyAndVisible];
+  [application setStatusBarHidden:YES];
   return YES;
 }
 
