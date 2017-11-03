@@ -179,8 +179,8 @@ static void *AVCaptureStillImageIsCapturingStillImageContext =
   if ([session isRunning]) {
     [session stopRunning];
     [sender setTitle:@"Cancel" forState:UIControlStateNormal];
-      UIButton *subBtn = (UIButton *) [self.view viewWithTag:5];
-      subBtn.hidden = false;
+//      UIButton *subBtn = (UIButton *) [self.view viewWithTag:5];
+//      subBtn.hidden = false;
     flashView = [[UIView alloc] initWithFrame:[previewView frame]];
     [flashView setBackgroundColor:[UIColor whiteColor]];
     [flashView setAlpha:0.f];
@@ -204,8 +204,8 @@ static void *AVCaptureStillImageIsCapturingStillImageContext =
   } else {
     [session startRunning];
     [sender setTitle:@"Capture" forState:UIControlStateNormal];
-      UIButton *subBtn = (UIButton *) [self.view viewWithTag:5];
-      subBtn.hidden = true;
+//      UIButton *subBtn = (UIButton *) [self.view viewWithTag:5];
+//      subBtn.hidden = true;
   }
 }
 
@@ -409,8 +409,8 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
   }
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor]; 
   [self setupAVCapture];
-    UIButton *subBtn = (UIButton *) [self.view viewWithTag:5];
-   subBtn.hidden = true;
+//    UIButton *subBtn = (UIButton *) [self.view viewWithTag:5];
+//   subBtn.hidden = true;
 }
 
 - (void)viewDidUnload {
@@ -529,9 +529,10 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
           topPokemon = label;
       }
     labelCount += 1;
-    if (labelCount > 2) {
+//    if (labelCount > 0) {
+//      break;
+//    }
       break;
-    }
   }
 }
 
@@ -548,7 +549,7 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
                         width:(float)width
                        height:(float)height
                     alignment:(NSString *)alignment {
-  CFTypeRef font = (CFTypeRef) @"Menlo-Regular";
+  CFTypeRef font = (CFTypeRef) @"Helvetica-Neue";
   const float fontSize = 20.0f;
 
   const float marginSizeX = 5.0f;
@@ -557,8 +558,8 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
   const CGRect backgroundBounds = CGRectMake(originX, originY, width, height);
 
   const CGRect textBounds =
-      CGRectMake((originX + marginSizeX), (originY + marginSizeY),
-                 (width - (marginSizeX * 2)), (height - (marginSizeY * 2)));
+      CGRectMake((originX + marginSizeX), (originY + marginSizeY)+8,
+                 (width - (marginSizeX * 2)), (height));
 
   CATextLayer *background = [CATextLayer layer];
   //[background setBackgroundColor:[UIColor blueColor].CGColor];
@@ -620,3 +621,13 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
 //}
 
 @end
+#import <QuartzCore/QuartzCore.h>
+@implementation CALayer (Additions)
+
+- (void)setBorderColorFromUIColor:(UIColor *)color
+{
+    self.borderColor = color.CGColor;
+}
+
+@end
+
