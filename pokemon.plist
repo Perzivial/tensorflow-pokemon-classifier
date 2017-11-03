@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bulbasaur</key>
+	<string>Seed Pokemon</string>
+	<key>ivysaur</key>
+	<string>Seed Pokemon</string>
+	<key>venusaur</key>
+	<string>Seed Pokemon</string>
+	<key>charmander</key>
+	<string></string>
+	<key>charmeleon</key>
+	<string></string>
+	<key>charizard</key>
+	<string></string>
+	<key>squirtle</key>
+	<string></string>
+	<key>wartortle</key>
+	<string></string>
+	<key>blastoise</key>
+	<string></string>
+</dict>
+</plist>

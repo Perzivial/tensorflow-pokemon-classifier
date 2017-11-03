@@ -21,7 +21,7 @@
 #include <sys/time.h>
 
 #include "tensorflow_utils.h"
-
+#import "DexViewController.h"
 // If you have your own model, modify this to the file name, and make sure
 // you've added the file to your app resources too.
 static NSString* model_file_name = @"retrained_graph";
@@ -42,6 +42,7 @@ const float input_mean = 117.0f;
 const float input_std = 1.0f;
 const std::string input_layer_name = "input";
 const std::string output_layer_name = "final_result";
+NSString *topPokemon = @"bulbasaur";
 
 static void *AVCaptureStillImageIsCapturingStillImageContext =
     &AVCaptureStillImageIsCapturingStillImageContext;
@@ -410,7 +411,6 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
   [self setupAVCapture];
     UIButton *subBtn = (UIButton *) [self.view viewWithTag:5];
    subBtn.hidden = true;
-
 }
 
 - (void)viewDidUnload {
@@ -525,7 +525,9 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
 //    if ((labelCount == 0) && (value > 0.5f)) {
 //      [self speak:[label capitalizedString]];
 //    }
-
+      if(labelCount == 0){
+          topPokemon = label;
+      }
     labelCount += 1;
     if (labelCount > 2) {
       break;
@@ -580,7 +582,10 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
 
   [labelLayers addObject:layer];
 }
-
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    DexViewController *controller = (DexViewController *)segue.destinationViewController;
+    controller.pokemon = topPokemon;
+}
 //- (void)setPredictionText:(NSString *)text withDuration:(float)duration {
 //  if (duration > 0.0) {
 //    CABasicAnimation *colorAnimation =

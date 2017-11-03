@@ -9,15 +9,15 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Menlo.ttc">
-            <string>Menlo-Regular</string>
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
         </array>
     </customFonts>
     <scenes>
         <!--Scanner-->
         <scene sceneID="5">
             <objects>
-                <viewController id="2" customClass="CameraExampleViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="1" id="2" customClass="CameraExampleViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -29,27 +29,27 @@
                                 <gestureRecognizers/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iD8-yH-eWH">
-                                <rect key="frame" x="14" y="455" width="151" height="91"/>
+                                <rect key="frame" x="0.0" y="477" width="164" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0018226333195343614" green="0.55423963069915771" blue="0.86990946531295776" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <state key="normal" title="Capture">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="takePicture:" destination="2" eventType="touchUpInside" id="BTy-7E-XUS"/>
                                 </connections>
                             </button>
                             <view tag="5" contentMode="scaleToFill" misplaced="YES" id="zaF-TL-ffH">
-                                <rect key="frame" x="156" y="455" width="148" height="91"/>
+                                <rect key="frame" x="158" y="477" width="162" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HvK-qk-1xr">
-                                        <rect key="frame" x="0.0" y="0.0" width="148" height="91"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HvK-qk-1xr">
+                                        <rect key="frame" x="0.0" y="0.0" width="162" height="91"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.00065802258909999998" green="0.69173306229999998" blue="0.871348083" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="20"/>
+                                        <color key="backgroundColor" red="0.0015156042060000001" green="0.62310504909999997" blue="0.87272447350000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                         <state key="normal" title="View">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -89,11 +89,23 @@
         <!--Main-->
         <scene sceneID="uqB-bw-mEG">
             <objects>
-                <viewController title="Main" id="uEj-Ik-umL" customClass="DexViewController" customModule="dex" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Main" id="uEj-Ik-umL" customClass="DexViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gYr-c4-t6w">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.86852645874023438" green="0.12664663791656494" blue="0.15478363633155823" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <view userInteractionEnabled="NO" tag="6" contentMode="scaleToFill" misplaced="YES" id="oaN-uD-GJb">
+                                <rect key="frame" x="60" y="123" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view tag="7" contentMode="scaleToFill" misplaced="YES" id="cRU-cM-IZC">
+                                <rect key="frame" x="60" y="340" width="200" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="yEE-Kl-EcM">
                         <barButtonItem key="backBarButtonItem" title=" " id="nHs-Ug-wwb"/>
@@ -111,11 +123,11 @@
         <!--Dex-->
         <scene sceneID="Ted-P9-Ma0">
             <objects>
-                <viewController title="Dex" id="wzK-hK-42K" customClass="DexViewController" customModule="dex" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Dex" id="wzK-hK-42K" customClass="DexViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QR0-dz-QOZ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.8685264587" green="0.1266466379" blue="0.1547836363" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Pokedex" id="M6a-s1-obb"/>
                 </viewController>
@@ -132,7 +144,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Bse-xd-gp6">
                         <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.00065802258909999998" green="0.69173306229999998" blue="0.871348083" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.0015156042063608766" green="0.62310504913330078" blue="0.87272447347640991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </textAttributes>
