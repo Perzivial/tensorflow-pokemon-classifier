@@ -24,7 +24,6 @@
 		E4191D8E1FAA5BB50089B718 /* Icon-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4191D8C1FAA5BB40089B718 /* Icon-29@3x.png */; };
 		E4191D8F1FAA5BB50089B718 /* Icon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4191D8D1FAA5BB50089B718 /* Icon-29@2x.png */; };
 		E43BB1681FAB5F4A00529D42 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = E43BB1671FAB5F4800529D42 /* camera.png */; };
-		E447B4401FAC949F00D36CE9 /* pokemon.plist in Resources */ = {isa = PBXBuildFile; fileRef = E447B43F1FAC949F00D36CE9 /* pokemon.plist */; };
 		E447B4D91FACA5CD00D36CE9 /* ekans.png in Resources */ = {isa = PBXBuildFile; fileRef = E447B4431FACA5C700D36CE9 /* ekans.png */; };
 		E447B4DA1FACA5CD00D36CE9 /* ditto.png in Resources */ = {isa = PBXBuildFile; fileRef = E447B4441FACA5C700D36CE9 /* ditto.png */; };
 		E447B4DB1FACA5CD00D36CE9 /* paras.png in Resources */ = {isa = PBXBuildFile; fileRef = E447B4451FACA5C700D36CE9 /* paras.png */; };
@@ -177,6 +176,156 @@
 		E447B56E1FACA5CD00D36CE9 /* ninetales.png in Resources */ = {isa = PBXBuildFile; fileRef = E447B4D81FACA5CD00D36CE9 /* ninetales.png */; };
 		E46FBF6A1FAA094500717046 /* xcodeimage in Resources */ = {isa = PBXBuildFile; fileRef = E46FBF691FAA094500717046 /* xcodeimage */; };
 		E49AABD31FAA22AE00F99F80 /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49AABD21FAA22AE00F99F80 /* AppIcon.xcassets */; };
+		E4A0FDE61FAF73040010A661 /* alakazam.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD4E1FAF72F00010A661 /* alakazam.json */; };
+		E4A0FDE71FAF73040010A661 /* hitmonchan.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD4F1FAF72F00010A661 /* hitmonchan.json */; };
+		E4A0FDE81FAF73040010A661 /* weezing.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD501FAF72F00010A661 /* weezing.json */; };
+		E4A0FDE91FAF73040010A661 /* dratini.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD511FAF72F00010A661 /* dratini.json */; };
+		E4A0FDEA1FAF73040010A661 /* horsea.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD521FAF72F00010A661 /* horsea.json */; };
+		E4A0FDEB1FAF73040010A661 /* magmar.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD531FAF72F10010A661 /* magmar.json */; };
+		E4A0FDEC1FAF73040010A661 /* cloyster.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD541FAF72F10010A661 /* cloyster.json */; };
+		E4A0FDED1FAF73040010A661 /* dragonair.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD551FAF72F10010A661 /* dragonair.json */; };
+		E4A0FDEE1FAF73040010A661 /* nidorino.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD561FAF72F10010A661 /* nidorino.json */; };
+		E4A0FDEF1FAF73040010A661 /* spearow.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD571FAF72F10010A661 /* spearow.json */; };
+		E4A0FDF01FAF73040010A661 /* squirtle.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD581FAF72F10010A661 /* squirtle.json */; };
+		E4A0FDF11FAF73040010A661 /* dodrio.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD591FAF72F10010A661 /* dodrio.json */; };
+		E4A0FDF21FAF73040010A661 /* kangaskhan.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD5A1FAF72F10010A661 /* kangaskhan.json */; };
+		E4A0FDF31FAF73040010A661 /* blastoise.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD5B1FAF72F10010A661 /* blastoise.json */; };
+		E4A0FDF41FAF73040010A661 /* kabuto.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD5C1FAF72F10010A661 /* kabuto.json */; };
+		E4A0FDF51FAF73040010A661 /* chansey.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD5E1FAF72F10010A661 /* chansey.json */; };
+		E4A0FDF61FAF73040010A661 /* mr-mime.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD5F1FAF72F10010A661 /* mr-mime.json */; };
+		E4A0FDF71FAF73040010A661 /* hitmonlee.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD601FAF72F10010A661 /* hitmonlee.json */; };
+		E4A0FDF81FAF73040010A661 /* bellsprout.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD611FAF72F20010A661 /* bellsprout.json */; };
+		E4A0FDF91FAF73040010A661 /* gastly.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD621FAF72F20010A661 /* gastly.json */; };
+		E4A0FDFA1FAF73040010A661 /* machop.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD631FAF72F20010A661 /* machop.json */; };
+		E4A0FDFB1FAF73040010A661 /* marowak.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD641FAF72F20010A661 /* marowak.json */; };
+		E4A0FDFC1FAF73040010A661 /* fearow.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD651FAF72F20010A661 /* fearow.json */; };
+		E4A0FDFD1FAF73040010A661 /* oddish.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD661FAF72F20010A661 /* oddish.json */; };
+		E4A0FDFE1FAF73040010A661 /* primeape.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD671FAF72F20010A661 /* primeape.json */; };
+		E4A0FDFF1FAF73040010A661 /* drowzee.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD681FAF72F20010A661 /* drowzee.json */; };
+		E4A0FE001FAF73040010A661 /* goldeen.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD691FAF72F20010A661 /* goldeen.json */; };
+		E4A0FE011FAF73040010A661 /* golduck.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD6A1FAF72F20010A661 /* golduck.json */; };
+		E4A0FE021FAF73040010A661 /* kadabra.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD6B1FAF72F20010A661 /* kadabra.json */; };
+		E4A0FE031FAF73040010A661 /* magnemite.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD6C1FAF72F20010A661 /* magnemite.json */; };
+		E4A0FE041FAF73040010A661 /* ponyta.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD6D1FAF72F20010A661 /* ponyta.json */; };
+		E4A0FE051FAF73040010A661 /* weepinbell.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD6E1FAF72F20010A661 /* weepinbell.json */; };
+		E4A0FE061FAF73040010A661 /* starmie.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD6F1FAF72F30010A661 /* starmie.json */; };
+		E4A0FE071FAF73040010A661 /* pikachu.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD701FAF72F30010A661 /* pikachu.json */; };
+		E4A0FE081FAF73040010A661 /* gloom.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD711FAF72F30010A661 /* gloom.json */; };
+		E4A0FE091FAF73040010A661 /* flareon.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD721FAF72F30010A661 /* flareon.json */; };
+		E4A0FE0A1FAF73040010A661 /* scyther.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD731FAF72F30010A661 /* scyther.json */; };
+		E4A0FE0B1FAF73040010A661 /* seaking.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD741FAF72F30010A661 /* seaking.json */; };
+		E4A0FE0C1FAF73040010A661 /* zapdos.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD751FAF72F30010A661 /* zapdos.json */; };
+		E4A0FE0D1FAF73040010A661 /* geodude.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD761FAF72F30010A661 /* geodude.json */; };
+		E4A0FE0E1FAF73040010A661 /* machamp.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD771FAF72F30010A661 /* machamp.json */; };
+		E4A0FE0F1FAF73040010A661 /* golem.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD781FAF72F30010A661 /* golem.json */; };
+		E4A0FE101FAF73040010A661 /* butterfree.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD791FAF72F30010A661 /* butterfree.json */; };
+		E4A0FE111FAF73040010A661 /* electabuzz.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD7A1FAF72F30010A661 /* electabuzz.json */; };
+		E4A0FE121FAF73040010A661 /* porygon.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD7B1FAF72F30010A661 /* porygon.json */; };
+		E4A0FE131FAF73040010A661 /* shellder.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD7C1FAF72F30010A661 /* shellder.json */; };
+		E4A0FE141FAF73040010A661 /* jynx.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD7D1FAF72F40010A661 /* jynx.json */; };
+		E4A0FE151FAF73040010A661 /* venusaur.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD7E1FAF72F40010A661 /* venusaur.json */; };
+		E4A0FE161FAF73040010A661 /* ekans.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD7F1FAF72F40010A661 /* ekans.json */; };
+		E4A0FE171FAF73040010A661 /* hypno.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD801FAF72F40010A661 /* hypno.json */; };
+		E4A0FE181FAF73040010A661 /* rhydon.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD811FAF72F40010A661 /* rhydon.json */; };
+		E4A0FE191FAF73040010A661 /* bulbasaur.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD821FAF72F40010A661 /* bulbasaur.json */; };
+		E4A0FE1A1FAF73040010A661 /* gengar.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD831FAF72F40010A661 /* gengar.json */; };
+		E4A0FE1B1FAF73040010A661 /* slowpoke.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD841FAF72F40010A661 /* slowpoke.json */; };
+		E4A0FE1C1FAF73040010A661 /* koffing.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD851FAF72F40010A661 /* koffing.json */; };
+		E4A0FE1D1FAF73040010A661 /* seadra.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD861FAF72F40010A661 /* seadra.json */; };
+		E4A0FE1E1FAF73040010A661 /* charmeleon.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD871FAF72F40010A661 /* charmeleon.json */; };
+		E4A0FE1F1FAF73040010A661 /* lickitung.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD881FAF72F50010A661 /* lickitung.json */; };
+		E4A0FE201FAF73040010A661 /* parasect.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD891FAF72F50010A661 /* parasect.json */; };
+		E4A0FE211FAF73040010A661 /* staryu.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD8A1FAF72F50010A661 /* staryu.json */; };
+		E4A0FE221FAF73040010A661 /* omanyte.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD8B1FAF72F50010A661 /* omanyte.json */; };
+		E4A0FE231FAF73040010A661 /* exeggcute.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD8C1FAF72F50010A661 /* exeggcute.json */; };
+		E4A0FE241FAF73040010A661 /* venonat.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD8D1FAF72F60010A661 /* venonat.json */; };
+		E4A0FE251FAF73040010A661 /* dugtrio.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD8E1FAF72F60010A661 /* dugtrio.json */; };
+		E4A0FE261FAF73040010A661 /* omastar.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD8F1FAF72F60010A661 /* omastar.json */; };
+		E4A0FE271FAF73040010A661 /* jigglypuff.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD901FAF72F60010A661 /* jigglypuff.json */; };
+		E4A0FE281FAF73040010A661 /* kakuna.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD911FAF72F60010A661 /* kakuna.json */; };
+		E4A0FE291FAF73040010A661 /* onix.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD921FAF72F60010A661 /* onix.json */; };
+		E4A0FE2A1FAF73040010A661 /* rapidash.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD931FAF72F60010A661 /* rapidash.json */; };
+		E4A0FE2B1FAF73040010A661 /* ditto.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD941FAF72F60010A661 /* ditto.json */; };
+		E4A0FE2C1FAF73040010A661 /* tangela.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD951FAF72F70010A661 /* tangela.json */; };
+		E4A0FE2D1FAF73040010A661 /* articuno.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD961FAF72F70010A661 /* articuno.json */; };
+		E4A0FE2E1FAF73040010A661 /* growlithe.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD971FAF72F70010A661 /* growlithe.json */; };
+		E4A0FE2F1FAF73040010A661 /* vulpix.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD981FAF72F70010A661 /* vulpix.json */; };
+		E4A0FE301FAF73040010A661 /* clefairy.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD991FAF72F70010A661 /* clefairy.json */; };
+		E4A0FE311FAF73040010A661 /* haunter.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD9A1FAF72F70010A661 /* haunter.json */; };
+		E4A0FE321FAF73040010A661 /* sandslash.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD9B1FAF72F70010A661 /* sandslash.json */; };
+		E4A0FE331FAF73040010A661 /* victreebel.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD9C1FAF72F70010A661 /* victreebel.json */; };
+		E4A0FE341FAF73040010A661 /* jolteon.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD9D1FAF72F70010A661 /* jolteon.json */; };
+		E4A0FE351FAF73040010A661 /* meowth.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD9E1FAF72F80010A661 /* meowth.json */; };
+		E4A0FE361FAF73040010A661 /* poliwhirl.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD9F1FAF72F80010A661 /* poliwhirl.json */; };
+		E4A0FE371FAF73040010A661 /* wartortle.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDA01FAF72F80010A661 /* wartortle.json */; };
+		E4A0FE381FAF73040010A661 /* raichu.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDA11FAF72F80010A661 /* raichu.json */; };
+		E4A0FE391FAF73040010A661 /* aerodactyl.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDA21FAF72F80010A661 /* aerodactyl.json */; };
+		E4A0FE3A1FAF73040010A661 /* metapod.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDA31FAF72F80010A661 /* metapod.json */; };
+		E4A0FE3B1FAF73040010A661 /* wigglytuff.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDA41FAF72F80010A661 /* wigglytuff.json */; };
+		E4A0FE3C1FAF73040010A661 /* snorlax.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDA51FAF72F80010A661 /* snorlax.json */; };
+		E4A0FE3D1FAF73040010A661 /* cubone.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDA61FAF72F80010A661 /* cubone.json */; };
+		E4A0FE3E1FAF73040010A661 /* exeggutor.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDA71FAF72F80010A661 /* exeggutor.json */; };
+		E4A0FE3F1FAF73040010A661 /* machoke.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDA81FAF72F90010A661 /* machoke.json */; };
+		E4A0FE401FAF73040010A661 /* nidoran-m.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDA91FAF72F90010A661 /* nidoran-m.json */; };
+		E4A0FE411FAF73040010A661 /* charizard.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDAA1FAF72F90010A661 /* charizard.json */; };
+		E4A0FE421FAF73040010A661 /* paras.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDAB1FAF72F90010A661 /* paras.json */; };
+		E4A0FE431FAF73040010A661 /* tentacruel.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDAC1FAF72F90010A661 /* tentacruel.json */; };
+		E4A0FE441FAF73040010A661 /* voltorb.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDAD1FAF72FA0010A661 /* voltorb.json */; };
+		E4A0FE451FAF73040010A661 /* electrode.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDAE1FAF72FA0010A661 /* electrode.json */; };
+		E4A0FE461FAF73040010A661 /* tauros.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDAF1FAF72FA0010A661 /* tauros.json */; };
+		E4A0FE471FAF73040010A661 /* weedle.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDB01FAF72FA0010A661 /* weedle.json */; };
+		E4A0FE481FAF73040010A661 /* persian.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDB11FAF72FA0010A661 /* persian.json */; };
+		E4A0FE491FAF73040010A661 /* nidoran-f.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDB21FAF72FA0010A661 /* nidoran-f.json */; };
+		E4A0FE4A1FAF73040010A661 /* caterpie.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDB31FAF72FB0010A661 /* caterpie.json */; };
+		E4A0FE4B1FAF73040010A661 /* pidgey.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDB41FAF72FB0010A661 /* pidgey.json */; };
+		E4A0FE4C1FAF73040010A661 /* mankey.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDB51FAF72FB0010A661 /* mankey.json */; };
+		E4A0FE4D1FAF73040010A661 /* muk.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDB61FAF72FB0010A661 /* muk.json */; };
+		E4A0FE4E1FAF73040010A661 /* psyduck.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDB71FAF72FB0010A661 /* psyduck.json */; };
+		E4A0FE4F1FAF73040010A661 /* beedrill.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDB81FAF72FB0010A661 /* beedrill.json */; };
+		E4A0FE501FAF73040010A661 /* gyarados.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDB91FAF72FC0010A661 /* gyarados.json */; };
+		E4A0FE511FAF73040010A661 /* rhyhorn.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDBA1FAF72FC0010A661 /* rhyhorn.json */; };
+		E4A0FE521FAF73040010A661 /* kingler.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDBB1FAF72FC0010A661 /* kingler.json */; };
+		E4A0FE531FAF73040010A661 /* golbat.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDBC1FAF72FC0010A661 /* golbat.json */; };
+		E4A0FE541FAF73040010A661 /* kabutops.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDBD1FAF72FC0010A661 /* kabutops.json */; };
+		E4A0FE551FAF73040010A661 /* magikarp.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDBE1FAF72FC0010A661 /* magikarp.json */; };
+		E4A0FE561FAF73040010A661 /* doduo.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDBF1FAF72FD0010A661 /* doduo.json */; };
+		E4A0FE571FAF73040010A661 /* pinsir.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDC01FAF72FD0010A661 /* pinsir.json */; };
+		E4A0FE581FAF73040010A661 /* sandshrew.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDC11FAF72FD0010A661 /* sandshrew.json */; };
+		E4A0FE591FAF73040010A661 /* mew.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDC21FAF72FD0010A661 /* mew.json */; };
+		E4A0FE5A1FAF73040010A661 /* arcanine.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDC31FAF72FD0010A661 /* arcanine.json */; };
+		E4A0FE5B1FAF73040010A661 /* venomoth.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDC41FAF72FD0010A661 /* venomoth.json */; };
+		E4A0FE5C1FAF73040010A661 /* nidoking.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDC51FAF72FE0010A661 /* nidoking.json */; };
+		E4A0FE5D1FAF73040010A661 /* vileplume.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDC61FAF72FE0010A661 /* vileplume.json */; };
+		E4A0FE5E1FAF73040010A661 /* farfetchd.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDC71FAF72FE0010A661 /* farfetchd.json */; };
+		E4A0FE5F1FAF73040010A661 /* moltres.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDC81FAF72FE0010A661 /* moltres.json */; };
+		E4A0FE601FAF73040010A661 /* graveler.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDC91FAF72FE0010A661 /* graveler.json */; };
+		E4A0FE611FAF73040010A661 /* grimer.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDCA1FAF72FE0010A661 /* grimer.json */; };
+		E4A0FE621FAF73040010A661 /* lapras.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDCB1FAF72FF0010A661 /* lapras.json */; };
+		E4A0FE631FAF73040010A661 /* magneton.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDCC1FAF72FF0010A661 /* magneton.json */; };
+		E4A0FE641FAF73040010A661 /* seel.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDCD1FAF72FF0010A661 /* seel.json */; };
+		E4A0FE651FAF73040010A661 /* nidorina.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDCE1FAF72FF0010A661 /* nidorina.json */; };
+		E4A0FE661FAF73040010A661 /* mewtwo.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDCF1FAF72FF0010A661 /* mewtwo.json */; };
+		E4A0FE671FAF73040010A661 /* pidgeot.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDD01FAF73000010A661 /* pidgeot.json */; };
+		E4A0FE681FAF73040010A661 /* raticate.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDD11FAF73000010A661 /* raticate.json */; };
+		E4A0FE691FAF73040010A661 /* vaporeon.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDD21FAF73000010A661 /* vaporeon.json */; };
+		E4A0FE6A1FAF73040010A661 /* tentacool.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDD31FAF73000010A661 /* tentacool.json */; };
+		E4A0FE6B1FAF73040010A661 /* pidgeotto.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDD41FAF73010010A661 /* pidgeotto.json */; };
+		E4A0FE6C1FAF73040010A661 /* charmander.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDD51FAF73010010A661 /* charmander.json */; };
+		E4A0FE6D1FAF73040010A661 /* nidoqueen.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDD61FAF73010010A661 /* nidoqueen.json */; };
+		E4A0FE6E1FAF73040010A661 /* krabby.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDD71FAF73010010A661 /* krabby.json */; };
+		E4A0FE6F1FAF73040010A661 /* slowbro.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDD81FAF73010010A661 /* slowbro.json */; };
+		E4A0FE701FAF73040010A661 /* poliwrath.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDD91FAF73010010A661 /* poliwrath.json */; };
+		E4A0FE711FAF73040010A661 /* zubat.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDDA1FAF73020010A661 /* zubat.json */; };
+		E4A0FE721FAF73040010A661 /* eevee.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDDC1FAF73020010A661 /* eevee.json */; };
+		E4A0FE731FAF73040010A661 /* ninetales.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDDD1FAF73020010A661 /* ninetales.json */; };
+		E4A0FE741FAF73040010A661 /* ivysaur.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDDE1FAF73020010A661 /* ivysaur.json */; };
+		E4A0FE751FAF73040010A661 /* poliwag.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDDF1FAF73030010A661 /* poliwag.json */; };
+		E4A0FE761FAF73040010A661 /* clefable.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDE01FAF73030010A661 /* clefable.json */; };
+		E4A0FE771FAF73040010A661 /* dragonite.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDE11FAF73030010A661 /* dragonite.json */; };
+		E4A0FE781FAF73040010A661 /* rattata.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDE21FAF73030010A661 /* rattata.json */; };
+		E4A0FE791FAF73040010A661 /* arbok.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDE31FAF73030010A661 /* arbok.json */; };
+		E4A0FE7A1FAF73040010A661 /* diglett.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDE41FAF73040010A661 /* diglett.json */; };
+		E4A0FE7B1FAF73040010A661 /* dewgong.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDE51FAF73040010A661 /* dewgong.json */; };
 		E4BA212D1FA8D3BE00CFC4EC /* retrained_labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = E4BA212B1FA8D3BE00CFC4EC /* retrained_labels.txt */; };
 		E4BA212E1FA8D3BE00CFC4EC /* retrained_graph.pb in Resources */ = {isa = PBXBuildFile; fileRef = E4BA212C1FA8D3BE00CFC4EC /* retrained_graph.pb */; };
 		E4CC2E141FABDCAB00BB86EA /* DexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CC2E131FABDCAA00BB86EA /* DexViewController.m */; };
@@ -215,7 +364,6 @@
 		E4191D8D1FAA5BB50089B718 /* Icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-29@2x.png"; path = "../../../../../../tensorflow-for-poets-2/tf_files/pokemon/Icon-29@2x.png"; sourceTree = "<group>"; };
 		E43BB1671FAB5F4800529D42 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = SOURCE_ROOT; };
 		E43BB1691FAB7A5400529D42 /* dex-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dex-Bridging-Header.h"; sourceTree = "<group>"; };
-		E447B43F1FAC949F00D36CE9 /* pokemon.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = pokemon.plist; sourceTree = "<group>"; };
 		E447B4431FACA5C700D36CE9 /* ekans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ekans.png; sourceTree = "<group>"; };
 		E447B4441FACA5C700D36CE9 /* ditto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ditto.png; sourceTree = "<group>"; };
 		E447B4451FACA5C700D36CE9 /* paras.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paras.png; sourceTree = "<group>"; };
@@ -369,6 +517,157 @@
 		E46FBF691FAA094500717046 /* xcodeimage */ = {isa = PBXFileReference; lastKnownFileType = folder; name = xcodeimage; path = "../../../../../tensorflow-for-poets-2/xcodeimage"; sourceTree = "<group>"; };
 		E49AABD21FAA22AE00F99F80 /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = AppIcon.xcassets; path = tf_camera_example/AppIcon.xcassets; sourceTree = "<group>"; };
 		E49AABE21FAA2C3600F99F80 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
+		E4A0FD4E1FAF72F00010A661 /* alakazam.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = alakazam.json; path = entries/alakazam.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD4F1FAF72F00010A661 /* hitmonchan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = hitmonchan.json; path = entries/hitmonchan.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD501FAF72F00010A661 /* weezing.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = weezing.json; path = entries/weezing.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD511FAF72F00010A661 /* dratini.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = dratini.json; path = entries/dratini.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD521FAF72F00010A661 /* horsea.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = horsea.json; path = entries/horsea.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD531FAF72F10010A661 /* magmar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = magmar.json; path = entries/magmar.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD541FAF72F10010A661 /* cloyster.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = cloyster.json; path = entries/cloyster.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD551FAF72F10010A661 /* dragonair.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = dragonair.json; path = entries/dragonair.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD561FAF72F10010A661 /* nidorino.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nidorino.json; path = entries/nidorino.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD571FAF72F10010A661 /* spearow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = spearow.json; path = entries/spearow.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD581FAF72F10010A661 /* squirtle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = squirtle.json; path = entries/squirtle.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD591FAF72F10010A661 /* dodrio.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = dodrio.json; path = entries/dodrio.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD5A1FAF72F10010A661 /* kangaskhan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = kangaskhan.json; path = entries/kangaskhan.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD5B1FAF72F10010A661 /* blastoise.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = blastoise.json; path = entries/blastoise.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD5C1FAF72F10010A661 /* kabuto.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = kabuto.json; path = entries/kabuto.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD5D1FAF72F10010A661 /* abra.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = abra.json; path = entries/abra.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD5E1FAF72F10010A661 /* chansey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = chansey.json; path = entries/chansey.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD5F1FAF72F10010A661 /* mr-mime.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "mr-mime.json"; path = "entries/mr-mime.json"; sourceTree = SOURCE_ROOT; };
+		E4A0FD601FAF72F10010A661 /* hitmonlee.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = hitmonlee.json; path = entries/hitmonlee.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD611FAF72F20010A661 /* bellsprout.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = bellsprout.json; path = entries/bellsprout.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD621FAF72F20010A661 /* gastly.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = gastly.json; path = entries/gastly.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD631FAF72F20010A661 /* machop.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = machop.json; path = entries/machop.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD641FAF72F20010A661 /* marowak.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = marowak.json; path = entries/marowak.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD651FAF72F20010A661 /* fearow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = fearow.json; path = entries/fearow.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD661FAF72F20010A661 /* oddish.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = oddish.json; path = entries/oddish.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD671FAF72F20010A661 /* primeape.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = primeape.json; path = entries/primeape.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD681FAF72F20010A661 /* drowzee.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = drowzee.json; path = entries/drowzee.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD691FAF72F20010A661 /* goldeen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = goldeen.json; path = entries/goldeen.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD6A1FAF72F20010A661 /* golduck.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = golduck.json; path = entries/golduck.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD6B1FAF72F20010A661 /* kadabra.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = kadabra.json; path = entries/kadabra.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD6C1FAF72F20010A661 /* magnemite.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = magnemite.json; path = entries/magnemite.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD6D1FAF72F20010A661 /* ponyta.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ponyta.json; path = entries/ponyta.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD6E1FAF72F20010A661 /* weepinbell.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = weepinbell.json; path = entries/weepinbell.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD6F1FAF72F30010A661 /* starmie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = starmie.json; path = entries/starmie.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD701FAF72F30010A661 /* pikachu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pikachu.json; path = entries/pikachu.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD711FAF72F30010A661 /* gloom.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = gloom.json; path = entries/gloom.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD721FAF72F30010A661 /* flareon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = flareon.json; path = entries/flareon.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD731FAF72F30010A661 /* scyther.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = scyther.json; path = entries/scyther.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD741FAF72F30010A661 /* seaking.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = seaking.json; path = entries/seaking.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD751FAF72F30010A661 /* zapdos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = zapdos.json; path = entries/zapdos.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD761FAF72F30010A661 /* geodude.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = geodude.json; path = entries/geodude.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD771FAF72F30010A661 /* machamp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = machamp.json; path = entries/machamp.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD781FAF72F30010A661 /* golem.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = golem.json; path = entries/golem.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD791FAF72F30010A661 /* butterfree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = butterfree.json; path = entries/butterfree.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD7A1FAF72F30010A661 /* electabuzz.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = electabuzz.json; path = entries/electabuzz.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD7B1FAF72F30010A661 /* porygon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = porygon.json; path = entries/porygon.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD7C1FAF72F30010A661 /* shellder.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = shellder.json; path = entries/shellder.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD7D1FAF72F40010A661 /* jynx.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = jynx.json; path = entries/jynx.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD7E1FAF72F40010A661 /* venusaur.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = venusaur.json; path = entries/venusaur.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD7F1FAF72F40010A661 /* ekans.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ekans.json; path = entries/ekans.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD801FAF72F40010A661 /* hypno.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = hypno.json; path = entries/hypno.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD811FAF72F40010A661 /* rhydon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = rhydon.json; path = entries/rhydon.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD821FAF72F40010A661 /* bulbasaur.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = bulbasaur.json; path = entries/bulbasaur.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD831FAF72F40010A661 /* gengar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = gengar.json; path = entries/gengar.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD841FAF72F40010A661 /* slowpoke.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = slowpoke.json; path = entries/slowpoke.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD851FAF72F40010A661 /* koffing.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = koffing.json; path = entries/koffing.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD861FAF72F40010A661 /* seadra.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = seadra.json; path = entries/seadra.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD871FAF72F40010A661 /* charmeleon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = charmeleon.json; path = entries/charmeleon.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD881FAF72F50010A661 /* lickitung.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = lickitung.json; path = entries/lickitung.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD891FAF72F50010A661 /* parasect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = parasect.json; path = entries/parasect.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD8A1FAF72F50010A661 /* staryu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = staryu.json; path = entries/staryu.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD8B1FAF72F50010A661 /* omanyte.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = omanyte.json; path = entries/omanyte.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD8C1FAF72F50010A661 /* exeggcute.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = exeggcute.json; path = entries/exeggcute.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD8D1FAF72F60010A661 /* venonat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = venonat.json; path = entries/venonat.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD8E1FAF72F60010A661 /* dugtrio.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = dugtrio.json; path = entries/dugtrio.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD8F1FAF72F60010A661 /* omastar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = omastar.json; path = entries/omastar.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD901FAF72F60010A661 /* jigglypuff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = jigglypuff.json; path = entries/jigglypuff.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD911FAF72F60010A661 /* kakuna.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = kakuna.json; path = entries/kakuna.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD921FAF72F60010A661 /* onix.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = onix.json; path = entries/onix.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD931FAF72F60010A661 /* rapidash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = rapidash.json; path = entries/rapidash.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD941FAF72F60010A661 /* ditto.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ditto.json; path = entries/ditto.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD951FAF72F70010A661 /* tangela.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tangela.json; path = entries/tangela.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD961FAF72F70010A661 /* articuno.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = articuno.json; path = entries/articuno.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD971FAF72F70010A661 /* growlithe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = growlithe.json; path = entries/growlithe.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD981FAF72F70010A661 /* vulpix.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = vulpix.json; path = entries/vulpix.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD991FAF72F70010A661 /* clefairy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = clefairy.json; path = entries/clefairy.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD9A1FAF72F70010A661 /* haunter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = haunter.json; path = entries/haunter.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD9B1FAF72F70010A661 /* sandslash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = sandslash.json; path = entries/sandslash.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD9C1FAF72F70010A661 /* victreebel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = victreebel.json; path = entries/victreebel.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD9D1FAF72F70010A661 /* jolteon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = jolteon.json; path = entries/jolteon.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD9E1FAF72F80010A661 /* meowth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = meowth.json; path = entries/meowth.json; sourceTree = SOURCE_ROOT; };
+		E4A0FD9F1FAF72F80010A661 /* poliwhirl.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = poliwhirl.json; path = entries/poliwhirl.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDA01FAF72F80010A661 /* wartortle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = wartortle.json; path = entries/wartortle.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDA11FAF72F80010A661 /* raichu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = raichu.json; path = entries/raichu.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDA21FAF72F80010A661 /* aerodactyl.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = aerodactyl.json; path = entries/aerodactyl.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDA31FAF72F80010A661 /* metapod.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = metapod.json; path = entries/metapod.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDA41FAF72F80010A661 /* wigglytuff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = wigglytuff.json; path = entries/wigglytuff.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDA51FAF72F80010A661 /* snorlax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = snorlax.json; path = entries/snorlax.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDA61FAF72F80010A661 /* cubone.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = cubone.json; path = entries/cubone.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDA71FAF72F80010A661 /* exeggutor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = exeggutor.json; path = entries/exeggutor.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDA81FAF72F90010A661 /* machoke.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = machoke.json; path = entries/machoke.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDA91FAF72F90010A661 /* nidoran-m.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "nidoran-m.json"; path = "entries/nidoran-m.json"; sourceTree = SOURCE_ROOT; };
+		E4A0FDAA1FAF72F90010A661 /* charizard.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = charizard.json; path = entries/charizard.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDAB1FAF72F90010A661 /* paras.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = paras.json; path = entries/paras.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDAC1FAF72F90010A661 /* tentacruel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tentacruel.json; path = entries/tentacruel.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDAD1FAF72FA0010A661 /* voltorb.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = voltorb.json; path = entries/voltorb.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDAE1FAF72FA0010A661 /* electrode.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = electrode.json; path = entries/electrode.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDAF1FAF72FA0010A661 /* tauros.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tauros.json; path = entries/tauros.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDB01FAF72FA0010A661 /* weedle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = weedle.json; path = entries/weedle.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDB11FAF72FA0010A661 /* persian.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = persian.json; path = entries/persian.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDB21FAF72FA0010A661 /* nidoran-f.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "nidoran-f.json"; path = "entries/nidoran-f.json"; sourceTree = SOURCE_ROOT; };
+		E4A0FDB31FAF72FB0010A661 /* caterpie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = caterpie.json; path = entries/caterpie.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDB41FAF72FB0010A661 /* pidgey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pidgey.json; path = entries/pidgey.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDB51FAF72FB0010A661 /* mankey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = mankey.json; path = entries/mankey.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDB61FAF72FB0010A661 /* muk.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = muk.json; path = entries/muk.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDB71FAF72FB0010A661 /* psyduck.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = psyduck.json; path = entries/psyduck.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDB81FAF72FB0010A661 /* beedrill.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = beedrill.json; path = entries/beedrill.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDB91FAF72FC0010A661 /* gyarados.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = gyarados.json; path = entries/gyarados.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDBA1FAF72FC0010A661 /* rhyhorn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = rhyhorn.json; path = entries/rhyhorn.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDBB1FAF72FC0010A661 /* kingler.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = kingler.json; path = entries/kingler.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDBC1FAF72FC0010A661 /* golbat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = golbat.json; path = entries/golbat.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDBD1FAF72FC0010A661 /* kabutops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = kabutops.json; path = entries/kabutops.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDBE1FAF72FC0010A661 /* magikarp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = magikarp.json; path = entries/magikarp.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDBF1FAF72FD0010A661 /* doduo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = doduo.json; path = entries/doduo.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDC01FAF72FD0010A661 /* pinsir.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pinsir.json; path = entries/pinsir.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDC11FAF72FD0010A661 /* sandshrew.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = sandshrew.json; path = entries/sandshrew.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDC21FAF72FD0010A661 /* mew.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = mew.json; path = entries/mew.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDC31FAF72FD0010A661 /* arcanine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = arcanine.json; path = entries/arcanine.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDC41FAF72FD0010A661 /* venomoth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = venomoth.json; path = entries/venomoth.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDC51FAF72FE0010A661 /* nidoking.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nidoking.json; path = entries/nidoking.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDC61FAF72FE0010A661 /* vileplume.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = vileplume.json; path = entries/vileplume.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDC71FAF72FE0010A661 /* farfetchd.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = farfetchd.json; path = entries/farfetchd.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDC81FAF72FE0010A661 /* moltres.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = moltres.json; path = entries/moltres.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDC91FAF72FE0010A661 /* graveler.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = graveler.json; path = entries/graveler.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDCA1FAF72FE0010A661 /* grimer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = grimer.json; path = entries/grimer.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDCB1FAF72FF0010A661 /* lapras.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = lapras.json; path = entries/lapras.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDCC1FAF72FF0010A661 /* magneton.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = magneton.json; path = entries/magneton.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDCD1FAF72FF0010A661 /* seel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = seel.json; path = entries/seel.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDCE1FAF72FF0010A661 /* nidorina.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nidorina.json; path = entries/nidorina.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDCF1FAF72FF0010A661 /* mewtwo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = mewtwo.json; path = entries/mewtwo.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDD01FAF73000010A661 /* pidgeot.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pidgeot.json; path = entries/pidgeot.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDD11FAF73000010A661 /* raticate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = raticate.json; path = entries/raticate.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDD21FAF73000010A661 /* vaporeon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = vaporeon.json; path = entries/vaporeon.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDD31FAF73000010A661 /* tentacool.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tentacool.json; path = entries/tentacool.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDD41FAF73010010A661 /* pidgeotto.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pidgeotto.json; path = entries/pidgeotto.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDD51FAF73010010A661 /* charmander.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = charmander.json; path = entries/charmander.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDD61FAF73010010A661 /* nidoqueen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nidoqueen.json; path = entries/nidoqueen.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDD71FAF73010010A661 /* krabby.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = krabby.json; path = entries/krabby.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDD81FAF73010010A661 /* slowbro.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = slowbro.json; path = entries/slowbro.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDD91FAF73010010A661 /* poliwrath.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = poliwrath.json; path = entries/poliwrath.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDDA1FAF73020010A661 /* zubat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = zubat.json; path = entries/zubat.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDDC1FAF73020010A661 /* eevee.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = eevee.json; path = entries/eevee.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDDD1FAF73020010A661 /* ninetales.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ninetales.json; path = entries/ninetales.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDDE1FAF73020010A661 /* ivysaur.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ivysaur.json; path = entries/ivysaur.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDDF1FAF73030010A661 /* poliwag.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = poliwag.json; path = entries/poliwag.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDE01FAF73030010A661 /* clefable.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = clefable.json; path = entries/clefable.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDE11FAF73030010A661 /* dragonite.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = dragonite.json; path = entries/dragonite.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDE21FAF73030010A661 /* rattata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = rattata.json; path = entries/rattata.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDE31FAF73030010A661 /* arbok.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = arbok.json; path = entries/arbok.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDE41FAF73040010A661 /* diglett.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = diglett.json; path = entries/diglett.json; sourceTree = SOURCE_ROOT; };
+		E4A0FDE51FAF73040010A661 /* dewgong.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = dewgong.json; path = entries/dewgong.json; sourceTree = SOURCE_ROOT; };
 		E4BA212B1FA8D3BE00CFC4EC /* retrained_labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = retrained_labels.txt; path = "../../../../../../tensorflow-for-poets-2/tf_files/retrained_labels.txt"; sourceTree = "<group>"; };
 		E4BA212C1FA8D3BE00CFC4EC /* retrained_graph.pb */ = {isa = PBXFileReference; lastKnownFileType = file; name = retrained_graph.pb; path = "../../../../../../tensorflow-for-poets-2/tf_files/retrained_graph.pb"; sourceTree = "<group>"; };
 		E4CC2E121FABDCAA00BB86EA /* DexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DexViewController.h; path = "/Users/PhantomDragon/Desktop/ml/tensorflow-1.3.1/tensorflow/examples/ios/camera/DexViewController.h"; sourceTree = "<absolute>"; };
@@ -436,7 +735,6 @@
 				1CDB2D481ED3A9CD007929E9 /* tensorflow_utils.mm */,
 				E4CC2E121FABDCAA00BB86EA /* DexViewController.h */,
 				E4CC2E131FABDCAA00BB86EA /* DexViewController.m */,
-				E447B43F1FAC949F00D36CE9 /* pokemon.plist */,
 				E4CC2E171FABE2D900BB86EA /* pokemon */,
 				59A3CFF31CF4E68100C4259F /* data */,
 				5911579C1CF4011C00C31E3A /* Products */,
@@ -487,9 +785,168 @@
 			path = images;
 			sourceTree = "<group>";
 		};
+		E4A0FD4D1FAF72E30010A661 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				E4A0FD5D1FAF72F10010A661 /* abra.json */,
+				E4A0FDA21FAF72F80010A661 /* aerodactyl.json */,
+				E4A0FD4E1FAF72F00010A661 /* alakazam.json */,
+				E4A0FDE31FAF73030010A661 /* arbok.json */,
+				E4A0FDC31FAF72FD0010A661 /* arcanine.json */,
+				E4A0FD961FAF72F70010A661 /* articuno.json */,
+				E4A0FDB81FAF72FB0010A661 /* beedrill.json */,
+				E4A0FD611FAF72F20010A661 /* bellsprout.json */,
+				E4A0FD5B1FAF72F10010A661 /* blastoise.json */,
+				E4A0FD821FAF72F40010A661 /* bulbasaur.json */,
+				E4A0FD791FAF72F30010A661 /* butterfree.json */,
+				E4A0FDB31FAF72FB0010A661 /* caterpie.json */,
+				E4A0FD5E1FAF72F10010A661 /* chansey.json */,
+				E4A0FDAA1FAF72F90010A661 /* charizard.json */,
+				E4A0FDD51FAF73010010A661 /* charmander.json */,
+				E4A0FD871FAF72F40010A661 /* charmeleon.json */,
+				E4A0FDE01FAF73030010A661 /* clefable.json */,
+				E4A0FD991FAF72F70010A661 /* clefairy.json */,
+				E4A0FD541FAF72F10010A661 /* cloyster.json */,
+				E4A0FDA61FAF72F80010A661 /* cubone.json */,
+				E4A0FDE51FAF73040010A661 /* dewgong.json */,
+				E4A0FDE41FAF73040010A661 /* diglett.json */,
+				E4A0FD941FAF72F60010A661 /* ditto.json */,
+				E4A0FD591FAF72F10010A661 /* dodrio.json */,
+				E4A0FDBF1FAF72FD0010A661 /* doduo.json */,
+				E4A0FD551FAF72F10010A661 /* dragonair.json */,
+				E4A0FDE11FAF73030010A661 /* dragonite.json */,
+				E4A0FD511FAF72F00010A661 /* dratini.json */,
+				E4A0FD681FAF72F20010A661 /* drowzee.json */,
+				E4A0FD8E1FAF72F60010A661 /* dugtrio.json */,
+				E4A0FDDC1FAF73020010A661 /* eevee.json */,
+				E4A0FD7F1FAF72F40010A661 /* ekans.json */,
+				E4A0FD7A1FAF72F30010A661 /* electabuzz.json */,
+				E4A0FDAE1FAF72FA0010A661 /* electrode.json */,
+				E4A0FD8C1FAF72F50010A661 /* exeggcute.json */,
+				E4A0FDA71FAF72F80010A661 /* exeggutor.json */,
+				E4A0FDC71FAF72FE0010A661 /* farfetchd.json */,
+				E4A0FD651FAF72F20010A661 /* fearow.json */,
+				E4A0FD721FAF72F30010A661 /* flareon.json */,
+				E4A0FD621FAF72F20010A661 /* gastly.json */,
+				E4A0FD831FAF72F40010A661 /* gengar.json */,
+				E4A0FD761FAF72F30010A661 /* geodude.json */,
+				E4A0FD711FAF72F30010A661 /* gloom.json */,
+				E4A0FDBC1FAF72FC0010A661 /* golbat.json */,
+				E4A0FD691FAF72F20010A661 /* goldeen.json */,
+				E4A0FD6A1FAF72F20010A661 /* golduck.json */,
+				E4A0FD781FAF72F30010A661 /* golem.json */,
+				E4A0FDC91FAF72FE0010A661 /* graveler.json */,
+				E4A0FDCA1FAF72FE0010A661 /* grimer.json */,
+				E4A0FD971FAF72F70010A661 /* growlithe.json */,
+				E4A0FDB91FAF72FC0010A661 /* gyarados.json */,
+				E4A0FD9A1FAF72F70010A661 /* haunter.json */,
+				E4A0FD4F1FAF72F00010A661 /* hitmonchan.json */,
+				E4A0FD601FAF72F10010A661 /* hitmonlee.json */,
+				E4A0FD521FAF72F00010A661 /* horsea.json */,
+				E4A0FD801FAF72F40010A661 /* hypno.json */,
+				E4A0FDDE1FAF73020010A661 /* ivysaur.json */,
+				E4A0FD901FAF72F60010A661 /* jigglypuff.json */,
+				E4A0FD9D1FAF72F70010A661 /* jolteon.json */,
+				E4A0FD7D1FAF72F40010A661 /* jynx.json */,
+				E4A0FD5C1FAF72F10010A661 /* kabuto.json */,
+				E4A0FDBD1FAF72FC0010A661 /* kabutops.json */,
+				E4A0FD6B1FAF72F20010A661 /* kadabra.json */,
+				E4A0FD911FAF72F60010A661 /* kakuna.json */,
+				E4A0FD5A1FAF72F10010A661 /* kangaskhan.json */,
+				E4A0FDBB1FAF72FC0010A661 /* kingler.json */,
+				E4A0FD851FAF72F40010A661 /* koffing.json */,
+				E4A0FDD71FAF73010010A661 /* krabby.json */,
+				E4A0FDCB1FAF72FF0010A661 /* lapras.json */,
+				E4A0FD881FAF72F50010A661 /* lickitung.json */,
+				E4A0FD771FAF72F30010A661 /* machamp.json */,
+				E4A0FDA81FAF72F90010A661 /* machoke.json */,
+				E4A0FD631FAF72F20010A661 /* machop.json */,
+				E4A0FDBE1FAF72FC0010A661 /* magikarp.json */,
+				E4A0FD531FAF72F10010A661 /* magmar.json */,
+				E4A0FD6C1FAF72F20010A661 /* magnemite.json */,
+				E4A0FDCC1FAF72FF0010A661 /* magneton.json */,
+				E4A0FDB51FAF72FB0010A661 /* mankey.json */,
+				E4A0FD641FAF72F20010A661 /* marowak.json */,
+				E4A0FD9E1FAF72F80010A661 /* meowth.json */,
+				E4A0FDA31FAF72F80010A661 /* metapod.json */,
+				E4A0FDC21FAF72FD0010A661 /* mew.json */,
+				E4A0FDCF1FAF72FF0010A661 /* mewtwo.json */,
+				E4A0FDC81FAF72FE0010A661 /* moltres.json */,
+				E4A0FD5F1FAF72F10010A661 /* mr-mime.json */,
+				E4A0FDB61FAF72FB0010A661 /* muk.json */,
+				E4A0FDC51FAF72FE0010A661 /* nidoking.json */,
+				E4A0FDD61FAF73010010A661 /* nidoqueen.json */,
+				E4A0FDB21FAF72FA0010A661 /* nidoran-f.json */,
+				E4A0FDA91FAF72F90010A661 /* nidoran-m.json */,
+				E4A0FDCE1FAF72FF0010A661 /* nidorina.json */,
+				E4A0FD561FAF72F10010A661 /* nidorino.json */,
+				E4A0FDDD1FAF73020010A661 /* ninetales.json */,
+				E4A0FD661FAF72F20010A661 /* oddish.json */,
+				E4A0FD8B1FAF72F50010A661 /* omanyte.json */,
+				E4A0FD8F1FAF72F60010A661 /* omastar.json */,
+				E4A0FD921FAF72F60010A661 /* onix.json */,
+				E4A0FDAB1FAF72F90010A661 /* paras.json */,
+				E4A0FD891FAF72F50010A661 /* parasect.json */,
+				E4A0FDB11FAF72FA0010A661 /* persian.json */,
+				E4A0FDD01FAF73000010A661 /* pidgeot.json */,
+				E4A0FDD41FAF73010010A661 /* pidgeotto.json */,
+				E4A0FDB41FAF72FB0010A661 /* pidgey.json */,
+				E4A0FD701FAF72F30010A661 /* pikachu.json */,
+				E4A0FDC01FAF72FD0010A661 /* pinsir.json */,
+				E4A0FDDF1FAF73030010A661 /* poliwag.json */,
+				E4A0FD9F1FAF72F80010A661 /* poliwhirl.json */,
+				E4A0FDD91FAF73010010A661 /* poliwrath.json */,
+				E4A0FD6D1FAF72F20010A661 /* ponyta.json */,
+				E4A0FD7B1FAF72F30010A661 /* porygon.json */,
+				E4A0FD671FAF72F20010A661 /* primeape.json */,
+				E4A0FDB71FAF72FB0010A661 /* psyduck.json */,
+				E4A0FDA11FAF72F80010A661 /* raichu.json */,
+				E4A0FD931FAF72F60010A661 /* rapidash.json */,
+				E4A0FDD11FAF73000010A661 /* raticate.json */,
+				E4A0FDE21FAF73030010A661 /* rattata.json */,
+				E4A0FD811FAF72F40010A661 /* rhydon.json */,
+				E4A0FDBA1FAF72FC0010A661 /* rhyhorn.json */,
+				E4A0FDC11FAF72FD0010A661 /* sandshrew.json */,
+				E4A0FD9B1FAF72F70010A661 /* sandslash.json */,
+				E4A0FD731FAF72F30010A661 /* scyther.json */,
+				E4A0FD861FAF72F40010A661 /* seadra.json */,
+				E4A0FD741FAF72F30010A661 /* seaking.json */,
+				E4A0FDCD1FAF72FF0010A661 /* seel.json */,
+				E4A0FD7C1FAF72F30010A661 /* shellder.json */,
+				E4A0FDD81FAF73010010A661 /* slowbro.json */,
+				E4A0FD841FAF72F40010A661 /* slowpoke.json */,
+				E4A0FDA51FAF72F80010A661 /* snorlax.json */,
+				E4A0FD571FAF72F10010A661 /* spearow.json */,
+				E4A0FD581FAF72F10010A661 /* squirtle.json */,
+				E4A0FD6F1FAF72F30010A661 /* starmie.json */,
+				E4A0FD8A1FAF72F50010A661 /* staryu.json */,
+				E4A0FD951FAF72F70010A661 /* tangela.json */,
+				E4A0FDAF1FAF72FA0010A661 /* tauros.json */,
+				E4A0FDD31FAF73000010A661 /* tentacool.json */,
+				E4A0FDAC1FAF72F90010A661 /* tentacruel.json */,
+				E4A0FDD21FAF73000010A661 /* vaporeon.json */,
+				E4A0FDC41FAF72FD0010A661 /* venomoth.json */,
+				E4A0FD8D1FAF72F60010A661 /* venonat.json */,
+				E4A0FD7E1FAF72F40010A661 /* venusaur.json */,
+				E4A0FD9C1FAF72F70010A661 /* victreebel.json */,
+				E4A0FDC61FAF72FE0010A661 /* vileplume.json */,
+				E4A0FDAD1FAF72FA0010A661 /* voltorb.json */,
+				E4A0FD981FAF72F70010A661 /* vulpix.json */,
+				E4A0FDA01FAF72F80010A661 /* wartortle.json */,
+				E4A0FDB01FAF72FA0010A661 /* weedle.json */,
+				E4A0FD6E1FAF72F20010A661 /* weepinbell.json */,
+				E4A0FD501FAF72F00010A661 /* weezing.json */,
+				E4A0FDA41FAF72F80010A661 /* wigglytuff.json */,
+				E4A0FD751FAF72F30010A661 /* zapdos.json */,
+				E4A0FDDA1FAF73020010A661 /* zubat.json */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
 		E4CC2E171FABE2D900BB86EA /* pokemon */ = {
 			isa = PBXGroup;
 			children = (
+				E4A0FD4D1FAF72E30010A661 /* json */,
 				E42DC12A1FABE4BB009C4AB2 /* sound */,
 				E4CC2E1A1FABE2F000BB86EA /* images */,
 			);
@@ -722,6 +1179,7 @@
 				E447B5441FACA5CD00D36CE9 /* lickitung.png in Resources */,
 				E447B4DA1FACA5CD00D36CE9 /* ditto.png in Resources */,
 				E447B55F1FACA5CD00D36CE9 /* charmander.png in Resources */,
+				E4A0FE4B1FAF73040010A661 /* pidgey.json in Resources */,
 				E447B5611FACA5CD00D36CE9 /* clefairy.png in Resources */,
 				E447B53E1FACA5CD00D36CE9 /* weedle.png in Resources */,
 				E447B4DF1FACA5CD00D36CE9 /* sandshrew.png in Resources */,
@@ -729,56 +1187,101 @@
 				E447B53F1FACA5CD00D36CE9 /* jolteon.png in Resources */,
 				E447B5101FACA5CD00D36CE9 /* rhydon.png in Resources */,
 				E447B5481FACA5CD00D36CE9 /* metapod.png in Resources */,
+				E4A0FDF01FAF73040010A661 /* squirtle.json in Resources */,
 				E447B5401FACA5CD00D36CE9 /* fearow.png in Resources */,
 				E447B4FC1FACA5CD00D36CE9 /* chansey.png in Resources */,
 				E447B5691FACA5CD00D36CE9 /* drowzee.png in Resources */,
+				E4A0FE551FAF73040010A661 /* magikarp.json in Resources */,
 				E447B4F91FACA5CD00D36CE9 /* aerodactyl.png in Resources */,
 				E447B4ED1FACA5CD00D36CE9 /* abra.png in Resources */,
 				E447B4DD1FACA5CD00D36CE9 /* voltorb.png in Resources */,
 				E447B54C1FACA5CD00D36CE9 /* ponyta.png in Resources */,
 				E447B4E01FACA5CD00D36CE9 /* poliwag.png in Resources */,
-				E447B4401FAC949F00D36CE9 /* pokemon.plist in Resources */,
+				E4A0FE301FAF73040010A661 /* clefairy.json in Resources */,
 				E447B4FF1FACA5CD00D36CE9 /* omanyte.png in Resources */,
+				E4A0FE611FAF73040010A661 /* grimer.json in Resources */,
+				E4A0FE401FAF73040010A661 /* nidoran-m.json in Resources */,
+				E4A0FE3A1FAF73040010A661 /* metapod.json in Resources */,
 				E447B5321FACA5CD00D36CE9 /* golem.png in Resources */,
+				E4A0FE141FAF73040010A661 /* jynx.json in Resources */,
 				E4CFF5921FAA1EEF00F64B6A /* overlay.png in Resources */,
 				E447B4FE1FACA5CD00D36CE9 /* electabuzz.png in Resources */,
+				E4A0FE011FAF73040010A661 /* golduck.json in Resources */,
 				E447B51C1FACA5CD00D36CE9 /* wigglytuff.png in Resources */,
 				E447B5381FACA5CD00D36CE9 /* hypno.png in Resources */,
+				E4A0FE771FAF73040010A661 /* dragonite.json in Resources */,
+				E4A0FE781FAF73040010A661 /* rattata.json in Resources */,
+				E4A0FE681FAF73040010A661 /* raticate.json in Resources */,
 				E43BB1681FAB5F4A00529D42 /* camera.png in Resources */,
 				E447B5301FACA5CD00D36CE9 /* zubat.png in Resources */,
+				E4A0FE581FAF73040010A661 /* sandshrew.json in Resources */,
 				E447B4F21FACA5CD00D36CE9 /* lapras.png in Resources */,
+				E4A0FDF31FAF73040010A661 /* blastoise.json in Resources */,
+				E4A0FE731FAF73040010A661 /* ninetales.json in Resources */,
+				E4A0FDF51FAF73040010A661 /* chansey.json in Resources */,
 				E447B4EB1FACA5CD00D36CE9 /* magikarp.png in Resources */,
+				E4A0FE5D1FAF73040010A661 /* vileplume.json in Resources */,
 				E447B5181FACA5CD00D36CE9 /* pidgeot.png in Resources */,
 				E46FBF6A1FAA094500717046 /* xcodeimage in Resources */,
+				E4A0FE081FAF73040010A661 /* gloom.json in Resources */,
+				E4A0FE391FAF73040010A661 /* aerodactyl.json in Resources */,
 				E447B56A1FACA5CD00D36CE9 /* seadra.png in Resources */,
+				E4A0FE761FAF73040010A661 /* clefable.json in Resources */,
 				E447B4DB1FACA5CD00D36CE9 /* paras.png in Resources */,
 				E447B4FB1FACA5CD00D36CE9 /* staryu.png in Resources */,
+				E4A0FDFB1FAF73040010A661 /* marowak.json in Resources */,
 				E447B51A1FACA5CD00D36CE9 /* wartortle.png in Resources */,
 				E447B5451FACA5CD00D36CE9 /* magmar.png in Resources */,
+				E4A0FE121FAF73040010A661 /* porygon.json in Resources */,
+				E4A0FE2E1FAF73040010A661 /* growlithe.json in Resources */,
+				E4A0FE311FAF73040010A661 /* haunter.json in Resources */,
 				E447B4E41FACA5CD00D36CE9 /* omastar.png in Resources */,
 				E447B5011FACA5CD00D36CE9 /* kadabra.png in Resources */,
+				E4A0FE1E1FAF73040010A661 /* charmeleon.json in Resources */,
+				E4A0FDFE1FAF73040010A661 /* primeape.json in Resources */,
 				E447B5161FACA5CD00D36CE9 /* hitmonlee.png in Resources */,
+				E4A0FE7A1FAF73040010A661 /* diglett.json in Resources */,
+				E4A0FDF41FAF73040010A661 /* kabuto.json in Resources */,
 				E447B4E81FACA5CD00D36CE9 /* dodrio.png in Resources */,
+				E4A0FE181FAF73040010A661 /* rhydon.json in Resources */,
 				E447B4F31FACA5CD00D36CE9 /* venusaur.png in Resources */,
 				E447B5391FACA5CD00D36CE9 /* articuno.png in Resources */,
+				E4A0FDE91FAF73040010A661 /* dratini.json in Resources */,
 				E447B50A1FACA5CD00D36CE9 /* slowbro.png in Resources */,
+				E4A0FE561FAF73040010A661 /* doduo.json in Resources */,
 				E447B5651FACA5CD00D36CE9 /* dragonite.png in Resources */,
 				E447B50B1FACA5CD00D36CE9 /* caterpie.png in Resources */,
+				E4A0FE741FAF73040010A661 /* ivysaur.json in Resources */,
 				E447B5291FACA5CD00D36CE9 /* kakuna.png in Resources */,
 				E447B4D91FACA5CD00D36CE9 /* ekans.png in Resources */,
+				E4A0FDF71FAF73040010A661 /* hitmonlee.json in Resources */,
+				E4A0FE001FAF73040010A661 /* goldeen.json in Resources */,
 				E447B56D1FACA5CD00D36CE9 /* gengar.png in Resources */,
+				E4A0FE461FAF73040010A661 /* tauros.json in Resources */,
 				E447B54F1FACA5CD00D36CE9 /* hitmonchan.png in Resources */,
 				E447B5041FACA5CD00D36CE9 /* tauros.png in Resources */,
+				E4A0FE711FAF73040010A661 /* zubat.json in Resources */,
+				E4A0FE5A1FAF73040010A661 /* arcanine.json in Resources */,
+				E4A0FDEB1FAF73040010A661 /* magmar.json in Resources */,
 				1C968D171ED3B8F20054F5C3 /* grace_hopper.jpg in Resources */,
+				E4A0FE521FAF73040010A661 /* kingler.json in Resources */,
 				E447B4F51FACA5CD00D36CE9 /* bulbasaur.png in Resources */,
 				E447B51B1FACA5CD00D36CE9 /* weepinbell.png in Resources */,
+				E4A0FE511FAF73040010A661 /* rhyhorn.json in Resources */,
 				E447B54B1FACA5CD00D36CE9 /* sandslash.png in Resources */,
 				E447B5511FACA5CD00D36CE9 /* koffing.png in Resources */,
+				E4A0FE151FAF73040010A661 /* venusaur.json in Resources */,
 				E447B56B1FACA5CD00D36CE9 /* jynx.png in Resources */,
+				E4A0FE6C1FAF73040010A661 /* charmander.json in Resources */,
 				E447B51F1FACA5CD00D36CE9 /* blastoise.png in Resources */,
 				E447B53C1FACA5CD00D36CE9 /* charmeleon.png in Resources */,
 				E447B4EF1FACA5CD00D36CE9 /* muk.png in Resources */,
 				E447B5201FACA5CD00D36CE9 /* cloyster.png in Resources */,
+				E4A0FE6B1FAF73040010A661 /* pidgeotto.json in Resources */,
+				E4A0FE041FAF73040010A661 /* ponyta.json in Resources */,
+				E4A0FE6F1FAF73040010A661 /* slowbro.json in Resources */,
+				E4A0FDF11FAF73040010A661 /* dodrio.json in Resources */,
+				E4A0FE191FAF73040010A661 /* bulbasaur.json in Resources */,
 				E4D1B63C1FAA68CD00F4D280 /* Icon-60@2x.png in Resources */,
 				E447B5531FACA5CD00D36CE9 /* tangela.png in Resources */,
 				E447B50D1FACA5CD00D36CE9 /* vaporeon.png in Resources */,
@@ -789,95 +1292,196 @@
 				E447B54D1FACA5CD00D36CE9 /* golduck.png in Resources */,
 				E4BA212E1FA8D3BE00CFC4EC /* retrained_graph.pb in Resources */,
 				E447B4E11FACA5CD00D36CE9 /* scyther.png in Resources */,
+				E4A0FE3F1FAF73040010A661 /* machoke.json in Resources */,
+				E4A0FE701FAF73040010A661 /* poliwrath.json in Resources */,
 				E447B4E61FACA5CD00D36CE9 /* pidgeotto.png in Resources */,
 				E447B5171FACA5CD00D36CE9 /* venomoth.png in Resources */,
 				E447B4EA1FACA5CD00D36CE9 /* clefable.png in Resources */,
+				E4A0FDF21FAF73040010A661 /* kangaskhan.json in Resources */,
 				E447B4E51FACA5CD00D36CE9 /* dragonair.png in Resources */,
 				E447B4F01FACA5CD00D36CE9 /* shellder.png in Resources */,
+				E4A0FE4A1FAF73040010A661 /* caterpie.json in Resources */,
 				E447B5001FACA5CD00D36CE9 /* persian.png in Resources */,
 				E447B5331FACA5CD00D36CE9 /* pinsir.png in Resources */,
 				E447B50C1FACA5CD00D36CE9 /* dratini.png in Resources */,
 				E447B4FD1FACA5CD00D36CE9 /* doduo.png in Resources */,
+				E4A0FE331FAF73040010A661 /* victreebel.json in Resources */,
+				E4A0FE0E1FAF73040010A661 /* machamp.json in Resources */,
+				E4A0FE481FAF73040010A661 /* persian.json in Resources */,
+				E4A0FDF61FAF73040010A661 /* mr-mime.json in Resources */,
 				E4191D8B1FAA2C9F0089B718 /* loading.storyboard in Resources */,
 				E447B55A1FACA5CD00D36CE9 /* rattata.png in Resources */,
+				E4A0FE3D1FAF73040010A661 /* cubone.json in Resources */,
+				E4A0FE671FAF73040010A661 /* pidgeot.json in Resources */,
+				E4A0FE101FAF73040010A661 /* butterfree.json in Resources */,
+				E4A0FE1F1FAF73040010A661 /* lickitung.json in Resources */,
 				E447B5471FACA5CD00D36CE9 /* butterfree.png in Resources */,
 				E447B5601FACA5CD00D36CE9 /* kingler.png in Resources */,
 				E447B55E1FACA5CD00D36CE9 /* bellsprout.png in Resources */,
 				E447B5231FACA5CD00D36CE9 /* golbat.png in Resources */,
 				E4D1B63D1FAA68CD00F4D280 /* Icon-60@3x.png in Resources */,
+				E4A0FE031FAF73040010A661 /* magnemite.json in Resources */,
 				E447B5501FACA5CD00D36CE9 /* kabutops.png in Resources */,
+				E4A0FE2B1FAF73040010A661 /* ditto.json in Resources */,
 				E447B5121FACA5CD00D36CE9 /* graveler.png in Resources */,
 				E447B5281FACA5CD00D36CE9 /* mr_mime.png in Resources */,
+				E4A0FE091FAF73040010A661 /* flareon.json in Resources */,
 				E447B5681FACA5CD00D36CE9 /* vileplume.png in Resources */,
+				E4A0FDF81FAF73040010A661 /* bellsprout.json in Resources */,
+				E4A0FE0A1FAF73040010A661 /* scyther.json in Resources */,
+				E4A0FE751FAF73040010A661 /* poliwag.json in Resources */,
+				E4A0FE281FAF73040010A661 /* kakuna.json in Resources */,
+				E4A0FE661FAF73040010A661 /* mewtwo.json in Resources */,
 				E447B5661FACA5CD00D36CE9 /* magnemite.png in Resources */,
+				E4A0FE6A1FAF73040010A661 /* tentacool.json in Resources */,
 				E447B5341FACA5CD00D36CE9 /* machoke.png in Resources */,
+				E4A0FE651FAF73040010A661 /* nidorina.json in Resources */,
+				E4A0FE0D1FAF73040010A661 /* geodude.json in Resources */,
+				E4A0FE411FAF73040010A661 /* charizard.json in Resources */,
 				E447B5191FACA5CD00D36CE9 /* mankey.png in Resources */,
+				E4A0FE071FAF73040010A661 /* pikachu.json in Resources */,
+				E4A0FE321FAF73040010A661 /* sandslash.json in Resources */,
+				E4A0FE721FAF73040010A661 /* eevee.json in Resources */,
 				E447B51E1FACA5CD00D36CE9 /* mew.png in Resources */,
+				E4A0FE061FAF73040010A661 /* starmie.json in Resources */,
 				E4191D8E1FAA5BB50089B718 /* Icon-29@3x.png in Resources */,
+				E4A0FE4E1FAF73040010A661 /* psyduck.json in Resources */,
+				E4A0FE2C1FAF73040010A661 /* tangela.json in Resources */,
+				E4A0FE7B1FAF73040010A661 /* dewgong.json in Resources */,
 				E447B5551FACA5CD00D36CE9 /* zapdos.png in Resources */,
 				E447B52F1FACA5CD00D36CE9 /* seaking.png in Resources */,
 				E447B50F1FACA5CD00D36CE9 /* beedrill.png in Resources */,
+				E4A0FDEE1FAF73040010A661 /* nidorino.json in Resources */,
+				E4A0FE5B1FAF73040010A661 /* venomoth.json in Resources */,
+				E4A0FE261FAF73040010A661 /* omastar.json in Resources */,
+				E4A0FE531FAF73040010A661 /* golbat.json in Resources */,
+				E4A0FE0B1FAF73040010A661 /* seaking.json in Resources */,
+				E4A0FE361FAF73040010A661 /* poliwhirl.json in Resources */,
+				E4A0FE291FAF73040010A661 /* onix.json in Resources */,
+				E4A0FE2F1FAF73040010A661 /* vulpix.json in Resources */,
 				E447B5641FACA5CD00D36CE9 /* horsea.png in Resources */,
+				E4A0FE381FAF73040010A661 /* raichu.json in Resources */,
 				E447B5221FACA5CD00D36CE9 /* nidoqueen.png in Resources */,
 				E447B4E71FACA5CD00D36CE9 /* eevee.png in Resources */,
 				E447B54A1FACA5CD00D36CE9 /* kangaskhan.png in Resources */,
 				E447B4DC1FACA5CD00D36CE9 /* rapidash.png in Resources */,
+				E4A0FE451FAF73040010A661 /* electrode.json in Resources */,
+				E4A0FE571FAF73040010A661 /* pinsir.json in Resources */,
+				E4A0FE241FAF73040010A661 /* venonat.json in Resources */,
+				E4A0FDFF1FAF73040010A661 /* drowzee.json in Resources */,
 				E447B5371FACA5CD00D36CE9 /* geodude.png in Resources */,
+				E4A0FE201FAF73040010A661 /* parasect.json in Resources */,
 				E447B5021FACA5CD00D36CE9 /* porygon.png in Resources */,
 				E447B52C1FACA5CD00D36CE9 /* pidgey.png in Resources */,
+				E4A0FE371FAF73040010A661 /* wartortle.json in Resources */,
+				E4A0FE051FAF73040010A661 /* weepinbell.json in Resources */,
+				E4A0FE021FAF73040010A661 /* kadabra.json in Resources */,
+				E4A0FE621FAF73040010A661 /* lapras.json in Resources */,
+				E4A0FDED1FAF73040010A661 /* dragonair.json in Resources */,
 				E447B5671FACA5CD00D36CE9 /* primeape.png in Resources */,
+				E4A0FE221FAF73040010A661 /* omanyte.json in Resources */,
+				E4A0FE341FAF73040010A661 /* jolteon.json in Resources */,
+				E4A0FE0F1FAF73040010A661 /* golem.json in Resources */,
 				E447B4FA1FACA5CD00D36CE9 /* ivysaur.png in Resources */,
+				E4A0FE601FAF73040010A661 /* graveler.json in Resources */,
 				E447B4E31FACA5CD00D36CE9 /* marowak.png in Resources */,
 				E49AABD31FAA22AE00F99F80 /* AppIcon.xcassets in Resources */,
 				E447B55B1FACA5CD00D36CE9 /* rhyhorn.png in Resources */,
+				E4A0FE441FAF73040010A661 /* voltorb.json in Resources */,
 				E447B5361FACA5CD00D36CE9 /* poliwhirl.png in Resources */,
+				E4A0FDE81FAF73040010A661 /* weezing.json in Resources */,
+				E4A0FE3B1FAF73040010A661 /* wigglytuff.json in Resources */,
 				E447B52A1FACA5CD00D36CE9 /* kabuto.png in Resources */,
 				E447B5311FACA5CD00D36CE9 /* alakazam.png in Resources */,
+				E4A0FE491FAF73040010A661 /* nidoran-f.json in Resources */,
 				E4D1B6401FAA749B00F4D280 /* pokeball.png in Resources */,
 				E447B5351FACA5CD00D36CE9 /* venonat.png in Resources */,
+				E4A0FE6E1FAF73040010A661 /* krabby.json in Resources */,
+				E4A0FE4D1FAF73040010A661 /* muk.json in Resources */,
+				E4A0FE541FAF73040010A661 /* kabutops.json in Resources */,
 				E447B55C1FACA5CD00D36CE9 /* dewgong.png in Resources */,
 				E447B5031FACA5CD00D36CE9 /* gastly.png in Resources */,
 				1C968D181ED3B8F20054F5C3 /* imagenet_comp_graph_label_strings.txt in Resources */,
+				E4A0FE351FAF73040010A661 /* meowth.json in Resources */,
 				E447B4E21FACA5CD00D36CE9 /* cubone.png in Resources */,
 				E447B5541FACA5CD00D36CE9 /* nidorina.png in Resources */,
 				1C968D191ED3B8F20054F5C3 /* tensorflow_inception_graph.pb in Resources */,
+				E4A0FE4F1FAF73040010A661 /* beedrill.json in Resources */,
 				E447B53A1FACA5CD00D36CE9 /* victreebel.png in Resources */,
+				E4A0FE2A1FAF73040010A661 /* rapidash.json in Resources */,
 				1C99111C1ED3B0E600A6BFB9 /* MainStoryboard_iPhone.storyboard in Resources */,
+				E4A0FE1D1FAF73040010A661 /* seadra.json in Resources */,
+				E4A0FE5F1FAF73040010A661 /* moltres.json in Resources */,
+				E4A0FE211FAF73040010A661 /* staryu.json in Resources */,
+				E4A0FE691FAF73040010A661 /* vaporeon.json in Resources */,
 				E447B5211FACA5CD00D36CE9 /* charizard.png in Resources */,
 				E447B5131FACA5CD00D36CE9 /* squirtle.png in Resources */,
+				E4A0FE471FAF73040010A661 /* weedle.json in Resources */,
 				E447B5071FACA5CD00D36CE9 /* farfetchd.png in Resources */,
+				E4A0FE5E1FAF73040010A661 /* farfetchd.json in Resources */,
 				E447B53D1FACA5CD00D36CE9 /* poliwrath.png in Resources */,
 				E447B4EE1FACA5CD00D36CE9 /* psyduck.png in Resources */,
 				E447B54E1FACA5CD00D36CE9 /* arbok.png in Resources */,
 				E447B4E91FACA5CD00D36CE9 /* grimer.png in Resources */,
 				E447B5521FACA5CD00D36CE9 /* oddish.png in Resources */,
 				E447B5051FACA5CD00D36CE9 /* diglett.png in Resources */,
+				E4A0FE791FAF73040010A661 /* arbok.json in Resources */,
 				E447B5111FACA5CD00D36CE9 /* slowpoke.png in Resources */,
 				E447B53B1FACA5CD00D36CE9 /* raticate.png in Resources */,
+				E4A0FDFA1FAF73040010A661 /* machop.json in Resources */,
+				E4A0FDEF1FAF73040010A661 /* spearow.json in Resources */,
 				E447B5151FACA5CD00D36CE9 /* gyarados.png in Resources */,
 				E447B5621FACA5CD00D36CE9 /* tentacool.png in Resources */,
+				E4A0FE501FAF73040010A661 /* gyarados.json in Resources */,
+				E4A0FE161FAF73040010A661 /* ekans.json in Resources */,
+				E4A0FE631FAF73040010A661 /* magneton.json in Resources */,
+				E4A0FE251FAF73040010A661 /* dugtrio.json in Resources */,
 				E447B5461FACA5CD00D36CE9 /* nidoran.png in Resources */,
 				E447B51D1FACA5CD00D36CE9 /* raichu.png in Resources */,
+				E4A0FDF91FAF73040010A661 /* gastly.json in Resources */,
+				E4A0FE1A1FAF73040010A661 /* gengar.json in Resources */,
+				E4A0FE5C1FAF73040010A661 /* nidoking.json in Resources */,
 				E447B50E1FACA5CD00D36CE9 /* pikachu.png in Resources */,
 				E447B4F41FACA5CD00D36CE9 /* weezing.png in Resources */,
+				E4A0FDEC1FAF73040010A661 /* cloyster.json in Resources */,
+				E4A0FE131FAF73040010A661 /* shellder.json in Resources */,
 				E447B5091FACA5CD00D36CE9 /* machop.png in Resources */,
+				E4A0FE431FAF73040010A661 /* tentacruel.json in Resources */,
 				E4BA212D1FA8D3BE00CFC4EC /* retrained_labels.txt in Resources */,
+				E4A0FE421FAF73040010A661 /* paras.json in Resources */,
 				E447B55D1FACA5CD00D36CE9 /* goldeen.png in Resources */,
 				E447B5081FACA5CD00D36CE9 /* snorlax.png in Resources */,
 				E447B5061FACA5CD00D36CE9 /* jigglypuff.png in Resources */,
 				E447B4F71FACA5CD00D36CE9 /* parasect.png in Resources */,
 				E447B5241FACA5CD00D36CE9 /* krabby.png in Resources */,
+				E4A0FE0C1FAF73040010A661 /* zapdos.json in Resources */,
 				E447B4DE1FACA5CD00D36CE9 /* vulpix.png in Resources */,
+				E4A0FDFC1FAF73040010A661 /* fearow.json in Resources */,
 				E447B5421FACA5CD00D36CE9 /* onix.png in Resources */,
 				E447B52D1FACA5CD00D36CE9 /* machamp.png in Resources */,
+				E4A0FE271FAF73040010A661 /* jigglypuff.json in Resources */,
+				E4A0FE171FAF73040010A661 /* hypno.json in Resources */,
 				E447B5141FACA5CD00D36CE9 /* gloom.png in Resources */,
+				E4A0FE4C1FAF73040010A661 /* mankey.json in Resources */,
+				E4A0FE111FAF73040010A661 /* electabuzz.json in Resources */,
 				E447B5431FACA5CD00D36CE9 /* growlithe.png in Resources */,
+				E4A0FE2D1FAF73040010A661 /* articuno.json in Resources */,
+				E4A0FDFD1FAF73040010A661 /* oddish.json in Resources */,
 				E447B56E1FACA5CD00D36CE9 /* ninetales.png in Resources */,
 				1CDB2D4E1ED3AA35007929E9 /* Info.plist in Resources */,
+				E4A0FE3E1FAF73040010A661 /* exeggutor.json in Resources */,
+				E4A0FDE61FAF73040010A661 /* alakazam.json in Resources */,
+				E4A0FE3C1FAF73040010A661 /* snorlax.json in Resources */,
 				E447B5271FACA5CD00D36CE9 /* haunter.png in Resources */,
 				E447B4F61FACA5CD00D36CE9 /* dugtrio.png in Resources */,
 				E447B5561FACA5CD00D36CE9 /* exeggutor.png in Resources */,
+				E4A0FDEA1FAF73040010A661 /* horsea.json in Resources */,
+				E4A0FE231FAF73040010A661 /* exeggcute.json in Resources */,
+				E4A0FDE71FAF73040010A661 /* hitmonchan.json in Resources */,
+				E4A0FE1C1FAF73040010A661 /* koffing.json in Resources */,
+				E4A0FE591FAF73040010A661 /* mew.json in Resources */,
 				E447B5631FACA5CD00D36CE9 /* tentacruel.png in Resources */,
+				E4A0FE641FAF73040010A661 /* seel.json in Resources */,
 				E447B5591FACA5CD00D36CE9 /* meowth.png in Resources */,
 				E4191D8F1FAA5BB50089B718 /* Icon-29@2x.png in Resources */,
 				E447B4EC1FACA5CD00D36CE9 /* nidorino.png in Resources */,
@@ -885,6 +1489,8 @@
 				E447B5251FACA5CD00D36CE9 /* starmie.png in Resources */,
 				E447B56C1FACA5CD00D36CE9 /* magneton.png in Resources */,
 				E447B52E1FACA5CD00D36CE9 /* electrode.png in Resources */,
+				E4A0FE6D1FAF73040010A661 /* nidoqueen.json in Resources */,
+				E4A0FE1B1FAF73040010A661 /* slowpoke.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

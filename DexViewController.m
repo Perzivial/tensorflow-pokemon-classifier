@@ -16,8 +16,10 @@ NSDictionary *dict;
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = [_pokemon capitalizedString];
-    if(dict == NULL)
+    if(dict == NULL){
         dict = [self SetDict];
+//        NSLog([dict objectForKey:@"entry"]);
+    }
     //NSLog([dict objectForKey:_pokemon]);
     UIView *subView = (UIView *) [self.view viewWithTag:6];
     NSString *concat = [_pokemon stringByAppendingString:@".png"];
@@ -48,9 +50,13 @@ NSDictionary *dict;
 //
 //    NSDictionary *dictionary = [NSDictionary dictionaryWithObjects:objects
 //                                                           forKeys:keys];
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"pokemon" ofType:@"plist"];
-    NSDictionary *dictionary = [NSDictionary dictionaryWithContentsOfFile:path];
-    return dictionary;
+//    NSString *firstString = @"pokemon/";
+//    NSString *secondString = _pokemon;
+//    NSString *concatinatedString = [firstString stringByAppendingString:secondString];
+    NSString *path = [[NSBundle mainBundle] pathForResource:_pokemon ofType:@"json"];
+    //NSDictionary *dictionary = [NSDictionary dictionaryWithContentsOfFile:path];
+    NSData *data = [NSData dataWithContentsOfFile:path];
+    return [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
 }
 /*
 #pragma mark - Navigation
