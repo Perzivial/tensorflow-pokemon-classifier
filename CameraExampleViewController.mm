@@ -409,8 +409,10 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
   }
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor]; 
   [self setupAVCapture];
-//    UIButton *subBtn = (UIButton *) [self.view viewWithTag:5];
-//   subBtn.hidden = true;
+    UIButton *button = (UIButton *)[self.view viewWithTag:8];
+    
+    button.enabled = false;
+    button.alpha = .5;
 }
 
 - (void)viewDidUnload {
@@ -529,6 +531,11 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
           topPokemon = label;
       }
     labelCount += 1;
+      UIButton *button = (UIButton *)[self.view viewWithTag:8];
+      if(button.enabled == false){
+      button.enabled = true;
+      button.alpha = 1;
+      }
 //    if (labelCount > 0) {
 //      break;
 //    }

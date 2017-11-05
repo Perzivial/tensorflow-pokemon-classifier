@@ -13,27 +13,77 @@
 
 @implementation DexViewController
 NSDictionary *dict;
+//here i'm adding all the content based upon the current pokemon
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = [_pokemon capitalizedString];
-    if(dict == NULL){
-        dict = [self SetDict];
-//        NSLog([dict objectForKey:@"entry"]);
-    }
+
+    dict = [self SetDict];
+
     //NSLog([dict objectForKey:_pokemon]);
-    UIView *subView = (UIView *) [self.view viewWithTag:6];
+    UIView *subView = (UIView *) [self.view viewWithTag:8];
     NSString *concat = [_pokemon stringByAppendingString:@".png"];
     UIImageView *myImage = [[UIImageView alloc] initWithFrame:[subView bounds]];
     myImage.image = [UIImage imageNamed:concat];
     [subView addSubview:myImage];
-   //adding in label
-    //UIView *subView2 = (UIView *) [self.view viewWithTag:7];
-    //UILabel *myLabel = [[UILabel alloc] initWithFrame:[subView2 bounds]];
-    //myLabel.text = [dict objectForKey:_pokemon];
-    //myLabel.textColor = [UIColor whiteColor];
-    //[myLabel setFont:[UIFont fontWithName:@"Helvetica neue" size:20]];
-    //[myLabel setTextAlignment:UITextAlignmentCenter];
-    //[subView2 addSubview:myLabel];
+    
+    UIView *nameView = (UIView *) [self.view viewWithTag:1];
+    UILabel *nameLabel = [[UILabel alloc]initWithFrame:nameView.bounds];
+    NSString *name = [[dict objectForKey:@"id"] stringByAppendingString:@" "];
+    name = [name stringByAppendingString:[_pokemon capitalizedString]];
+    nameLabel.text = name;
+    nameLabel.textAlignment = NSTextAlignmentCenter;
+    nameLabel.textColor = [UIColor whiteColor];
+    nameLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:20];
+    [nameView addSubview:nameLabel];
+    
+    UIColor *blue = [UIColor colorWithRed:17.0f/255.0f
+                                   green:71.0f/255.0f
+                                    blue:123.0f/255.0f
+                                   alpha:1.0f];
+    
+    UIView *speciesView = (UIView *) [self.view viewWithTag:2];
+    UILabel *speciesLabel = [[UILabel alloc]initWithFrame:speciesView.bounds];
+    speciesLabel.text = [dict objectForKey:@"species"];
+    speciesLabel.textAlignment = NSTextAlignmentCenter;
+    speciesLabel.textColor = blue;
+    speciesLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:20];
+    [speciesView addSubview:speciesLabel];
+    
+    UIView *typeView = (UIView *) [self.view viewWithTag:3];
+    UILabel *typeLabel = [[UILabel alloc]initWithFrame:typeView.bounds];
+    NSString *type = [[dict objectForKey:@"type"] stringByAppendingString:@"Type"];
+    typeLabel.text = type;
+    typeLabel.textAlignment = NSTextAlignmentCenter;
+    typeLabel.textColor = blue;
+    typeLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:20];
+    [typeView addSubview:typeLabel];
+    
+    UIView *entryView = (UIView *) [self.view viewWithTag:4];
+    UITextView *entryLabel = [[UITextView alloc]initWithFrame:entryView.bounds];
+    entryLabel.text = [dict objectForKey:@"entry"];
+    entryLabel.textAlignment = NSTextAlignmentCenter;
+    entryLabel.textColor = [UIColor whiteColor];
+    entryLabel.backgroundColor = [UIColor clearColor];
+    entryLabel.userInteractionEnabled = false;
+    entryLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:18];
+    [entryView addSubview:entryLabel];
+    
+    NSArray *arr = [[dict objectForKey:@"evolutions"] componentsSeparatedByString: @" "];
+    for(int i = 0; i < arr.count-1; i++){
+        NSInteger num = 10 + i;
+        UIView *evoView = (UIView *) [self.view viewWithTag:(num)];
+        NSString *imgname = [[arr[i] lowercaseString] stringByAppendingString:@".png"];
+        CGRect bounds = [evoView bounds];
+        bounds.origin.x+=bounds.size.width/12;
+        bounds.origin.y+=bounds.size.width/12;
+        bounds.size.width-=bounds.size.width/6;
+        bounds.size.height-=bounds.size.height/6;
+        UIImageView *currentEvo = [[UIImageView alloc] initWithFrame:bounds];
+        currentEvo.image = [UIImage imageNamed:imgname];
+        [evoView addSubview:currentEvo];
+        //NSLog(imgname);
+    }
 }
 
 - (void)didReceiveMemoryWarning {
