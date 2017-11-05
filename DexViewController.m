@@ -70,7 +70,7 @@ NSDictionary *dict;
     [entryView addSubview:entryLabel];
     
     NSArray *arr = [[dict objectForKey:@"evolutions"] componentsSeparatedByString: @" "];
-    for(int i = 0; i < arr.count-1; i++){
+    for(int i = 0; i < arr.count; i++){
         NSInteger num = 10 + i;
         UIView *evoView = (UIView *) [self.view viewWithTag:(num)];
         NSString *imgname = [[arr[i] lowercaseString] stringByAppendingString:@".png"];
@@ -82,7 +82,7 @@ NSDictionary *dict;
         UIImageView *currentEvo = [[UIImageView alloc] initWithFrame:bounds];
         currentEvo.image = [UIImage imageNamed:imgname];
         [evoView addSubview:currentEvo];
-        //NSLog(imgname);
+        NSLog(imgname);
     }
 }
 
