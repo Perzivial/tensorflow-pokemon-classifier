@@ -9,4 +9,5 @@
 
 @interface DexViewController : UIViewController
 @property (nonatomic, assign) NSString *pokemon;
+-(void) setEntry;
 @end

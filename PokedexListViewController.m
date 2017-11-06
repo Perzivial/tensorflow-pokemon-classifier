@@ -8,12 +8,15 @@
 
 #import "PokedexListViewController.h"
 #import "DexViewController.h"
+
 @interface PokedexListViewController () <UITableViewDataSource, UITableViewDelegate>{
     NSMutableArray *pokemon;
     UIColor *light;
     UIColor *dark;
+//    NSString *entryPokemon;
 }
 @property (weak, nonatomic) IBOutlet UITableView *table;
+
 @end
 
 @implementation PokedexListViewController
@@ -35,8 +38,10 @@
                                     alpha:1.0f];
 
         pokemon = [NSMutableArray arrayWithArray:arr];
-        
+    DexViewController *dex = (DexViewController *)[self backViewController];
     
+//    [_table scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:_index inSection:0]  atScrollPosition:UITableViewScrollPositionMiddle animated:NO];
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -46,6 +51,19 @@
 - (BOOL)prefersStatusBarHidden {
     return YES;
 }
+
+
+- (UIViewController *)backViewController
+{
+    NSInteger numberOfViewControllers = self.navigationController.viewControllers.count;
+    
+    if (numberOfViewControllers < 2)
+        return nil;
+    else
+        return [self.navigationController.viewControllers objectAtIndex:numberOfViewControllers - 2];
+}
+
+
 #pragma mark - TableView Methods
 - (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
@@ -60,13 +78,23 @@
     NSString *imgname = [[pokemon[indexPath.row] lowercaseString] stringByAppendingString:@"small.png"];
     cell.imageView.image = [UIImage imageNamed:imgname];
     cell.textLabel.text = pokemon[indexPath.row];
-    cell.detailTextLabel.text = [NSString stringWithFormat:@"%03d", indexPath.row+1];
+    NSString *text = @"#";
+    cell.detailTextLabel.text = [text stringByAppendingString:[NSString stringWithFormat:@"%03d", indexPath.row+1]];
     
     if(indexPath.row % 2 == 1)
         [cell setBackgroundColor:light];
     else
         [cell setBackgroundColor:dark];
     return cell;
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+
+    DexViewController *dex = (DexViewController *)[self backViewController];
+    NSString *name = [pokemon[indexPath.row] lowercaseString];
+    dex.pokemon = name;
+    [dex setEntry];
+    [[self navigationController] popViewControllerAnimated:YES];
 }
 
 @end

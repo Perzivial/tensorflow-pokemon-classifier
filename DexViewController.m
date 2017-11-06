@@ -8,7 +8,7 @@
 #import "DexViewController.h"
 
 @interface DexViewController ()
-
+    
 @end
 
 @implementation DexViewController
@@ -16,20 +16,26 @@ NSDictionary *dict;
 //here i'm adding all the content based upon the current pokemon
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setEntry];
+}
+
+-(void) setEntry{
     self.navigationItem.title = [_pokemon capitalizedString];
-
+    
     dict = [self SetDict];
-
+    
     //NSLog([dict objectForKey:_pokemon]);
     UIView *subView = (UIView *) [self.view viewWithTag:8];
+    [[subView subviews] makeObjectsPerformSelector:@selector(removeFromSuperview)];
     NSString *concat = [_pokemon stringByAppendingString:@".png"];
     UIImageView *myImage = [[UIImageView alloc] initWithFrame:[subView bounds]];
     myImage.image = [UIImage imageNamed:concat];
     [subView addSubview:myImage];
     
     UIView *nameView = (UIView *) [self.view viewWithTag:1];
+     [[nameView subviews] makeObjectsPerformSelector:@selector(removeFromSuperview)];
     UILabel *nameLabel = [[UILabel alloc]initWithFrame:nameView.bounds];
-    NSString *name = [[dict objectForKey:@"id"] stringByAppendingString:@" "];
+    NSString *name = [@"#" stringByAppendingString:[[dict objectForKey:@"id"] stringByAppendingString:@" "]];
     name = [name stringByAppendingString:[_pokemon capitalizedString]];
     nameLabel.text = name;
     nameLabel.textAlignment = NSTextAlignmentCenter;
@@ -38,11 +44,12 @@ NSDictionary *dict;
     [nameView addSubview:nameLabel];
     
     UIColor *blue = [UIColor colorWithRed:17.0f/255.0f
-                                   green:71.0f/255.0f
-                                    blue:123.0f/255.0f
-                                   alpha:1.0f];
+                                    green:71.0f/255.0f
+                                     blue:123.0f/255.0f
+                                    alpha:1.0f];
     
     UIView *speciesView = (UIView *) [self.view viewWithTag:2];
+     [[speciesView subviews] makeObjectsPerformSelector:@selector(removeFromSuperview)];
     UILabel *speciesLabel = [[UILabel alloc]initWithFrame:speciesView.bounds];
     speciesLabel.text = [dict objectForKey:@"species"];
     speciesLabel.textAlignment = NSTextAlignmentCenter;
@@ -51,6 +58,7 @@ NSDictionary *dict;
     [speciesView addSubview:speciesLabel];
     
     UIView *typeView = (UIView *) [self.view viewWithTag:3];
+     [[typeView subviews] makeObjectsPerformSelector:@selector(removeFromSuperview)];
     UILabel *typeLabel = [[UILabel alloc]initWithFrame:typeView.bounds];
     NSString *type = [[dict objectForKey:@"type"] stringByAppendingString:@"Type"];
     typeLabel.text = type;
@@ -60,6 +68,7 @@ NSDictionary *dict;
     [typeView addSubview:typeLabel];
     
     UIView *entryView = (UIView *) [self.view viewWithTag:4];
+    [[entryView subviews] makeObjectsPerformSelector:@selector(removeFromSuperview)];
     UITextView *entryLabel = [[UITextView alloc]initWithFrame:entryView.bounds];
     entryLabel.text = [dict objectForKey:@"entry"];
     entryLabel.textAlignment = NSTextAlignmentCenter;
@@ -69,10 +78,24 @@ NSDictionary *dict;
     entryLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:18];
     [entryView addSubview:entryLabel];
     
+    UIColor *evoColor = [UIColor colorWithRed:35.0f/255.0f
+                                    green:149.0f/255.0f
+                                     blue:210.0f/255.0f
+                                    alpha:1.0f];
+    
     NSArray *arr = [[dict objectForKey:@"evolutions"] componentsSeparatedByString: @" "];
+    for(int i = 0; i < 3; i++){
+        NSInteger num = 10 + i;
+        UIView *evoView = (UIView *) [self.view viewWithTag:(num)];
+        [[evoView subviews] makeObjectsPerformSelector:@selector(removeFromSuperview)];
+        evoView.backgroundColor = [UIColor clearColor];
+    }
     for(int i = 0; i < arr.count; i++){
         NSInteger num = 10 + i;
         UIView *evoView = (UIView *) [self.view viewWithTag:(num)];
+        
+           //
+          [[evoView subviews] makeObjectsPerformSelector:@selector(removeFromSuperview)];
         NSString *imgname = [[arr[i] lowercaseString] stringByAppendingString:@"small.png"];
         CGRect bounds = [evoView bounds];
         bounds.origin.x+=bounds.size.width/12;
@@ -80,7 +103,14 @@ NSDictionary *dict;
         bounds.size.width-=bounds.size.width/6;
         bounds.size.height-=bounds.size.height/6;
         UIImageView *currentEvo = [[UIImageView alloc] initWithFrame:bounds];
-        currentEvo.image = [UIImage imageNamed:imgname];
+
+        UIImage *img = [UIImage imageNamed:imgname];
+        if(!img){
+            NSLog(imgname);
+        }else{
+            evoView.backgroundColor = evoColor;
+            currentEvo.image = img;
+        }
         [evoView addSubview:currentEvo];
     }
 }
