@@ -73,7 +73,7 @@ NSDictionary *dict;
     for(int i = 0; i < arr.count; i++){
         NSInteger num = 10 + i;
         UIView *evoView = (UIView *) [self.view viewWithTag:(num)];
-        NSString *imgname = [[arr[i] lowercaseString] stringByAppendingString:@".png"];
+        NSString *imgname = [[arr[i] lowercaseString] stringByAppendingString:@"small.png"];
         CGRect bounds = [evoView bounds];
         bounds.origin.x+=bounds.size.width/12;
         bounds.origin.y+=bounds.size.width/12;
@@ -82,7 +82,6 @@ NSDictionary *dict;
         UIImageView *currentEvo = [[UIImageView alloc] initWithFrame:bounds];
         currentEvo.image = [UIImage imageNamed:imgname];
         [evoView addSubview:currentEvo];
-        NSLog(imgname);
     }
 }
 

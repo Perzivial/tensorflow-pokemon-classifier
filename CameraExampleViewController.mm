@@ -17,6 +17,7 @@
 #import <CoreImage/CoreImage.h>
 #import <ImageIO/ImageIO.h>
 #import "CameraExampleViewController.h"
+#import "PokedexListViewController.h"
 
 #include <sys/time.h>
 
@@ -386,6 +387,7 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
 
 - (void)viewDidLoad {
   [super viewDidLoad];
+    
   square = [UIImage imageNamed:@"test"];
   synth = [[AVSpeechSynthesizer alloc] init];
   labelLayers = [[NSMutableArray alloc] init];
@@ -413,6 +415,7 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
     
     button.enabled = false;
     button.alpha = .5;
+    
 }
 
 - (void)viewDidUnload {

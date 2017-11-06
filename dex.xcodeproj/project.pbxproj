@@ -103,7 +103,7 @@
 		E447B5251FACA5CD00D36CE9 /* starmie.png in Resources */ = {isa = PBXBuildFile; fileRef = E447B48F1FACA5CB00D36CE9 /* starmie.png */; };
 		E447B5261FACA5CD00D36CE9 /* exeggcute.png in Resources */ = {isa = PBXBuildFile; fileRef = E447B4901FACA5CB00D36CE9 /* exeggcute.png */; };
 		E447B5271FACA5CD00D36CE9 /* haunter.png in Resources */ = {isa = PBXBuildFile; fileRef = E447B4911FACA5CB00D36CE9 /* haunter.png */; };
-		E447B5281FACA5CD00D36CE9 /* mr_mime.png in Resources */ = {isa = PBXBuildFile; fileRef = E447B4921FACA5CB00D36CE9 /* mr_mime.png */; };
+		E447B5281FACA5CD00D36CE9 /* mr-mime.png in Resources */ = {isa = PBXBuildFile; fileRef = E447B4921FACA5CB00D36CE9 /* mr-mime.png */; };
 		E447B5291FACA5CD00D36CE9 /* kakuna.png in Resources */ = {isa = PBXBuildFile; fileRef = E447B4931FACA5CB00D36CE9 /* kakuna.png */; };
 		E447B52A1FACA5CD00D36CE9 /* kabuto.png in Resources */ = {isa = PBXBuildFile; fileRef = E447B4941FACA5CB00D36CE9 /* kabuto.png */; };
 		E447B52B1FACA5CD00D36CE9 /* mewtwo.png in Resources */ = {isa = PBXBuildFile; fileRef = E447B4951FACA5CB00D36CE9 /* mewtwo.png */; };
@@ -133,7 +133,7 @@
 		E447B5431FACA5CD00D36CE9 /* growlithe.png in Resources */ = {isa = PBXBuildFile; fileRef = E447B4AD1FACA5CC00D36CE9 /* growlithe.png */; };
 		E447B5441FACA5CD00D36CE9 /* lickitung.png in Resources */ = {isa = PBXBuildFile; fileRef = E447B4AE1FACA5CC00D36CE9 /* lickitung.png */; };
 		E447B5451FACA5CD00D36CE9 /* magmar.png in Resources */ = {isa = PBXBuildFile; fileRef = E447B4AF1FACA5CC00D36CE9 /* magmar.png */; };
-		E447B5461FACA5CD00D36CE9 /* nidoran.png in Resources */ = {isa = PBXBuildFile; fileRef = E447B4B01FACA5CC00D36CE9 /* nidoran.png */; };
+		E447B5461FACA5CD00D36CE9 /* nidoran-m.png in Resources */ = {isa = PBXBuildFile; fileRef = E447B4B01FACA5CC00D36CE9 /* nidoran-m.png */; };
 		E447B5471FACA5CD00D36CE9 /* butterfree.png in Resources */ = {isa = PBXBuildFile; fileRef = E447B4B11FACA5CC00D36CE9 /* butterfree.png */; };
 		E447B5481FACA5CD00D36CE9 /* metapod.png in Resources */ = {isa = PBXBuildFile; fileRef = E447B4B21FACA5CC00D36CE9 /* metapod.png */; };
 		E447B5491FACA5CD00D36CE9 /* seel.png in Resources */ = {isa = PBXBuildFile; fileRef = E447B4B31FACA5CC00D36CE9 /* seel.png */; };
@@ -174,6 +174,8 @@
 		E447B56C1FACA5CD00D36CE9 /* magneton.png in Resources */ = {isa = PBXBuildFile; fileRef = E447B4D61FACA5CD00D36CE9 /* magneton.png */; };
 		E447B56D1FACA5CD00D36CE9 /* gengar.png in Resources */ = {isa = PBXBuildFile; fileRef = E447B4D71FACA5CD00D36CE9 /* gengar.png */; };
 		E447B56E1FACA5CD00D36CE9 /* ninetales.png in Resources */ = {isa = PBXBuildFile; fileRef = E447B4D81FACA5CD00D36CE9 /* ninetales.png */; };
+		E452F5831FB1055B00E429D2 /* entries.txt in Resources */ = {isa = PBXBuildFile; fileRef = E452F5821FB1055A00E429D2 /* entries.txt */; };
+		E46515661FB0A904005EE73B /* PokedexListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46515651FB0A904005EE73B /* PokedexListViewController.m */; };
 		E46FBF6A1FAA094500717046 /* xcodeimage in Resources */ = {isa = PBXBuildFile; fileRef = E46FBF691FAA094500717046 /* xcodeimage */; };
 		E49AABD31FAA22AE00F99F80 /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49AABD21FAA22AE00F99F80 /* AppIcon.xcassets */; };
 		E4A0FDE61FAF73040010A661 /* alakazam.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD4E1FAF72F00010A661 /* alakazam.json */; };
@@ -326,6 +328,158 @@
 		E4A0FE791FAF73040010A661 /* arbok.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDE31FAF73030010A661 /* arbok.json */; };
 		E4A0FE7A1FAF73040010A661 /* diglett.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDE41FAF73040010A661 /* diglett.json */; };
 		E4A0FE7B1FAF73040010A661 /* dewgong.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FDE51FAF73040010A661 /* dewgong.json */; };
+		E4B8D06D1FB0C68E00B90955 /* nidoran-f.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D06C1FB0C68E00B90955 /* nidoran-f.png */; };
+		E4B8D1051FB0CC4700B90955 /* slowpokesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D06E1FB0CC3800B90955 /* slowpokesmall.png */; };
+		E4B8D1061FB0CC4700B90955 /* goldeensmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D06F1FB0CC3800B90955 /* goldeensmall.png */; };
+		E4B8D1071FB0CC4700B90955 /* zubatsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0701FB0CC3800B90955 /* zubatsmall.png */; };
+		E4B8D1081FB0CC4700B90955 /* gravelersmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0711FB0CC3800B90955 /* gravelersmall.png */; };
+		E4B8D1091FB0CC4700B90955 /* bellsproutsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0721FB0CC3800B90955 /* bellsproutsmall.png */; };
+		E4B8D10A1FB0CC4700B90955 /* cloystersmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0731FB0CC3800B90955 /* cloystersmall.png */; };
+		E4B8D10B1FB0CC4700B90955 /* sandslashsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0741FB0CC3800B90955 /* sandslashsmall.png */; };
+		E4B8D10C1FB0CC4700B90955 /* caterpiesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0751FB0CC3800B90955 /* caterpiesmall.png */; };
+		E4B8D10D1FB0CC4700B90955 /* dodriosmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0761FB0CC3900B90955 /* dodriosmall.png */; };
+		E4B8D10E1FB0CC4700B90955 /* laprassmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0771FB0CC3900B90955 /* laprassmall.png */; };
+		E4B8D10F1FB0CC4700B90955 /* hitmonchansmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0781FB0CC3900B90955 /* hitmonchansmall.png */; };
+		E4B8D1101FB0CC4700B90955 /* mewtwosmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0791FB0CC3900B90955 /* mewtwosmall.png */; };
+		E4B8D1111FB0CC4700B90955 /* psyducksmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D07A1FB0CC3900B90955 /* psyducksmall.png */; };
+		E4B8D1121FB0CC4700B90955 /* abrasmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D07B1FB0CC3900B90955 /* abrasmall.png */; };
+		E4B8D1131FB0CC4700B90955 /* porygonsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D07C1FB0CC3900B90955 /* porygonsmall.png */; };
+		E4B8D1141FB0CC4700B90955 /* tentacruelsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D07D1FB0CC3900B90955 /* tentacruelsmall.png */; };
+		E4B8D1151FB0CC4700B90955 /* shelldersmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D07E1FB0CC3900B90955 /* shelldersmall.png */; };
+		E4B8D1161FB0CC4700B90955 /* dragonairsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D07F1FB0CC3A00B90955 /* dragonairsmall.png */; };
+		E4B8D1171FB0CC4700B90955 /* victreebelsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0801FB0CC3A00B90955 /* victreebelsmall.png */; };
+		E4B8D1181FB0CC4700B90955 /* dewgongsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0811FB0CC3A00B90955 /* dewgongsmall.png */; };
+		E4B8D1191FB0CC4700B90955 /* doduosmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0821FB0CC3A00B90955 /* doduosmall.png */; };
+		E4B8D11A1FB0CC4700B90955 /* nidoran-fsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0831FB0CC3A00B90955 /* nidoran-fsmall.png */; };
+		E4B8D11B1FB0CC4700B90955 /* primeapesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0841FB0CC3A00B90955 /* primeapesmall.png */; };
+		E4B8D11C1FB0CC4700B90955 /* lickitungsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0851FB0CC3A00B90955 /* lickitungsmall.png */; };
+		E4B8D11D1FB0CC4700B90955 /* flareonsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0861FB0CC3A00B90955 /* flareonsmall.png */; };
+		E4B8D11E1FB0CC4700B90955 /* venonatsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0871FB0CC3A00B90955 /* venonatsmall.png */; };
+		E4B8D11F1FB0CC4700B90955 /* gloomsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0881FB0CC3B00B90955 /* gloomsmall.png */; };
+		E4B8D1201FB0CC4700B90955 /* weepinbellsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0891FB0CC3B00B90955 /* weepinbellsmall.png */; };
+		E4B8D1211FB0CC4700B90955 /* metapodsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D08A1FB0CC3B00B90955 /* metapodsmall.png */; };
+		E4B8D1221FB0CC4700B90955 /* gengarsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D08B1FB0CC3B00B90955 /* gengarsmall.png */; };
+		E4B8D1231FB0CC4700B90955 /* voltorbsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D08C1FB0CC3B00B90955 /* voltorbsmall.png */; };
+		E4B8D1241FB0CC4700B90955 /* spearowsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D08D1FB0CC3B00B90955 /* spearowsmall.png */; };
+		E4B8D1251FB0CC4700B90955 /* fearowsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D08E1FB0CC3B00B90955 /* fearowsmall.png */; };
+		E4B8D1261FB0CC4700B90955 /* exeggcutesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D08F1FB0CC3B00B90955 /* exeggcutesmall.png */; };
+		E4B8D1271FB0CC4700B90955 /* raichusmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0901FB0CC3B00B90955 /* raichusmall.png */; };
+		E4B8D1281FB0CC4700B90955 /* dugtriosmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0911FB0CC3B00B90955 /* dugtriosmall.png */; };
+		E4B8D1291FB0CC4700B90955 /* cubonesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0921FB0CC3B00B90955 /* cubonesmall.png */; };
+		E4B8D12A1FB0CC4700B90955 /* vulpixsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0931FB0CC3C00B90955 /* vulpixsmall.png */; };
+		E4B8D12B1FB0CC4700B90955 /* diglettsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0941FB0CC3C00B90955 /* diglettsmall.png */; };
+		E4B8D12C1FB0CC4700B90955 /* eeveesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0951FB0CC3C00B90955 /* eeveesmall.png */; };
+		E4B8D12D1FB0CC4700B90955 /* mankeysmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0961FB0CC3C00B90955 /* mankeysmall.png */; };
+		E4B8D12E1FB0CC4700B90955 /* arboksmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0971FB0CC3C00B90955 /* arboksmall.png */; };
+		E4B8D12F1FB0CC4700B90955 /* drowzeesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0981FB0CC3C00B90955 /* drowzeesmall.png */; };
+		E4B8D1301FB0CC4700B90955 /* exeggutorsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0991FB0CC3C00B90955 /* exeggutorsmall.png */; };
+		E4B8D1311FB0CC4700B90955 /* pinsirsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D09A1FB0CC3C00B90955 /* pinsirsmall.png */; };
+		E4B8D1321FB0CC4700B90955 /* charmeleonsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D09B1FB0CC3C00B90955 /* charmeleonsmall.png */; };
+		E4B8D1331FB0CC4700B90955 /* dragonitesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D09C1FB0CC3C00B90955 /* dragonitesmall.png */; };
+		E4B8D1341FB0CC4700B90955 /* kinglersmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D09D1FB0CC3C00B90955 /* kinglersmall.png */; };
+		E4B8D1351FB0CC4700B90955 /* kadabrasmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D09E1FB0CC3D00B90955 /* kadabrasmall.png */; };
+		E4B8D1361FB0CC4700B90955 /* mr-mimesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D09F1FB0CC3D00B90955 /* mr-mimesmall.png */; };
+		E4B8D1371FB0CC4700B90955 /* hypnosmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0A01FB0CC3D00B90955 /* hypnosmall.png */; };
+		E4B8D1381FB0CC4700B90955 /* parasectsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0A11FB0CC3D00B90955 /* parasectsmall.png */; };
+		E4B8D1391FB0CC4700B90955 /* parassmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0A21FB0CC3D00B90955 /* parassmall.png */; };
+		E4B8D13A1FB0CC4700B90955 /* charmandersmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0A31FB0CC3D00B90955 /* charmandersmall.png */; };
+		E4B8D13B1FB0CC4700B90955 /* pidgeotsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0A41FB0CC3D00B90955 /* pidgeotsmall.png */; };
+		E4B8D13C1FB0CC4700B90955 /* geodudesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0A51FB0CC3D00B90955 /* geodudesmall.png */; };
+		E4B8D13D1FB0CC4700B90955 /* squirtlesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0A61FB0CC3D00B90955 /* squirtlesmall.png */; };
+		E4B8D13E1FB0CC4700B90955 /* staryusmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0A71FB0CC3D00B90955 /* staryusmall.png */; };
+		E4B8D13F1FB0CC4700B90955 /* weedlesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0A81FB0CC3D00B90955 /* weedlesmall.png */; };
+		E4B8D1401FB0CC4700B90955 /* wigglytuffsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0A91FB0CC3E00B90955 /* wigglytuffsmall.png */; };
+		E4B8D1411FB0CC4700B90955 /* jynxsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0AA1FB0CC3E00B90955 /* jynxsmall.png */; };
+		E4B8D1421FB0CC4700B90955 /* rapidashsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0AB1FB0CC3E00B90955 /* rapidashsmall.png */; };
+		E4B8D1431FB0CC4700B90955 /* arcaninesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0AC1FB0CC3E00B90955 /* arcaninesmall.png */; };
+		E4B8D1441FB0CC4700B90955 /* magnemitesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0AD1FB0CC3E00B90955 /* magnemitesmall.png */; };
+		E4B8D1451FB0CC4700B90955 /* scythersmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0AE1FB0CC3E00B90955 /* scythersmall.png */; };
+		E4B8D1461FB0CC4700B90955 /* chanseysmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0AF1FB0CC3E00B90955 /* chanseysmall.png */; };
+		E4B8D1471FB0CC4700B90955 /* krabbysmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0B01FB0CC3E00B90955 /* krabbysmall.png */; };
+		E4B8D1481FB0CC4700B90955 /* onixsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0B11FB0CC3E00B90955 /* onixsmall.png */; };
+		E4B8D1491FB0CC4700B90955 /* raticatesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0B21FB0CC3E00B90955 /* raticatesmall.png */; };
+		E4B8D14A1FB0CC4700B90955 /* zapdossmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0B31FB0CC3E00B90955 /* zapdossmall.png */; };
+		E4B8D14B1FB0CC4700B90955 /* blastoisesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0B41FB0CC3F00B90955 /* blastoisesmall.png */; };
+		E4B8D14C1FB0CC4700B90955 /* gastlysmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0B51FB0CC3F00B90955 /* gastlysmall.png */; };
+		E4B8D14D1FB0CC4700B90955 /* jigglypuffsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0B61FB0CC3F00B90955 /* jigglypuffsmall.png */; };
+		E4B8D14E1FB0CC4700B90955 /* machopsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0B71FB0CC3F00B90955 /* machopsmall.png */; };
+		E4B8D14F1FB0CC4700B90955 /* aerodactylsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0B81FB0CC3F00B90955 /* aerodactylsmall.png */; };
+		E4B8D1501FB0CC4700B90955 /* electrodesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0B91FB0CC3F00B90955 /* electrodesmall.png */; };
+		E4B8D1511FB0CC4700B90955 /* nidorinosmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0BA1FB0CC3F00B90955 /* nidorinosmall.png */; };
+		E4B8D1521FB0CC4700B90955 /* omanytesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0BB1FB0CC3F00B90955 /* omanytesmall.png */; };
+		E4B8D1531FB0CC4700B90955 /* farfetchdsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0BC1FB0CC3F00B90955 /* farfetchdsmall.png */; };
+		E4B8D1541FB0CC4700B90955 /* articunosmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0BD1FB0CC3F00B90955 /* articunosmall.png */; };
+		E4B8D1551FB0CC4700B90955 /* machampsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0BE1FB0CC4000B90955 /* machampsmall.png */; };
+		E4B8D1561FB0CC4700B90955 /* wartortlesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0BF1FB0CC4000B90955 /* wartortlesmall.png */; };
+		E4B8D1571FB0CC4700B90955 /* clefairysmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0C01FB0CC4000B90955 /* clefairysmall.png */; };
+		E4B8D1581FB0CC4700B90955 /* jolteonsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0C11FB0CC4000B90955 /* jolteonsmall.png */; };
+		E4B8D1591FB0CC4700B90955 /* nidoran-msmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0C21FB0CC4000B90955 /* nidoran-msmall.png */; };
+		E4B8D15A1FB0CC4700B90955 /* rhyhornsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0C31FB0CC4000B90955 /* rhyhornsmall.png */; };
+		E4B8D15B1FB0CC4700B90955 /* nidoqueensmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0C41FB0CC4000B90955 /* nidoqueensmall.png */; };
+		E4B8D15C1FB0CC4700B90955 /* moltressmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0C51FB0CC4000B90955 /* moltressmall.png */; };
+		E4B8D15D1FB0CC4700B90955 /* nidorinasmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0C61FB0CC4000B90955 /* nidorinasmall.png */; };
+		E4B8D15E1FB0CC4700B90955 /* snorlaxsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0C71FB0CC4000B90955 /* snorlaxsmall.png */; };
+		E4B8D15F1FB0CC4700B90955 /* clefablesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0C81FB0CC4000B90955 /* clefablesmall.png */; };
+		E4B8D1601FB0CC4700B90955 /* golducksmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0C91FB0CC4100B90955 /* golducksmall.png */; };
+		E4B8D1611FB0CC4700B90955 /* magnetonsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0CA1FB0CC4100B90955 /* magnetonsmall.png */; };
+		E4B8D1621FB0CC4700B90955 /* slowbrosmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0CB1FB0CC4100B90955 /* slowbrosmall.png */; };
+		E4B8D1631FB0CC4700B90955 /* ekanssmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0CC1FB0CC4100B90955 /* ekanssmall.png */; };
+		E4B8D1641FB0CC4700B90955 /* venusaursmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0CD1FB0CC4100B90955 /* venusaursmall.png */; };
+		E4B8D1651FB0CC4700B90955 /* muksmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0CE1FB0CC4100B90955 /* muksmall.png */; };
+		E4B8D1661FB0CC4700B90955 /* rhydonsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0CF1FB0CC4100B90955 /* rhydonsmall.png */; };
+		E4B8D1671FB0CC4700B90955 /* machokesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0D01FB0CC4100B90955 /* machokesmall.png */; };
+		E4B8D1681FB0CC4700B90955 /* dittosmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0D11FB0CC4100B90955 /* dittosmall.png */; };
+		E4B8D1691FB0CC4700B90955 /* hitmonleesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0D21FB0CC4100B90955 /* hitmonleesmall.png */; };
+		E4B8D16A1FB0CC4700B90955 /* mewsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0D31FB0CC4200B90955 /* mewsmall.png */; };
+		E4B8D16B1FB0CC4700B90955 /* seelsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0D41FB0CC4200B90955 /* seelsmall.png */; };
+		E4B8D16C1FB0CC4700B90955 /* venomothsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0D51FB0CC4200B90955 /* venomothsmall.png */; };
+		E4B8D16D1FB0CC4700B90955 /* kangaskhansmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0D61FB0CC4200B90955 /* kangaskhansmall.png */; };
+		E4B8D16E1FB0CC4700B90955 /* marowaksmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0D71FB0CC4200B90955 /* marowaksmall.png */; };
+		E4B8D16F1FB0CC4700B90955 /* gyaradossmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0D81FB0CC4200B90955 /* gyaradossmall.png */; };
+		E4B8D1701FB0CC4700B90955 /* seadrasmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0D91FB0CC4200B90955 /* seadrasmall.png */; };
+		E4B8D1711FB0CC4700B90955 /* weezingsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0DA1FB0CC4200B90955 /* weezingsmall.png */; };
+		E4B8D1721FB0CC4700B90955 /* magikarpsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0DB1FB0CC4200B90955 /* magikarpsmall.png */; };
+		E4B8D1731FB0CC4700B90955 /* horseasmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0DC1FB0CC4200B90955 /* horseasmall.png */; };
+		E4B8D1741FB0CC4700B90955 /* hauntersmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0DD1FB0CC4200B90955 /* hauntersmall.png */; };
+		E4B8D1751FB0CC4700B90955 /* alakazamsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0DE1FB0CC4300B90955 /* alakazamsmall.png */; };
+		E4B8D1761FB0CC4700B90955 /* persiansmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0DF1FB0CC4300B90955 /* persiansmall.png */; };
+		E4B8D1771FB0CC4700B90955 /* pikachusmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0E01FB0CC4300B90955 /* pikachusmall.png */; };
+		E4B8D1781FB0CC4700B90955 /* sandshrewsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0E11FB0CC4300B90955 /* sandshrewsmall.png */; };
+		E4B8D1791FB0CC4700B90955 /* growlithesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0E21FB0CC4300B90955 /* growlithesmall.png */; };
+		E4B8D17A1FB0CC4700B90955 /* seakingsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0E31FB0CC4300B90955 /* seakingsmall.png */; };
+		E4B8D17B1FB0CC4700B90955 /* electabuzzsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0E41FB0CC4300B90955 /* electabuzzsmall.png */; };
+		E4B8D17C1FB0CC4700B90955 /* pidgeottosmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0E51FB0CC4300B90955 /* pidgeottosmall.png */; };
+		E4B8D17D1FB0CC4700B90955 /* tentacoolsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0E61FB0CC4300B90955 /* tentacoolsmall.png */; };
+		E4B8D17E1FB0CC4700B90955 /* kabutopssmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0E71FB0CC4300B90955 /* kabutopssmall.png */; };
+		E4B8D17F1FB0CC4700B90955 /* oddishsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0E81FB0CC4400B90955 /* oddishsmall.png */; };
+		E4B8D1801FB0CC4700B90955 /* tangelasmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0E91FB0CC4400B90955 /* tangelasmall.png */; };
+		E4B8D1811FB0CC4700B90955 /* ninetalessmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0EA1FB0CC4400B90955 /* ninetalessmall.png */; };
+		E4B8D1821FB0CC4700B90955 /* vileplumesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0EB1FB0CC4400B90955 /* vileplumesmall.png */; };
+		E4B8D1831FB0CC4700B90955 /* nidokingsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0EC1FB0CC4400B90955 /* nidokingsmall.png */; };
+		E4B8D1841FB0CC4700B90955 /* pidgeysmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0ED1FB0CC4400B90955 /* pidgeysmall.png */; };
+		E4B8D1851FB0CC4700B90955 /* koffingsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0EE1FB0CC4400B90955 /* koffingsmall.png */; };
+		E4B8D1861FB0CC4700B90955 /* poliwrathsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0EF1FB0CC4400B90955 /* poliwrathsmall.png */; };
+		E4B8D1871FB0CC4700B90955 /* grimersmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0F01FB0CC4400B90955 /* grimersmall.png */; };
+		E4B8D1881FB0CC4700B90955 /* ivysaursmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0F11FB0CC4400B90955 /* ivysaursmall.png */; };
+		E4B8D1891FB0CC4700B90955 /* meowthsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0F21FB0CC4500B90955 /* meowthsmall.png */; };
+		E4B8D18A1FB0CC4700B90955 /* beedrillsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0F31FB0CC4500B90955 /* beedrillsmall.png */; };
+		E4B8D18B1FB0CC4700B90955 /* dratinismall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0F41FB0CC4500B90955 /* dratinismall.png */; };
+		E4B8D18C1FB0CC4700B90955 /* poliwagsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0F51FB0CC4500B90955 /* poliwagsmall.png */; };
+		E4B8D18D1FB0CC4700B90955 /* golemsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0F61FB0CC4500B90955 /* golemsmall.png */; };
+		E4B8D18E1FB0CC4700B90955 /* taurossmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0F71FB0CC4500B90955 /* taurossmall.png */; };
+		E4B8D18F1FB0CC4700B90955 /* magmarsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0F81FB0CC4500B90955 /* magmarsmall.png */; };
+		E4B8D1901FB0CC4700B90955 /* omastarsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0F91FB0CC4500B90955 /* omastarsmall.png */; };
+		E4B8D1911FB0CC4700B90955 /* starmiesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0FA1FB0CC4500B90955 /* starmiesmall.png */; };
+		E4B8D1921FB0CC4700B90955 /* kabutosmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0FB1FB0CC4600B90955 /* kabutosmall.png */; };
+		E4B8D1931FB0CC4700B90955 /* poliwhirlsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0FC1FB0CC4600B90955 /* poliwhirlsmall.png */; };
+		E4B8D1941FB0CC4700B90955 /* rattatasmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0FD1FB0CC4600B90955 /* rattatasmall.png */; };
+		E4B8D1951FB0CC4700B90955 /* bulbasaursmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0FE1FB0CC4600B90955 /* bulbasaursmall.png */; };
+		E4B8D1961FB0CC4700B90955 /* ponytasmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D0FF1FB0CC4600B90955 /* ponytasmall.png */; };
+		E4B8D1971FB0CC4700B90955 /* kakunasmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D1001FB0CC4600B90955 /* kakunasmall.png */; };
+		E4B8D1981FB0CC4700B90955 /* vaporeonsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D1011FB0CC4600B90955 /* vaporeonsmall.png */; };
+		E4B8D1991FB0CC4700B90955 /* butterfreesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D1021FB0CC4600B90955 /* butterfreesmall.png */; };
+		E4B8D19A1FB0CC4700B90955 /* charizardsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D1031FB0CC4600B90955 /* charizardsmall.png */; };
+		E4B8D19B1FB0CC4700B90955 /* golbatsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B8D1041FB0CC4600B90955 /* golbatsmall.png */; };
 		E4BA212D1FA8D3BE00CFC4EC /* retrained_labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = E4BA212B1FA8D3BE00CFC4EC /* retrained_labels.txt */; };
 		E4BA212E1FA8D3BE00CFC4EC /* retrained_graph.pb in Resources */ = {isa = PBXBuildFile; fileRef = E4BA212C1FA8D3BE00CFC4EC /* retrained_graph.pb */; };
 		E4CC2E141FABDCAB00BB86EA /* DexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CC2E131FABDCAA00BB86EA /* DexViewController.m */; };
@@ -443,7 +597,7 @@
 		E447B48F1FACA5CB00D36CE9 /* starmie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starmie.png; sourceTree = "<group>"; };
 		E447B4901FACA5CB00D36CE9 /* exeggcute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exeggcute.png; sourceTree = "<group>"; };
 		E447B4911FACA5CB00D36CE9 /* haunter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haunter.png; sourceTree = "<group>"; };
-		E447B4921FACA5CB00D36CE9 /* mr_mime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mr_mime.png; sourceTree = "<group>"; };
+		E447B4921FACA5CB00D36CE9 /* mr-mime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mr-mime.png"; sourceTree = "<group>"; };
 		E447B4931FACA5CB00D36CE9 /* kakuna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kakuna.png; sourceTree = "<group>"; };
 		E447B4941FACA5CB00D36CE9 /* kabuto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kabuto.png; sourceTree = "<group>"; };
 		E447B4951FACA5CB00D36CE9 /* mewtwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mewtwo.png; sourceTree = "<group>"; };
@@ -473,7 +627,7 @@
 		E447B4AD1FACA5CC00D36CE9 /* growlithe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = growlithe.png; sourceTree = "<group>"; };
 		E447B4AE1FACA5CC00D36CE9 /* lickitung.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lickitung.png; sourceTree = "<group>"; };
 		E447B4AF1FACA5CC00D36CE9 /* magmar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magmar.png; sourceTree = "<group>"; };
-		E447B4B01FACA5CC00D36CE9 /* nidoran.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nidoran.png; sourceTree = "<group>"; };
+		E447B4B01FACA5CC00D36CE9 /* nidoran-m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nidoran-m.png"; sourceTree = "<group>"; };
 		E447B4B11FACA5CC00D36CE9 /* butterfree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butterfree.png; sourceTree = "<group>"; };
 		E447B4B21FACA5CC00D36CE9 /* metapod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metapod.png; sourceTree = "<group>"; };
 		E447B4B31FACA5CC00D36CE9 /* seel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seel.png; sourceTree = "<group>"; };
@@ -514,6 +668,9 @@
 		E447B4D61FACA5CD00D36CE9 /* magneton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magneton.png; sourceTree = "<group>"; };
 		E447B4D71FACA5CD00D36CE9 /* gengar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gengar.png; sourceTree = "<group>"; };
 		E447B4D81FACA5CD00D36CE9 /* ninetales.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ninetales.png; sourceTree = "<group>"; };
+		E452F5821FB1055A00E429D2 /* entries.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = entries.txt; path = entries/entries.txt; sourceTree = SOURCE_ROOT; };
+		E46515641FB0A904005EE73B /* PokedexListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PokedexListViewController.h; sourceTree = "<group>"; };
+		E46515651FB0A904005EE73B /* PokedexListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PokedexListViewController.m; sourceTree = "<group>"; };
 		E46FBF691FAA094500717046 /* xcodeimage */ = {isa = PBXFileReference; lastKnownFileType = folder; name = xcodeimage; path = "../../../../../tensorflow-for-poets-2/xcodeimage"; sourceTree = "<group>"; };
 		E49AABD21FAA22AE00F99F80 /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = AppIcon.xcassets; path = tf_camera_example/AppIcon.xcassets; sourceTree = "<group>"; };
 		E49AABE21FAA2C3600F99F80 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
@@ -668,6 +825,158 @@
 		E4A0FDE31FAF73030010A661 /* arbok.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = arbok.json; path = entries/arbok.json; sourceTree = SOURCE_ROOT; };
 		E4A0FDE41FAF73040010A661 /* diglett.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = diglett.json; path = entries/diglett.json; sourceTree = SOURCE_ROOT; };
 		E4A0FDE51FAF73040010A661 /* dewgong.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = dewgong.json; path = entries/dewgong.json; sourceTree = SOURCE_ROOT; };
+		E4B8D06C1FB0C68E00B90955 /* nidoran-f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nidoran-f.png"; sourceTree = "<group>"; };
+		E4B8D06E1FB0CC3800B90955 /* slowpokesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = slowpokesmall.png; path = pokemon/images/small/slowpokesmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D06F1FB0CC3800B90955 /* goldeensmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = goldeensmall.png; path = pokemon/images/small/goldeensmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0701FB0CC3800B90955 /* zubatsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zubatsmall.png; path = pokemon/images/small/zubatsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0711FB0CC3800B90955 /* gravelersmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gravelersmall.png; path = pokemon/images/small/gravelersmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0721FB0CC3800B90955 /* bellsproutsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bellsproutsmall.png; path = pokemon/images/small/bellsproutsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0731FB0CC3800B90955 /* cloystersmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cloystersmall.png; path = pokemon/images/small/cloystersmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0741FB0CC3800B90955 /* sandslashsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sandslashsmall.png; path = pokemon/images/small/sandslashsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0751FB0CC3800B90955 /* caterpiesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = caterpiesmall.png; path = pokemon/images/small/caterpiesmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0761FB0CC3900B90955 /* dodriosmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dodriosmall.png; path = pokemon/images/small/dodriosmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0771FB0CC3900B90955 /* laprassmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = laprassmall.png; path = pokemon/images/small/laprassmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0781FB0CC3900B90955 /* hitmonchansmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hitmonchansmall.png; path = pokemon/images/small/hitmonchansmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0791FB0CC3900B90955 /* mewtwosmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mewtwosmall.png; path = pokemon/images/small/mewtwosmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D07A1FB0CC3900B90955 /* psyducksmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = psyducksmall.png; path = pokemon/images/small/psyducksmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D07B1FB0CC3900B90955 /* abrasmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = abrasmall.png; path = pokemon/images/small/abrasmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D07C1FB0CC3900B90955 /* porygonsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = porygonsmall.png; path = pokemon/images/small/porygonsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D07D1FB0CC3900B90955 /* tentacruelsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tentacruelsmall.png; path = pokemon/images/small/tentacruelsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D07E1FB0CC3900B90955 /* shelldersmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shelldersmall.png; path = pokemon/images/small/shelldersmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D07F1FB0CC3A00B90955 /* dragonairsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dragonairsmall.png; path = pokemon/images/small/dragonairsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0801FB0CC3A00B90955 /* victreebelsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = victreebelsmall.png; path = pokemon/images/small/victreebelsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0811FB0CC3A00B90955 /* dewgongsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dewgongsmall.png; path = pokemon/images/small/dewgongsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0821FB0CC3A00B90955 /* doduosmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = doduosmall.png; path = pokemon/images/small/doduosmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0831FB0CC3A00B90955 /* nidoran-fsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nidoran-fsmall.png"; path = "pokemon/images/small/nidoran-fsmall.png"; sourceTree = SOURCE_ROOT; };
+		E4B8D0841FB0CC3A00B90955 /* primeapesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = primeapesmall.png; path = pokemon/images/small/primeapesmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0851FB0CC3A00B90955 /* lickitungsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lickitungsmall.png; path = pokemon/images/small/lickitungsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0861FB0CC3A00B90955 /* flareonsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flareonsmall.png; path = pokemon/images/small/flareonsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0871FB0CC3A00B90955 /* venonatsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = venonatsmall.png; path = pokemon/images/small/venonatsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0881FB0CC3B00B90955 /* gloomsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gloomsmall.png; path = pokemon/images/small/gloomsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0891FB0CC3B00B90955 /* weepinbellsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = weepinbellsmall.png; path = pokemon/images/small/weepinbellsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D08A1FB0CC3B00B90955 /* metapodsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = metapodsmall.png; path = pokemon/images/small/metapodsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D08B1FB0CC3B00B90955 /* gengarsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gengarsmall.png; path = pokemon/images/small/gengarsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D08C1FB0CC3B00B90955 /* voltorbsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = voltorbsmall.png; path = pokemon/images/small/voltorbsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D08D1FB0CC3B00B90955 /* spearowsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spearowsmall.png; path = pokemon/images/small/spearowsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D08E1FB0CC3B00B90955 /* fearowsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fearowsmall.png; path = pokemon/images/small/fearowsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D08F1FB0CC3B00B90955 /* exeggcutesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = exeggcutesmall.png; path = pokemon/images/small/exeggcutesmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0901FB0CC3B00B90955 /* raichusmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = raichusmall.png; path = pokemon/images/small/raichusmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0911FB0CC3B00B90955 /* dugtriosmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dugtriosmall.png; path = pokemon/images/small/dugtriosmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0921FB0CC3B00B90955 /* cubonesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cubonesmall.png; path = pokemon/images/small/cubonesmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0931FB0CC3C00B90955 /* vulpixsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vulpixsmall.png; path = pokemon/images/small/vulpixsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0941FB0CC3C00B90955 /* diglettsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = diglettsmall.png; path = pokemon/images/small/diglettsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0951FB0CC3C00B90955 /* eeveesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eeveesmall.png; path = pokemon/images/small/eeveesmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0961FB0CC3C00B90955 /* mankeysmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mankeysmall.png; path = pokemon/images/small/mankeysmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0971FB0CC3C00B90955 /* arboksmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arboksmall.png; path = pokemon/images/small/arboksmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0981FB0CC3C00B90955 /* drowzeesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = drowzeesmall.png; path = pokemon/images/small/drowzeesmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0991FB0CC3C00B90955 /* exeggutorsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = exeggutorsmall.png; path = pokemon/images/small/exeggutorsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D09A1FB0CC3C00B90955 /* pinsirsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pinsirsmall.png; path = pokemon/images/small/pinsirsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D09B1FB0CC3C00B90955 /* charmeleonsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = charmeleonsmall.png; path = pokemon/images/small/charmeleonsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D09C1FB0CC3C00B90955 /* dragonitesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dragonitesmall.png; path = pokemon/images/small/dragonitesmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D09D1FB0CC3C00B90955 /* kinglersmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kinglersmall.png; path = pokemon/images/small/kinglersmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D09E1FB0CC3D00B90955 /* kadabrasmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kadabrasmall.png; path = pokemon/images/small/kadabrasmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D09F1FB0CC3D00B90955 /* mr-mimesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mr-mimesmall.png"; path = "pokemon/images/small/mr-mimesmall.png"; sourceTree = SOURCE_ROOT; };
+		E4B8D0A01FB0CC3D00B90955 /* hypnosmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hypnosmall.png; path = pokemon/images/small/hypnosmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0A11FB0CC3D00B90955 /* parasectsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = parasectsmall.png; path = pokemon/images/small/parasectsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0A21FB0CC3D00B90955 /* parassmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = parassmall.png; path = pokemon/images/small/parassmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0A31FB0CC3D00B90955 /* charmandersmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = charmandersmall.png; path = pokemon/images/small/charmandersmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0A41FB0CC3D00B90955 /* pidgeotsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pidgeotsmall.png; path = pokemon/images/small/pidgeotsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0A51FB0CC3D00B90955 /* geodudesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = geodudesmall.png; path = pokemon/images/small/geodudesmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0A61FB0CC3D00B90955 /* squirtlesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = squirtlesmall.png; path = pokemon/images/small/squirtlesmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0A71FB0CC3D00B90955 /* staryusmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = staryusmall.png; path = pokemon/images/small/staryusmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0A81FB0CC3D00B90955 /* weedlesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = weedlesmall.png; path = pokemon/images/small/weedlesmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0A91FB0CC3E00B90955 /* wigglytuffsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wigglytuffsmall.png; path = pokemon/images/small/wigglytuffsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0AA1FB0CC3E00B90955 /* jynxsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jynxsmall.png; path = pokemon/images/small/jynxsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0AB1FB0CC3E00B90955 /* rapidashsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rapidashsmall.png; path = pokemon/images/small/rapidashsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0AC1FB0CC3E00B90955 /* arcaninesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arcaninesmall.png; path = pokemon/images/small/arcaninesmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0AD1FB0CC3E00B90955 /* magnemitesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = magnemitesmall.png; path = pokemon/images/small/magnemitesmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0AE1FB0CC3E00B90955 /* scythersmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scythersmall.png; path = pokemon/images/small/scythersmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0AF1FB0CC3E00B90955 /* chanseysmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chanseysmall.png; path = pokemon/images/small/chanseysmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0B01FB0CC3E00B90955 /* krabbysmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = krabbysmall.png; path = pokemon/images/small/krabbysmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0B11FB0CC3E00B90955 /* onixsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = onixsmall.png; path = pokemon/images/small/onixsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0B21FB0CC3E00B90955 /* raticatesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = raticatesmall.png; path = pokemon/images/small/raticatesmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0B31FB0CC3E00B90955 /* zapdossmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zapdossmall.png; path = pokemon/images/small/zapdossmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0B41FB0CC3F00B90955 /* blastoisesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blastoisesmall.png; path = pokemon/images/small/blastoisesmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0B51FB0CC3F00B90955 /* gastlysmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gastlysmall.png; path = pokemon/images/small/gastlysmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0B61FB0CC3F00B90955 /* jigglypuffsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jigglypuffsmall.png; path = pokemon/images/small/jigglypuffsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0B71FB0CC3F00B90955 /* machopsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = machopsmall.png; path = pokemon/images/small/machopsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0B81FB0CC3F00B90955 /* aerodactylsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aerodactylsmall.png; path = pokemon/images/small/aerodactylsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0B91FB0CC3F00B90955 /* electrodesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = electrodesmall.png; path = pokemon/images/small/electrodesmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0BA1FB0CC3F00B90955 /* nidorinosmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nidorinosmall.png; path = pokemon/images/small/nidorinosmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0BB1FB0CC3F00B90955 /* omanytesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = omanytesmall.png; path = pokemon/images/small/omanytesmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0BC1FB0CC3F00B90955 /* farfetchdsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = farfetchdsmall.png; path = pokemon/images/small/farfetchdsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0BD1FB0CC3F00B90955 /* articunosmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = articunosmall.png; path = pokemon/images/small/articunosmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0BE1FB0CC4000B90955 /* machampsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = machampsmall.png; path = pokemon/images/small/machampsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0BF1FB0CC4000B90955 /* wartortlesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wartortlesmall.png; path = pokemon/images/small/wartortlesmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0C01FB0CC4000B90955 /* clefairysmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clefairysmall.png; path = pokemon/images/small/clefairysmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0C11FB0CC4000B90955 /* jolteonsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jolteonsmall.png; path = pokemon/images/small/jolteonsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0C21FB0CC4000B90955 /* nidoran-msmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nidoran-msmall.png"; path = "pokemon/images/small/nidoran-msmall.png"; sourceTree = SOURCE_ROOT; };
+		E4B8D0C31FB0CC4000B90955 /* rhyhornsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rhyhornsmall.png; path = pokemon/images/small/rhyhornsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0C41FB0CC4000B90955 /* nidoqueensmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nidoqueensmall.png; path = pokemon/images/small/nidoqueensmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0C51FB0CC4000B90955 /* moltressmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moltressmall.png; path = pokemon/images/small/moltressmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0C61FB0CC4000B90955 /* nidorinasmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nidorinasmall.png; path = pokemon/images/small/nidorinasmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0C71FB0CC4000B90955 /* snorlaxsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snorlaxsmall.png; path = pokemon/images/small/snorlaxsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0C81FB0CC4000B90955 /* clefablesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clefablesmall.png; path = pokemon/images/small/clefablesmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0C91FB0CC4100B90955 /* golducksmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = golducksmall.png; path = pokemon/images/small/golducksmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0CA1FB0CC4100B90955 /* magnetonsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = magnetonsmall.png; path = pokemon/images/small/magnetonsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0CB1FB0CC4100B90955 /* slowbrosmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = slowbrosmall.png; path = pokemon/images/small/slowbrosmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0CC1FB0CC4100B90955 /* ekanssmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ekanssmall.png; path = pokemon/images/small/ekanssmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0CD1FB0CC4100B90955 /* venusaursmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = venusaursmall.png; path = pokemon/images/small/venusaursmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0CE1FB0CC4100B90955 /* muksmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = muksmall.png; path = pokemon/images/small/muksmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0CF1FB0CC4100B90955 /* rhydonsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rhydonsmall.png; path = pokemon/images/small/rhydonsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0D01FB0CC4100B90955 /* machokesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = machokesmall.png; path = pokemon/images/small/machokesmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0D11FB0CC4100B90955 /* dittosmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dittosmall.png; path = pokemon/images/small/dittosmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0D21FB0CC4100B90955 /* hitmonleesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hitmonleesmall.png; path = pokemon/images/small/hitmonleesmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0D31FB0CC4200B90955 /* mewsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mewsmall.png; path = pokemon/images/small/mewsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0D41FB0CC4200B90955 /* seelsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = seelsmall.png; path = pokemon/images/small/seelsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0D51FB0CC4200B90955 /* venomothsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = venomothsmall.png; path = pokemon/images/small/venomothsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0D61FB0CC4200B90955 /* kangaskhansmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kangaskhansmall.png; path = pokemon/images/small/kangaskhansmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0D71FB0CC4200B90955 /* marowaksmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = marowaksmall.png; path = pokemon/images/small/marowaksmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0D81FB0CC4200B90955 /* gyaradossmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gyaradossmall.png; path = pokemon/images/small/gyaradossmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0D91FB0CC4200B90955 /* seadrasmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = seadrasmall.png; path = pokemon/images/small/seadrasmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0DA1FB0CC4200B90955 /* weezingsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = weezingsmall.png; path = pokemon/images/small/weezingsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0DB1FB0CC4200B90955 /* magikarpsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = magikarpsmall.png; path = pokemon/images/small/magikarpsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0DC1FB0CC4200B90955 /* horseasmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = horseasmall.png; path = pokemon/images/small/horseasmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0DD1FB0CC4200B90955 /* hauntersmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hauntersmall.png; path = pokemon/images/small/hauntersmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0DE1FB0CC4300B90955 /* alakazamsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alakazamsmall.png; path = pokemon/images/small/alakazamsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0DF1FB0CC4300B90955 /* persiansmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = persiansmall.png; path = pokemon/images/small/persiansmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0E01FB0CC4300B90955 /* pikachusmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pikachusmall.png; path = pokemon/images/small/pikachusmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0E11FB0CC4300B90955 /* sandshrewsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sandshrewsmall.png; path = pokemon/images/small/sandshrewsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0E21FB0CC4300B90955 /* growlithesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = growlithesmall.png; path = pokemon/images/small/growlithesmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0E31FB0CC4300B90955 /* seakingsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = seakingsmall.png; path = pokemon/images/small/seakingsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0E41FB0CC4300B90955 /* electabuzzsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = electabuzzsmall.png; path = pokemon/images/small/electabuzzsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0E51FB0CC4300B90955 /* pidgeottosmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pidgeottosmall.png; path = pokemon/images/small/pidgeottosmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0E61FB0CC4300B90955 /* tentacoolsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tentacoolsmall.png; path = pokemon/images/small/tentacoolsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0E71FB0CC4300B90955 /* kabutopssmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kabutopssmall.png; path = pokemon/images/small/kabutopssmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0E81FB0CC4400B90955 /* oddishsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oddishsmall.png; path = pokemon/images/small/oddishsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0E91FB0CC4400B90955 /* tangelasmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tangelasmall.png; path = pokemon/images/small/tangelasmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0EA1FB0CC4400B90955 /* ninetalessmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ninetalessmall.png; path = pokemon/images/small/ninetalessmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0EB1FB0CC4400B90955 /* vileplumesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vileplumesmall.png; path = pokemon/images/small/vileplumesmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0EC1FB0CC4400B90955 /* nidokingsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nidokingsmall.png; path = pokemon/images/small/nidokingsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0ED1FB0CC4400B90955 /* pidgeysmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pidgeysmall.png; path = pokemon/images/small/pidgeysmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0EE1FB0CC4400B90955 /* koffingsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = koffingsmall.png; path = pokemon/images/small/koffingsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0EF1FB0CC4400B90955 /* poliwrathsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = poliwrathsmall.png; path = pokemon/images/small/poliwrathsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0F01FB0CC4400B90955 /* grimersmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grimersmall.png; path = pokemon/images/small/grimersmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0F11FB0CC4400B90955 /* ivysaursmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ivysaursmall.png; path = pokemon/images/small/ivysaursmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0F21FB0CC4500B90955 /* meowthsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = meowthsmall.png; path = pokemon/images/small/meowthsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0F31FB0CC4500B90955 /* beedrillsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beedrillsmall.png; path = pokemon/images/small/beedrillsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0F41FB0CC4500B90955 /* dratinismall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dratinismall.png; path = pokemon/images/small/dratinismall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0F51FB0CC4500B90955 /* poliwagsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = poliwagsmall.png; path = pokemon/images/small/poliwagsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0F61FB0CC4500B90955 /* golemsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = golemsmall.png; path = pokemon/images/small/golemsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0F71FB0CC4500B90955 /* taurossmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = taurossmall.png; path = pokemon/images/small/taurossmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0F81FB0CC4500B90955 /* magmarsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = magmarsmall.png; path = pokemon/images/small/magmarsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0F91FB0CC4500B90955 /* omastarsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = omastarsmall.png; path = pokemon/images/small/omastarsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0FA1FB0CC4500B90955 /* starmiesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = starmiesmall.png; path = pokemon/images/small/starmiesmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0FB1FB0CC4600B90955 /* kabutosmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kabutosmall.png; path = pokemon/images/small/kabutosmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0FC1FB0CC4600B90955 /* poliwhirlsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = poliwhirlsmall.png; path = pokemon/images/small/poliwhirlsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0FD1FB0CC4600B90955 /* rattatasmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rattatasmall.png; path = pokemon/images/small/rattatasmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0FE1FB0CC4600B90955 /* bulbasaursmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bulbasaursmall.png; path = pokemon/images/small/bulbasaursmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D0FF1FB0CC4600B90955 /* ponytasmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ponytasmall.png; path = pokemon/images/small/ponytasmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D1001FB0CC4600B90955 /* kakunasmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kakunasmall.png; path = pokemon/images/small/kakunasmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D1011FB0CC4600B90955 /* vaporeonsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vaporeonsmall.png; path = pokemon/images/small/vaporeonsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D1021FB0CC4600B90955 /* butterfreesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = butterfreesmall.png; path = pokemon/images/small/butterfreesmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D1031FB0CC4600B90955 /* charizardsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = charizardsmall.png; path = pokemon/images/small/charizardsmall.png; sourceTree = SOURCE_ROOT; };
+		E4B8D1041FB0CC4600B90955 /* golbatsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = golbatsmall.png; path = pokemon/images/small/golbatsmall.png; sourceTree = SOURCE_ROOT; };
 		E4BA212B1FA8D3BE00CFC4EC /* retrained_labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = retrained_labels.txt; path = "../../../../../../tensorflow-for-poets-2/tf_files/retrained_labels.txt"; sourceTree = "<group>"; };
 		E4BA212C1FA8D3BE00CFC4EC /* retrained_graph.pb */ = {isa = PBXFileReference; lastKnownFileType = file; name = retrained_graph.pb; path = "../../../../../../tensorflow-for-poets-2/tf_files/retrained_graph.pb"; sourceTree = "<group>"; };
 		E4CC2E121FABDCAA00BB86EA /* DexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DexViewController.h; path = "/Users/PhantomDragon/Desktop/ml/tensorflow-1.3.1/tensorflow/examples/ios/camera/DexViewController.h"; sourceTree = "<absolute>"; };
@@ -735,6 +1044,8 @@
 				1CDB2D481ED3A9CD007929E9 /* tensorflow_utils.mm */,
 				E4CC2E121FABDCAA00BB86EA /* DexViewController.h */,
 				E4CC2E131FABDCAA00BB86EA /* DexViewController.m */,
+				E46515641FB0A904005EE73B /* PokedexListViewController.h */,
+				E46515651FB0A904005EE73B /* PokedexListViewController.m */,
 				E4CC2E171FABE2D900BB86EA /* pokemon */,
 				59A3CFF31CF4E68100C4259F /* data */,
 				5911579C1CF4011C00C31E3A /* Products */,
@@ -939,8 +1250,168 @@
 				E4A0FDA41FAF72F80010A661 /* wigglytuff.json */,
 				E4A0FD751FAF72F30010A661 /* zapdos.json */,
 				E4A0FDDA1FAF73020010A661 /* zubat.json */,
+				E452F5821FB1055A00E429D2 /* entries.txt */,
 			);
 			path = json;
+			sourceTree = "<group>";
+		};
+		E4B8CE131FB0C3BD00B90955 /* small */ = {
+			isa = PBXGroup;
+			children = (
+				E4B8D07B1FB0CC3900B90955 /* abrasmall.png */,
+				E4B8D0B81FB0CC3F00B90955 /* aerodactylsmall.png */,
+				E4B8D0DE1FB0CC4300B90955 /* alakazamsmall.png */,
+				E4B8D0971FB0CC3C00B90955 /* arboksmall.png */,
+				E4B8D0AC1FB0CC3E00B90955 /* arcaninesmall.png */,
+				E4B8D0BD1FB0CC3F00B90955 /* articunosmall.png */,
+				E4B8D0F31FB0CC4500B90955 /* beedrillsmall.png */,
+				E4B8D0721FB0CC3800B90955 /* bellsproutsmall.png */,
+				E4B8D0B41FB0CC3F00B90955 /* blastoisesmall.png */,
+				E4B8D0FE1FB0CC4600B90955 /* bulbasaursmall.png */,
+				E4B8D1021FB0CC4600B90955 /* butterfreesmall.png */,
+				E4B8D0751FB0CC3800B90955 /* caterpiesmall.png */,
+				E4B8D0AF1FB0CC3E00B90955 /* chanseysmall.png */,
+				E4B8D1031FB0CC4600B90955 /* charizardsmall.png */,
+				E4B8D0A31FB0CC3D00B90955 /* charmandersmall.png */,
+				E4B8D09B1FB0CC3C00B90955 /* charmeleonsmall.png */,
+				E4B8D0C81FB0CC4000B90955 /* clefablesmall.png */,
+				E4B8D0C01FB0CC4000B90955 /* clefairysmall.png */,
+				E4B8D0731FB0CC3800B90955 /* cloystersmall.png */,
+				E4B8D0921FB0CC3B00B90955 /* cubonesmall.png */,
+				E4B8D0811FB0CC3A00B90955 /* dewgongsmall.png */,
+				E4B8D0941FB0CC3C00B90955 /* diglettsmall.png */,
+				E4B8D0D11FB0CC4100B90955 /* dittosmall.png */,
+				E4B8D0761FB0CC3900B90955 /* dodriosmall.png */,
+				E4B8D0821FB0CC3A00B90955 /* doduosmall.png */,
+				E4B8D07F1FB0CC3A00B90955 /* dragonairsmall.png */,
+				E4B8D09C1FB0CC3C00B90955 /* dragonitesmall.png */,
+				E4B8D0F41FB0CC4500B90955 /* dratinismall.png */,
+				E4B8D0981FB0CC3C00B90955 /* drowzeesmall.png */,
+				E4B8D0911FB0CC3B00B90955 /* dugtriosmall.png */,
+				E4B8D0951FB0CC3C00B90955 /* eeveesmall.png */,
+				E4B8D0CC1FB0CC4100B90955 /* ekanssmall.png */,
+				E4B8D0E41FB0CC4300B90955 /* electabuzzsmall.png */,
+				E4B8D0B91FB0CC3F00B90955 /* electrodesmall.png */,
+				E4B8D08F1FB0CC3B00B90955 /* exeggcutesmall.png */,
+				E4B8D0991FB0CC3C00B90955 /* exeggutorsmall.png */,
+				E4B8D0BC1FB0CC3F00B90955 /* farfetchdsmall.png */,
+				E4B8D08E1FB0CC3B00B90955 /* fearowsmall.png */,
+				E4B8D0861FB0CC3A00B90955 /* flareonsmall.png */,
+				E4B8D0B51FB0CC3F00B90955 /* gastlysmall.png */,
+				E4B8D08B1FB0CC3B00B90955 /* gengarsmall.png */,
+				E4B8D0A51FB0CC3D00B90955 /* geodudesmall.png */,
+				E4B8D0881FB0CC3B00B90955 /* gloomsmall.png */,
+				E4B8D1041FB0CC4600B90955 /* golbatsmall.png */,
+				E4B8D06F1FB0CC3800B90955 /* goldeensmall.png */,
+				E4B8D0C91FB0CC4100B90955 /* golducksmall.png */,
+				E4B8D0F61FB0CC4500B90955 /* golemsmall.png */,
+				E4B8D0711FB0CC3800B90955 /* gravelersmall.png */,
+				E4B8D0F01FB0CC4400B90955 /* grimersmall.png */,
+				E4B8D0E21FB0CC4300B90955 /* growlithesmall.png */,
+				E4B8D0D81FB0CC4200B90955 /* gyaradossmall.png */,
+				E4B8D0DD1FB0CC4200B90955 /* hauntersmall.png */,
+				E4B8D0781FB0CC3900B90955 /* hitmonchansmall.png */,
+				E4B8D0D21FB0CC4100B90955 /* hitmonleesmall.png */,
+				E4B8D0DC1FB0CC4200B90955 /* horseasmall.png */,
+				E4B8D0A01FB0CC3D00B90955 /* hypnosmall.png */,
+				E4B8D0F11FB0CC4400B90955 /* ivysaursmall.png */,
+				E4B8D0B61FB0CC3F00B90955 /* jigglypuffsmall.png */,
+				E4B8D0C11FB0CC4000B90955 /* jolteonsmall.png */,
+				E4B8D0AA1FB0CC3E00B90955 /* jynxsmall.png */,
+				E4B8D0E71FB0CC4300B90955 /* kabutopssmall.png */,
+				E4B8D0FB1FB0CC4600B90955 /* kabutosmall.png */,
+				E4B8D09E1FB0CC3D00B90955 /* kadabrasmall.png */,
+				E4B8D1001FB0CC4600B90955 /* kakunasmall.png */,
+				E4B8D0D61FB0CC4200B90955 /* kangaskhansmall.png */,
+				E4B8D09D1FB0CC3C00B90955 /* kinglersmall.png */,
+				E4B8D0EE1FB0CC4400B90955 /* koffingsmall.png */,
+				E4B8D0B01FB0CC3E00B90955 /* krabbysmall.png */,
+				E4B8D0771FB0CC3900B90955 /* laprassmall.png */,
+				E4B8D0851FB0CC3A00B90955 /* lickitungsmall.png */,
+				E4B8D0BE1FB0CC4000B90955 /* machampsmall.png */,
+				E4B8D0D01FB0CC4100B90955 /* machokesmall.png */,
+				E4B8D0B71FB0CC3F00B90955 /* machopsmall.png */,
+				E4B8D0DB1FB0CC4200B90955 /* magikarpsmall.png */,
+				E4B8D0F81FB0CC4500B90955 /* magmarsmall.png */,
+				E4B8D0AD1FB0CC3E00B90955 /* magnemitesmall.png */,
+				E4B8D0CA1FB0CC4100B90955 /* magnetonsmall.png */,
+				E4B8D0961FB0CC3C00B90955 /* mankeysmall.png */,
+				E4B8D0D71FB0CC4200B90955 /* marowaksmall.png */,
+				E4B8D0F21FB0CC4500B90955 /* meowthsmall.png */,
+				E4B8D08A1FB0CC3B00B90955 /* metapodsmall.png */,
+				E4B8D0D31FB0CC4200B90955 /* mewsmall.png */,
+				E4B8D0791FB0CC3900B90955 /* mewtwosmall.png */,
+				E4B8D0C51FB0CC4000B90955 /* moltressmall.png */,
+				E4B8D09F1FB0CC3D00B90955 /* mr-mimesmall.png */,
+				E4B8D0CE1FB0CC4100B90955 /* muksmall.png */,
+				E4B8D0EC1FB0CC4400B90955 /* nidokingsmall.png */,
+				E4B8D0C41FB0CC4000B90955 /* nidoqueensmall.png */,
+				E4B8D0831FB0CC3A00B90955 /* nidoran-fsmall.png */,
+				E4B8D0C21FB0CC4000B90955 /* nidoran-msmall.png */,
+				E4B8D0C61FB0CC4000B90955 /* nidorinasmall.png */,
+				E4B8D0BA1FB0CC3F00B90955 /* nidorinosmall.png */,
+				E4B8D0EA1FB0CC4400B90955 /* ninetalessmall.png */,
+				E4B8D0E81FB0CC4400B90955 /* oddishsmall.png */,
+				E4B8D0BB1FB0CC3F00B90955 /* omanytesmall.png */,
+				E4B8D0F91FB0CC4500B90955 /* omastarsmall.png */,
+				E4B8D0B11FB0CC3E00B90955 /* onixsmall.png */,
+				E4B8D0A11FB0CC3D00B90955 /* parasectsmall.png */,
+				E4B8D0A21FB0CC3D00B90955 /* parassmall.png */,
+				E4B8D0DF1FB0CC4300B90955 /* persiansmall.png */,
+				E4B8D0A41FB0CC3D00B90955 /* pidgeotsmall.png */,
+				E4B8D0E51FB0CC4300B90955 /* pidgeottosmall.png */,
+				E4B8D0ED1FB0CC4400B90955 /* pidgeysmall.png */,
+				E4B8D0E01FB0CC4300B90955 /* pikachusmall.png */,
+				E4B8D09A1FB0CC3C00B90955 /* pinsirsmall.png */,
+				E4B8D0F51FB0CC4500B90955 /* poliwagsmall.png */,
+				E4B8D0FC1FB0CC4600B90955 /* poliwhirlsmall.png */,
+				E4B8D0EF1FB0CC4400B90955 /* poliwrathsmall.png */,
+				E4B8D0FF1FB0CC4600B90955 /* ponytasmall.png */,
+				E4B8D07C1FB0CC3900B90955 /* porygonsmall.png */,
+				E4B8D0841FB0CC3A00B90955 /* primeapesmall.png */,
+				E4B8D07A1FB0CC3900B90955 /* psyducksmall.png */,
+				E4B8D0901FB0CC3B00B90955 /* raichusmall.png */,
+				E4B8D0AB1FB0CC3E00B90955 /* rapidashsmall.png */,
+				E4B8D0B21FB0CC3E00B90955 /* raticatesmall.png */,
+				E4B8D0FD1FB0CC4600B90955 /* rattatasmall.png */,
+				E4B8D0CF1FB0CC4100B90955 /* rhydonsmall.png */,
+				E4B8D0C31FB0CC4000B90955 /* rhyhornsmall.png */,
+				E4B8D0E11FB0CC4300B90955 /* sandshrewsmall.png */,
+				E4B8D0741FB0CC3800B90955 /* sandslashsmall.png */,
+				E4B8D0AE1FB0CC3E00B90955 /* scythersmall.png */,
+				E4B8D0D91FB0CC4200B90955 /* seadrasmall.png */,
+				E4B8D0E31FB0CC4300B90955 /* seakingsmall.png */,
+				E4B8D0D41FB0CC4200B90955 /* seelsmall.png */,
+				E4B8D07E1FB0CC3900B90955 /* shelldersmall.png */,
+				E4B8D0CB1FB0CC4100B90955 /* slowbrosmall.png */,
+				E4B8D06E1FB0CC3800B90955 /* slowpokesmall.png */,
+				E4B8D0C71FB0CC4000B90955 /* snorlaxsmall.png */,
+				E4B8D08D1FB0CC3B00B90955 /* spearowsmall.png */,
+				E4B8D0A61FB0CC3D00B90955 /* squirtlesmall.png */,
+				E4B8D0FA1FB0CC4500B90955 /* starmiesmall.png */,
+				E4B8D0A71FB0CC3D00B90955 /* staryusmall.png */,
+				E4B8D0E91FB0CC4400B90955 /* tangelasmall.png */,
+				E4B8D0F71FB0CC4500B90955 /* taurossmall.png */,
+				E4B8D0E61FB0CC4300B90955 /* tentacoolsmall.png */,
+				E4B8D07D1FB0CC3900B90955 /* tentacruelsmall.png */,
+				E4B8D1011FB0CC4600B90955 /* vaporeonsmall.png */,
+				E4B8D0D51FB0CC4200B90955 /* venomothsmall.png */,
+				E4B8D0871FB0CC3A00B90955 /* venonatsmall.png */,
+				E4B8D0CD1FB0CC4100B90955 /* venusaursmall.png */,
+				E4B8D0801FB0CC3A00B90955 /* victreebelsmall.png */,
+				E4B8D0EB1FB0CC4400B90955 /* vileplumesmall.png */,
+				E4B8D08C1FB0CC3B00B90955 /* voltorbsmall.png */,
+				E4B8D0931FB0CC3C00B90955 /* vulpixsmall.png */,
+				E4B8D0BF1FB0CC4000B90955 /* wartortlesmall.png */,
+				E4B8D0A81FB0CC3D00B90955 /* weedlesmall.png */,
+				E4B8D0891FB0CC3B00B90955 /* weepinbellsmall.png */,
+				E4B8D0DA1FB0CC4200B90955 /* weezingsmall.png */,
+				E4B8D0A91FB0CC3E00B90955 /* wigglytuffsmall.png */,
+				E4B8D0B31FB0CC3E00B90955 /* zapdossmall.png */,
+				E4B8D0701FB0CC3800B90955 /* zubatsmall.png */,
+			);
+			name = small;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		E4CC2E171FABE2D900BB86EA /* pokemon */ = {
@@ -956,6 +1427,7 @@
 		E4CC2E1A1FABE2F000BB86EA /* images */ = {
 			isa = PBXGroup;
 			children = (
+				E4B8CE131FB0C3BD00B90955 /* small */,
 				E447B4571FACA5C800D36CE9 /* abra.png */,
 				E447B4631FACA5C900D36CE9 /* aerodactyl.png */,
 				E447B49B1FACA5CB00D36CE9 /* alakazam.png */,
@@ -1040,11 +1512,12 @@
 				E447B4881FACA5CA00D36CE9 /* mew.png */,
 				E447B4951FACA5CB00D36CE9 /* mewtwo.png */,
 				E447B4621FACA5C900D36CE9 /* moltres.png */,
-				E447B4921FACA5CB00D36CE9 /* mr_mime.png */,
+				E447B4921FACA5CB00D36CE9 /* mr-mime.png */,
 				E447B4591FACA5C800D36CE9 /* muk.png */,
 				E447B4C11FACA5CC00D36CE9 /* nidoking.png */,
 				E447B48C1FACA5CB00D36CE9 /* nidoqueen.png */,
-				E447B4B01FACA5CC00D36CE9 /* nidoran.png */,
+				E4B8D06C1FB0C68E00B90955 /* nidoran-f.png */,
+				E447B4B01FACA5CC00D36CE9 /* nidoran-m.png */,
 				E447B4BE1FACA5CC00D36CE9 /* nidorina.png */,
 				E447B4561FACA5C800D36CE9 /* nidorino.png */,
 				E447B4D81FACA5CD00D36CE9 /* ninetales.png */,
@@ -1174,34 +1647,53 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4B8D1851FB0CC4700B90955 /* koffingsmall.png in Resources */,
 				E447B4F81FACA5CD00D36CE9 /* moltres.png in Resources */,
 				E447B5261FACA5CD00D36CE9 /* exeggcute.png in Resources */,
+				E4B8D1371FB0CC4700B90955 /* hypnosmall.png in Resources */,
 				E447B5441FACA5CD00D36CE9 /* lickitung.png in Resources */,
 				E447B4DA1FACA5CD00D36CE9 /* ditto.png in Resources */,
+				E4B8D11C1FB0CC4700B90955 /* lickitungsmall.png in Resources */,
 				E447B55F1FACA5CD00D36CE9 /* charmander.png in Resources */,
 				E4A0FE4B1FAF73040010A661 /* pidgey.json in Resources */,
 				E447B5611FACA5CD00D36CE9 /* clefairy.png in Resources */,
 				E447B53E1FACA5CD00D36CE9 /* weedle.png in Resources */,
 				E447B4DF1FACA5CD00D36CE9 /* sandshrew.png in Resources */,
 				E447B5581FACA5CD00D36CE9 /* arcanine.png in Resources */,
+				E4B8D1781FB0CC4700B90955 /* sandshrewsmall.png in Resources */,
+				E4B8D1921FB0CC4700B90955 /* kabutosmall.png in Resources */,
+				E4B8D11B1FB0CC4700B90955 /* primeapesmall.png in Resources */,
+				E4B8D17E1FB0CC4700B90955 /* kabutopssmall.png in Resources */,
 				E447B53F1FACA5CD00D36CE9 /* jolteon.png in Resources */,
 				E447B5101FACA5CD00D36CE9 /* rhydon.png in Resources */,
 				E447B5481FACA5CD00D36CE9 /* metapod.png in Resources */,
+				E4B8D1441FB0CC4700B90955 /* magnemitesmall.png in Resources */,
+				E4B8D1741FB0CC4700B90955 /* hauntersmall.png in Resources */,
+				E4B8D1721FB0CC4700B90955 /* magikarpsmall.png in Resources */,
 				E4A0FDF01FAF73040010A661 /* squirtle.json in Resources */,
 				E447B5401FACA5CD00D36CE9 /* fearow.png in Resources */,
 				E447B4FC1FACA5CD00D36CE9 /* chansey.png in Resources */,
+				E4B8D17D1FB0CC4700B90955 /* tentacoolsmall.png in Resources */,
+				E4B8D1401FB0CC4700B90955 /* wigglytuffsmall.png in Resources */,
 				E447B5691FACA5CD00D36CE9 /* drowzee.png in Resources */,
+				E4B8D1081FB0CC4700B90955 /* gravelersmall.png in Resources */,
 				E4A0FE551FAF73040010A661 /* magikarp.json in Resources */,
+				E4B8D1961FB0CC4700B90955 /* ponytasmall.png in Resources */,
 				E447B4F91FACA5CD00D36CE9 /* aerodactyl.png in Resources */,
 				E447B4ED1FACA5CD00D36CE9 /* abra.png in Resources */,
+				E4B8D1821FB0CC4700B90955 /* vileplumesmall.png in Resources */,
 				E447B4DD1FACA5CD00D36CE9 /* voltorb.png in Resources */,
 				E447B54C1FACA5CD00D36CE9 /* ponyta.png in Resources */,
 				E447B4E01FACA5CD00D36CE9 /* poliwag.png in Resources */,
 				E4A0FE301FAF73040010A661 /* clefairy.json in Resources */,
+				E4B8D1451FB0CC4700B90955 /* scythersmall.png in Resources */,
+				E4B8D1591FB0CC4700B90955 /* nidoran-msmall.png in Resources */,
 				E447B4FF1FACA5CD00D36CE9 /* omanyte.png in Resources */,
 				E4A0FE611FAF73040010A661 /* grimer.json in Resources */,
 				E4A0FE401FAF73040010A661 /* nidoran-m.json in Resources */,
 				E4A0FE3A1FAF73040010A661 /* metapod.json in Resources */,
+				E4B8D1251FB0CC4700B90955 /* fearowsmall.png in Resources */,
+				E4B8D1071FB0CC4700B90955 /* zubatsmall.png in Resources */,
 				E447B5321FACA5CD00D36CE9 /* golem.png in Resources */,
 				E4A0FE141FAF73040010A661 /* jynx.json in Resources */,
 				E4CFF5921FAA1EEF00F64B6A /* overlay.png in Resources */,
@@ -1209,6 +1701,7 @@
 				E4A0FE011FAF73040010A661 /* golduck.json in Resources */,
 				E447B51C1FACA5CD00D36CE9 /* wigglytuff.png in Resources */,
 				E447B5381FACA5CD00D36CE9 /* hypno.png in Resources */,
+				E4B8D1431FB0CC4700B90955 /* arcaninesmall.png in Resources */,
 				E4A0FE771FAF73040010A661 /* dragonite.json in Resources */,
 				E4A0FE781FAF73040010A661 /* rattata.json in Resources */,
 				E4A0FE681FAF73040010A661 /* raticate.json in Resources */,
@@ -1216,51 +1709,73 @@
 				E447B5301FACA5CD00D36CE9 /* zubat.png in Resources */,
 				E4A0FE581FAF73040010A661 /* sandshrew.json in Resources */,
 				E447B4F21FACA5CD00D36CE9 /* lapras.png in Resources */,
+				E4B8D1711FB0CC4700B90955 /* weezingsmall.png in Resources */,
 				E4A0FDF31FAF73040010A661 /* blastoise.json in Resources */,
+				E4B8D1311FB0CC4700B90955 /* pinsirsmall.png in Resources */,
 				E4A0FE731FAF73040010A661 /* ninetales.json in Resources */,
 				E4A0FDF51FAF73040010A661 /* chansey.json in Resources */,
 				E447B4EB1FACA5CD00D36CE9 /* magikarp.png in Resources */,
 				E4A0FE5D1FAF73040010A661 /* vileplume.json in Resources */,
 				E447B5181FACA5CD00D36CE9 /* pidgeot.png in Resources */,
+				E4B8D1751FB0CC4700B90955 /* alakazamsmall.png in Resources */,
 				E46FBF6A1FAA094500717046 /* xcodeimage in Resources */,
 				E4A0FE081FAF73040010A661 /* gloom.json in Resources */,
 				E4A0FE391FAF73040010A661 /* aerodactyl.json in Resources */,
 				E447B56A1FACA5CD00D36CE9 /* seadra.png in Resources */,
 				E4A0FE761FAF73040010A661 /* clefable.json in Resources */,
 				E447B4DB1FACA5CD00D36CE9 /* paras.png in Resources */,
+				E452F5831FB1055B00E429D2 /* entries.txt in Resources */,
+				E4B8D18A1FB0CC4700B90955 /* beedrillsmall.png in Resources */,
 				E447B4FB1FACA5CD00D36CE9 /* staryu.png in Resources */,
 				E4A0FDFB1FAF73040010A661 /* marowak.json in Resources */,
 				E447B51A1FACA5CD00D36CE9 /* wartortle.png in Resources */,
 				E447B5451FACA5CD00D36CE9 /* magmar.png in Resources */,
 				E4A0FE121FAF73040010A661 /* porygon.json in Resources */,
 				E4A0FE2E1FAF73040010A661 /* growlithe.json in Resources */,
+				E4B8D1801FB0CC4700B90955 /* tangelasmall.png in Resources */,
 				E4A0FE311FAF73040010A661 /* haunter.json in Resources */,
 				E447B4E41FACA5CD00D36CE9 /* omastar.png in Resources */,
 				E447B5011FACA5CD00D36CE9 /* kadabra.png in Resources */,
 				E4A0FE1E1FAF73040010A661 /* charmeleon.json in Resources */,
+				E4B8D1681FB0CC4700B90955 /* dittosmall.png in Resources */,
 				E4A0FDFE1FAF73040010A661 /* primeape.json in Resources */,
+				E4B8D13E1FB0CC4700B90955 /* staryusmall.png in Resources */,
 				E447B5161FACA5CD00D36CE9 /* hitmonlee.png in Resources */,
 				E4A0FE7A1FAF73040010A661 /* diglett.json in Resources */,
+				E4B8D1481FB0CC4700B90955 /* onixsmall.png in Resources */,
+				E4B8D15D1FB0CC4700B90955 /* nidorinasmall.png in Resources */,
 				E4A0FDF41FAF73040010A661 /* kabuto.json in Resources */,
 				E447B4E81FACA5CD00D36CE9 /* dodrio.png in Resources */,
 				E4A0FE181FAF73040010A661 /* rhydon.json in Resources */,
+				E4B8D1551FB0CC4700B90955 /* machampsmall.png in Resources */,
+				E4B8D10A1FB0CC4700B90955 /* cloystersmall.png in Resources */,
+				E4B8D1121FB0CC4700B90955 /* abrasmall.png in Resources */,
+				E4B8D1661FB0CC4700B90955 /* rhydonsmall.png in Resources */,
+				E4B8D16B1FB0CC4700B90955 /* seelsmall.png in Resources */,
+				E4B8D13A1FB0CC4700B90955 /* charmandersmall.png in Resources */,
 				E447B4F31FACA5CD00D36CE9 /* venusaur.png in Resources */,
 				E447B5391FACA5CD00D36CE9 /* articuno.png in Resources */,
 				E4A0FDE91FAF73040010A661 /* dratini.json in Resources */,
 				E447B50A1FACA5CD00D36CE9 /* slowbro.png in Resources */,
 				E4A0FE561FAF73040010A661 /* doduo.json in Resources */,
+				E4B8D1641FB0CC4700B90955 /* venusaursmall.png in Resources */,
 				E447B5651FACA5CD00D36CE9 /* dragonite.png in Resources */,
 				E447B50B1FACA5CD00D36CE9 /* caterpie.png in Resources */,
 				E4A0FE741FAF73040010A661 /* ivysaur.json in Resources */,
+				E4B8D19B1FB0CC4700B90955 /* golbatsmall.png in Resources */,
 				E447B5291FACA5CD00D36CE9 /* kakuna.png in Resources */,
 				E447B4D91FACA5CD00D36CE9 /* ekans.png in Resources */,
 				E4A0FDF71FAF73040010A661 /* hitmonlee.json in Resources */,
+				E4B8D1471FB0CC4700B90955 /* krabbysmall.png in Resources */,
 				E4A0FE001FAF73040010A661 /* goldeen.json in Resources */,
 				E447B56D1FACA5CD00D36CE9 /* gengar.png in Resources */,
+				E4B8D1981FB0CC4700B90955 /* vaporeonsmall.png in Resources */,
+				E4B8D1771FB0CC4700B90955 /* pikachusmall.png in Resources */,
 				E4A0FE461FAF73040010A661 /* tauros.json in Resources */,
 				E447B54F1FACA5CD00D36CE9 /* hitmonchan.png in Resources */,
 				E447B5041FACA5CD00D36CE9 /* tauros.png in Resources */,
 				E4A0FE711FAF73040010A661 /* zubat.json in Resources */,
+				E4B8D14A1FB0CC4700B90955 /* zapdossmall.png in Resources */,
 				E4A0FE5A1FAF73040010A661 /* arcanine.json in Resources */,
 				E4A0FDEB1FAF73040010A661 /* magmar.json in Resources */,
 				1C968D171ED3B8F20054F5C3 /* grace_hopper.jpg in Resources */,
@@ -1268,25 +1783,35 @@
 				E447B4F51FACA5CD00D36CE9 /* bulbasaur.png in Resources */,
 				E447B51B1FACA5CD00D36CE9 /* weepinbell.png in Resources */,
 				E4A0FE511FAF73040010A661 /* rhyhorn.json in Resources */,
+				E4B8D13B1FB0CC4700B90955 /* pidgeotsmall.png in Resources */,
 				E447B54B1FACA5CD00D36CE9 /* sandslash.png in Resources */,
 				E447B5511FACA5CD00D36CE9 /* koffing.png in Resources */,
 				E4A0FE151FAF73040010A661 /* venusaur.json in Resources */,
 				E447B56B1FACA5CD00D36CE9 /* jynx.png in Resources */,
+				E4B8D1691FB0CC4700B90955 /* hitmonleesmall.png in Resources */,
 				E4A0FE6C1FAF73040010A661 /* charmander.json in Resources */,
+				E4B8D06D1FB0C68E00B90955 /* nidoran-f.png in Resources */,
 				E447B51F1FACA5CD00D36CE9 /* blastoise.png in Resources */,
 				E447B53C1FACA5CD00D36CE9 /* charmeleon.png in Resources */,
 				E447B4EF1FACA5CD00D36CE9 /* muk.png in Resources */,
 				E447B5201FACA5CD00D36CE9 /* cloyster.png in Resources */,
+				E4B8D11F1FB0CC4700B90955 /* gloomsmall.png in Resources */,
 				E4A0FE6B1FAF73040010A661 /* pidgeotto.json in Resources */,
 				E4A0FE041FAF73040010A661 /* ponyta.json in Resources */,
+				E4B8D17C1FB0CC4700B90955 /* pidgeottosmall.png in Resources */,
 				E4A0FE6F1FAF73040010A661 /* slowbro.json in Resources */,
+				E4B8D1811FB0CC4700B90955 /* ninetalessmall.png in Resources */,
+				E4B8D1211FB0CC4700B90955 /* metapodsmall.png in Resources */,
+				E4B8D1941FB0CC4700B90955 /* rattatasmall.png in Resources */,
 				E4A0FDF11FAF73040010A661 /* dodrio.json in Resources */,
 				E4A0FE191FAF73040010A661 /* bulbasaur.json in Resources */,
 				E4D1B63C1FAA68CD00F4D280 /* Icon-60@2x.png in Resources */,
 				E447B5531FACA5CD00D36CE9 /* tangela.png in Resources */,
 				E447B50D1FACA5CD00D36CE9 /* vaporeon.png in Resources */,
+				E4B8D18E1FB0CC4700B90955 /* taurossmall.png in Resources */,
 				E447B52B1FACA5CD00D36CE9 /* mewtwo.png in Resources */,
 				E447B5411FACA5CD00D36CE9 /* flareon.png in Resources */,
+				E4B8D1571FB0CC4700B90955 /* clefairysmall.png in Resources */,
 				E447B5571FACA5CD00D36CE9 /* nidoking.png in Resources */,
 				E447B5491FACA5CD00D36CE9 /* seel.png in Resources */,
 				E447B54D1FACA5CD00D36CE9 /* golduck.png in Resources */,
@@ -1294,6 +1819,8 @@
 				E447B4E11FACA5CD00D36CE9 /* scyther.png in Resources */,
 				E4A0FE3F1FAF73040010A661 /* machoke.json in Resources */,
 				E4A0FE701FAF73040010A661 /* poliwrath.json in Resources */,
+				E4B8D10D1FB0CC4700B90955 /* dodriosmall.png in Resources */,
+				E4B8D1131FB0CC4700B90955 /* porygonsmall.png in Resources */,
 				E447B4E61FACA5CD00D36CE9 /* pidgeotto.png in Resources */,
 				E447B5171FACA5CD00D36CE9 /* venomoth.png in Resources */,
 				E447B4EA1FACA5CD00D36CE9 /* clefable.png in Resources */,
@@ -1301,6 +1828,7 @@
 				E447B4E51FACA5CD00D36CE9 /* dragonair.png in Resources */,
 				E447B4F01FACA5CD00D36CE9 /* shellder.png in Resources */,
 				E4A0FE4A1FAF73040010A661 /* caterpie.json in Resources */,
+				E4B8D15A1FB0CC4700B90955 /* rhyhornsmall.png in Resources */,
 				E447B5001FACA5CD00D36CE9 /* persian.png in Resources */,
 				E447B5331FACA5CD00D36CE9 /* pinsir.png in Resources */,
 				E447B50C1FACA5CD00D36CE9 /* dratini.png in Resources */,
@@ -1309,14 +1837,25 @@
 				E4A0FE0E1FAF73040010A661 /* machamp.json in Resources */,
 				E4A0FE481FAF73040010A661 /* persian.json in Resources */,
 				E4A0FDF61FAF73040010A661 /* mr-mime.json in Resources */,
+				E4B8D1601FB0CC4700B90955 /* golducksmall.png in Resources */,
 				E4191D8B1FAA2C9F0089B718 /* loading.storyboard in Resources */,
+				E4B8D1671FB0CC4700B90955 /* machokesmall.png in Resources */,
+				E4B8D1181FB0CC4700B90955 /* dewgongsmall.png in Resources */,
 				E447B55A1FACA5CD00D36CE9 /* rattata.png in Resources */,
+				E4B8D1761FB0CC4700B90955 /* persiansmall.png in Resources */,
+				E4B8D1151FB0CC4700B90955 /* shelldersmall.png in Resources */,
 				E4A0FE3D1FAF73040010A661 /* cubone.json in Resources */,
 				E4A0FE671FAF73040010A661 /* pidgeot.json in Resources */,
 				E4A0FE101FAF73040010A661 /* butterfree.json in Resources */,
 				E4A0FE1F1FAF73040010A661 /* lickitung.json in Resources */,
+				E4B8D1391FB0CC4700B90955 /* parassmall.png in Resources */,
+				E4B8D17F1FB0CC4700B90955 /* oddishsmall.png in Resources */,
 				E447B5471FACA5CD00D36CE9 /* butterfree.png in Resources */,
+				E4B8D12A1FB0CC4700B90955 /* vulpixsmall.png in Resources */,
+				E4B8D18D1FB0CC4700B90955 /* golemsmall.png in Resources */,
 				E447B5601FACA5CD00D36CE9 /* kingler.png in Resources */,
+				E4B8D1701FB0CC4700B90955 /* seadrasmall.png in Resources */,
+				E4B8D18F1FB0CC4700B90955 /* magmarsmall.png in Resources */,
 				E447B55E1FACA5CD00D36CE9 /* bellsprout.png in Resources */,
 				E447B5231FACA5CD00D36CE9 /* golbat.png in Resources */,
 				E4D1B63D1FAA68CD00F4D280 /* Icon-60@3x.png in Resources */,
@@ -1324,14 +1863,21 @@
 				E447B5501FACA5CD00D36CE9 /* kabutops.png in Resources */,
 				E4A0FE2B1FAF73040010A661 /* ditto.json in Resources */,
 				E447B5121FACA5CD00D36CE9 /* graveler.png in Resources */,
-				E447B5281FACA5CD00D36CE9 /* mr_mime.png in Resources */,
+				E447B5281FACA5CD00D36CE9 /* mr-mime.png in Resources */,
+				E4B8D1901FB0CC4700B90955 /* omastarsmall.png in Resources */,
+				E4B8D18C1FB0CC4700B90955 /* poliwagsmall.png in Resources */,
 				E4A0FE091FAF73040010A661 /* flareon.json in Resources */,
+				E4B8D1161FB0CC4700B90955 /* dragonairsmall.png in Resources */,
 				E447B5681FACA5CD00D36CE9 /* vileplume.png in Resources */,
 				E4A0FDF81FAF73040010A661 /* bellsprout.json in Resources */,
 				E4A0FE0A1FAF73040010A661 /* scyther.json in Resources */,
 				E4A0FE751FAF73040010A661 /* poliwag.json in Resources */,
+				E4B8D1341FB0CC4700B90955 /* kinglersmall.png in Resources */,
+				E4B8D16D1FB0CC4700B90955 /* kangaskhansmall.png in Resources */,
 				E4A0FE281FAF73040010A661 /* kakuna.json in Resources */,
+				E4B8D1421FB0CC4700B90955 /* rapidashsmall.png in Resources */,
 				E4A0FE661FAF73040010A661 /* mewtwo.json in Resources */,
+				E4B8D1531FB0CC4700B90955 /* farfetchdsmall.png in Resources */,
 				E447B5661FACA5CD00D36CE9 /* magnemite.png in Resources */,
 				E4A0FE6A1FAF73040010A661 /* tentacool.json in Resources */,
 				E447B5341FACA5CD00D36CE9 /* machoke.png in Resources */,
@@ -1340,6 +1886,7 @@
 				E4A0FE411FAF73040010A661 /* charizard.json in Resources */,
 				E447B5191FACA5CD00D36CE9 /* mankey.png in Resources */,
 				E4A0FE071FAF73040010A661 /* pikachu.json in Resources */,
+				E4B8D17A1FB0CC4700B90955 /* seakingsmall.png in Resources */,
 				E4A0FE321FAF73040010A661 /* sandslash.json in Resources */,
 				E4A0FE721FAF73040010A661 /* eevee.json in Resources */,
 				E447B51E1FACA5CD00D36CE9 /* mew.png in Resources */,
@@ -1351,49 +1898,80 @@
 				E447B5551FACA5CD00D36CE9 /* zapdos.png in Resources */,
 				E447B52F1FACA5CD00D36CE9 /* seaking.png in Resources */,
 				E447B50F1FACA5CD00D36CE9 /* beedrill.png in Resources */,
+				E4B8D10E1FB0CC4700B90955 /* laprassmall.png in Resources */,
 				E4A0FDEE1FAF73040010A661 /* nidorino.json in Resources */,
+				E4B8D1881FB0CC4700B90955 /* ivysaursmall.png in Resources */,
 				E4A0FE5B1FAF73040010A661 /* venomoth.json in Resources */,
 				E4A0FE261FAF73040010A661 /* omastar.json in Resources */,
 				E4A0FE531FAF73040010A661 /* golbat.json in Resources */,
 				E4A0FE0B1FAF73040010A661 /* seaking.json in Resources */,
+				E4B8D14D1FB0CC4700B90955 /* jigglypuffsmall.png in Resources */,
 				E4A0FE361FAF73040010A661 /* poliwhirl.json in Resources */,
+				E4B8D1221FB0CC4700B90955 /* gengarsmall.png in Resources */,
 				E4A0FE291FAF73040010A661 /* onix.json in Resources */,
 				E4A0FE2F1FAF73040010A661 /* vulpix.json in Resources */,
+				E4B8D10B1FB0CC4700B90955 /* sandslashsmall.png in Resources */,
 				E447B5641FACA5CD00D36CE9 /* horsea.png in Resources */,
+				E4B8D1991FB0CC4700B90955 /* butterfreesmall.png in Resources */,
 				E4A0FE381FAF73040010A661 /* raichu.json in Resources */,
 				E447B5221FACA5CD00D36CE9 /* nidoqueen.png in Resources */,
+				E4B8D1891FB0CC4700B90955 /* meowthsmall.png in Resources */,
 				E447B4E71FACA5CD00D36CE9 /* eevee.png in Resources */,
 				E447B54A1FACA5CD00D36CE9 /* kangaskhan.png in Resources */,
+				E4B8D1231FB0CC4700B90955 /* voltorbsmall.png in Resources */,
+				E4B8D14E1FB0CC4700B90955 /* machopsmall.png in Resources */,
 				E447B4DC1FACA5CD00D36CE9 /* rapidash.png in Resources */,
 				E4A0FE451FAF73040010A661 /* electrode.json in Resources */,
 				E4A0FE571FAF73040010A661 /* pinsir.json in Resources */,
+				E4B8D15F1FB0CC4700B90955 /* clefablesmall.png in Resources */,
 				E4A0FE241FAF73040010A661 /* venonat.json in Resources */,
 				E4A0FDFF1FAF73040010A661 /* drowzee.json in Resources */,
 				E447B5371FACA5CD00D36CE9 /* geodude.png in Resources */,
+				E4B8D10C1FB0CC4700B90955 /* caterpiesmall.png in Resources */,
 				E4A0FE201FAF73040010A661 /* parasect.json in Resources */,
+				E4B8D1791FB0CC4700B90955 /* growlithesmall.png in Resources */,
 				E447B5021FACA5CD00D36CE9 /* porygon.png in Resources */,
+				E4B8D1291FB0CC4700B90955 /* cubonesmall.png in Resources */,
 				E447B52C1FACA5CD00D36CE9 /* pidgey.png in Resources */,
 				E4A0FE371FAF73040010A661 /* wartortle.json in Resources */,
 				E4A0FE051FAF73040010A661 /* weepinbell.json in Resources */,
+				E4B8D13D1FB0CC4700B90955 /* squirtlesmall.png in Resources */,
 				E4A0FE021FAF73040010A661 /* kadabra.json in Resources */,
+				E4B8D1301FB0CC4700B90955 /* exeggutorsmall.png in Resources */,
 				E4A0FE621FAF73040010A661 /* lapras.json in Resources */,
 				E4A0FDED1FAF73040010A661 /* dragonair.json in Resources */,
 				E447B5671FACA5CD00D36CE9 /* primeape.png in Resources */,
 				E4A0FE221FAF73040010A661 /* omanyte.json in Resources */,
+				E4B8D1141FB0CC4700B90955 /* tentacruelsmall.png in Resources */,
+				E4B8D11E1FB0CC4700B90955 /* venonatsmall.png in Resources */,
+				E4B8D1841FB0CC4700B90955 /* pidgeysmall.png in Resources */,
+				E4B8D1541FB0CC4700B90955 /* articunosmall.png in Resources */,
 				E4A0FE341FAF73040010A661 /* jolteon.json in Resources */,
 				E4A0FE0F1FAF73040010A661 /* golem.json in Resources */,
 				E447B4FA1FACA5CD00D36CE9 /* ivysaur.png in Resources */,
 				E4A0FE601FAF73040010A661 /* graveler.json in Resources */,
+				E4B8D11D1FB0CC4700B90955 /* flareonsmall.png in Resources */,
+				E4B8D1111FB0CC4700B90955 /* psyducksmall.png in Resources */,
 				E447B4E31FACA5CD00D36CE9 /* marowak.png in Resources */,
 				E49AABD31FAA22AE00F99F80 /* AppIcon.xcassets in Resources */,
 				E447B55B1FACA5CD00D36CE9 /* rhyhorn.png in Resources */,
+				E4B8D18B1FB0CC4700B90955 /* dratinismall.png in Resources */,
+				E4B8D12D1FB0CC4700B90955 /* mankeysmall.png in Resources */,
+				E4B8D1101FB0CC4700B90955 /* mewtwosmall.png in Resources */,
 				E4A0FE441FAF73040010A661 /* voltorb.json in Resources */,
+				E4B8D12E1FB0CC4700B90955 /* arboksmall.png in Resources */,
 				E447B5361FACA5CD00D36CE9 /* poliwhirl.png in Resources */,
 				E4A0FDE81FAF73040010A661 /* weezing.json in Resources */,
+				E4B8D1621FB0CC4700B90955 /* slowbrosmall.png in Resources */,
+				E4B8D1171FB0CC4700B90955 /* victreebelsmall.png in Resources */,
 				E4A0FE3B1FAF73040010A661 /* wigglytuff.json in Resources */,
 				E447B52A1FACA5CD00D36CE9 /* kabuto.png in Resources */,
+				E4B8D1281FB0CC4700B90955 /* dugtriosmall.png in Resources */,
+				E4B8D1201FB0CC4700B90955 /* weepinbellsmall.png in Resources */,
+				E4B8D1631FB0CC4700B90955 /* ekanssmall.png in Resources */,
 				E447B5311FACA5CD00D36CE9 /* alakazam.png in Resources */,
 				E4A0FE491FAF73040010A661 /* nidoran-f.json in Resources */,
+				E4B8D1731FB0CC4700B90955 /* horseasmall.png in Resources */,
 				E4D1B6401FAA749B00F4D280 /* pokeball.png in Resources */,
 				E447B5351FACA5CD00D36CE9 /* venonat.png in Resources */,
 				E4A0FE6E1FAF73040010A661 /* krabby.json in Resources */,
@@ -1403,6 +1981,7 @@
 				E447B5031FACA5CD00D36CE9 /* gastly.png in Resources */,
 				1C968D181ED3B8F20054F5C3 /* imagenet_comp_graph_label_strings.txt in Resources */,
 				E4A0FE351FAF73040010A661 /* meowth.json in Resources */,
+				E4B8D14F1FB0CC4700B90955 /* aerodactylsmall.png in Resources */,
 				E447B4E21FACA5CD00D36CE9 /* cubone.png in Resources */,
 				E447B5541FACA5CD00D36CE9 /* nidorina.png in Resources */,
 				1C968D191ED3B8F20054F5C3 /* tensorflow_inception_graph.pb in Resources */,
@@ -1412,13 +1991,17 @@
 				1C99111C1ED3B0E600A6BFB9 /* MainStoryboard_iPhone.storyboard in Resources */,
 				E4A0FE1D1FAF73040010A661 /* seadra.json in Resources */,
 				E4A0FE5F1FAF73040010A661 /* moltres.json in Resources */,
+				E4B8D1561FB0CC4700B90955 /* wartortlesmall.png in Resources */,
+				E4B8D1351FB0CC4700B90955 /* kadabrasmall.png in Resources */,
 				E4A0FE211FAF73040010A661 /* staryu.json in Resources */,
 				E4A0FE691FAF73040010A661 /* vaporeon.json in Resources */,
 				E447B5211FACA5CD00D36CE9 /* charizard.png in Resources */,
+				E4B8D15B1FB0CC4700B90955 /* nidoqueensmall.png in Resources */,
 				E447B5131FACA5CD00D36CE9 /* squirtle.png in Resources */,
 				E4A0FE471FAF73040010A661 /* weedle.json in Resources */,
 				E447B5071FACA5CD00D36CE9 /* farfetchd.png in Resources */,
 				E4A0FE5E1FAF73040010A661 /* farfetchd.json in Resources */,
+				E4B8D15C1FB0CC4700B90955 /* moltressmall.png in Resources */,
 				E447B53D1FACA5CD00D36CE9 /* poliwrath.png in Resources */,
 				E447B4EE1FACA5CD00D36CE9 /* psyduck.png in Resources */,
 				E447B54E1FACA5CD00D36CE9 /* arbok.png in Resources */,
@@ -1426,71 +2009,114 @@
 				E447B5521FACA5CD00D36CE9 /* oddish.png in Resources */,
 				E447B5051FACA5CD00D36CE9 /* diglett.png in Resources */,
 				E4A0FE791FAF73040010A661 /* arbok.json in Resources */,
+				E4B8D1611FB0CC4700B90955 /* magnetonsmall.png in Resources */,
 				E447B5111FACA5CD00D36CE9 /* slowpoke.png in Resources */,
+				E4B8D1061FB0CC4700B90955 /* goldeensmall.png in Resources */,
 				E447B53B1FACA5CD00D36CE9 /* raticate.png in Resources */,
+				E4B8D1651FB0CC4700B90955 /* muksmall.png in Resources */,
 				E4A0FDFA1FAF73040010A661 /* machop.json in Resources */,
 				E4A0FDEF1FAF73040010A661 /* spearow.json in Resources */,
+				E4B8D14B1FB0CC4700B90955 /* blastoisesmall.png in Resources */,
+				E4B8D1581FB0CC4700B90955 /* jolteonsmall.png in Resources */,
 				E447B5151FACA5CD00D36CE9 /* gyarados.png in Resources */,
+				E4B8D19A1FB0CC4700B90955 /* charizardsmall.png in Resources */,
 				E447B5621FACA5CD00D36CE9 /* tentacool.png in Resources */,
 				E4A0FE501FAF73040010A661 /* gyarados.json in Resources */,
+				E4B8D1331FB0CC4700B90955 /* dragonitesmall.png in Resources */,
 				E4A0FE161FAF73040010A661 /* ekans.json in Resources */,
+				E4B8D1411FB0CC4700B90955 /* jynxsmall.png in Resources */,
+				E4B8D1271FB0CC4700B90955 /* raichusmall.png in Resources */,
 				E4A0FE631FAF73040010A661 /* magneton.json in Resources */,
 				E4A0FE251FAF73040010A661 /* dugtrio.json in Resources */,
-				E447B5461FACA5CD00D36CE9 /* nidoran.png in Resources */,
+				E447B5461FACA5CD00D36CE9 /* nidoran-m.png in Resources */,
+				E4B8D12F1FB0CC4700B90955 /* drowzeesmall.png in Resources */,
 				E447B51D1FACA5CD00D36CE9 /* raichu.png in Resources */,
+				E4B8D14C1FB0CC4700B90955 /* gastlysmall.png in Resources */,
+				E4B8D16C1FB0CC4700B90955 /* venomothsmall.png in Resources */,
 				E4A0FDF91FAF73040010A661 /* gastly.json in Resources */,
 				E4A0FE1A1FAF73040010A661 /* gengar.json in Resources */,
 				E4A0FE5C1FAF73040010A661 /* nidoking.json in Resources */,
+				E4B8D11A1FB0CC4700B90955 /* nidoran-fsmall.png in Resources */,
 				E447B50E1FACA5CD00D36CE9 /* pikachu.png in Resources */,
 				E447B4F41FACA5CD00D36CE9 /* weezing.png in Resources */,
+				E4B8D1911FB0CC4700B90955 /* starmiesmall.png in Resources */,
 				E4A0FDEC1FAF73040010A661 /* cloyster.json in Resources */,
+				E4B8D1971FB0CC4700B90955 /* kakunasmall.png in Resources */,
 				E4A0FE131FAF73040010A661 /* shellder.json in Resources */,
+				E4B8D1051FB0CC4700B90955 /* slowpokesmall.png in Resources */,
 				E447B5091FACA5CD00D36CE9 /* machop.png in Resources */,
+				E4B8D1511FB0CC4700B90955 /* nidorinosmall.png in Resources */,
 				E4A0FE431FAF73040010A661 /* tentacruel.json in Resources */,
 				E4BA212D1FA8D3BE00CFC4EC /* retrained_labels.txt in Resources */,
+				E4B8D13F1FB0CC4700B90955 /* weedlesmall.png in Resources */,
 				E4A0FE421FAF73040010A661 /* paras.json in Resources */,
 				E447B55D1FACA5CD00D36CE9 /* goldeen.png in Resources */,
 				E447B5081FACA5CD00D36CE9 /* snorlax.png in Resources */,
+				E4B8D1361FB0CC4700B90955 /* mr-mimesmall.png in Resources */,
+				E4B8D1501FB0CC4700B90955 /* electrodesmall.png in Resources */,
 				E447B5061FACA5CD00D36CE9 /* jigglypuff.png in Resources */,
+				E4B8D1831FB0CC4700B90955 /* nidokingsmall.png in Resources */,
 				E447B4F71FACA5CD00D36CE9 /* parasect.png in Resources */,
 				E447B5241FACA5CD00D36CE9 /* krabby.png in Resources */,
 				E4A0FE0C1FAF73040010A661 /* zapdos.json in Resources */,
+				E4B8D1091FB0CC4700B90955 /* bellsproutsmall.png in Resources */,
 				E447B4DE1FACA5CD00D36CE9 /* vulpix.png in Resources */,
 				E4A0FDFC1FAF73040010A661 /* fearow.json in Resources */,
 				E447B5421FACA5CD00D36CE9 /* onix.png in Resources */,
+				E4B8D1861FB0CC4700B90955 /* poliwrathsmall.png in Resources */,
 				E447B52D1FACA5CD00D36CE9 /* machamp.png in Resources */,
 				E4A0FE271FAF73040010A661 /* jigglypuff.json in Resources */,
 				E4A0FE171FAF73040010A661 /* hypno.json in Resources */,
 				E447B5141FACA5CD00D36CE9 /* gloom.png in Resources */,
+				E4B8D16A1FB0CC4700B90955 /* mewsmall.png in Resources */,
+				E4B8D1521FB0CC4700B90955 /* omanytesmall.png in Resources */,
 				E4A0FE4C1FAF73040010A661 /* mankey.json in Resources */,
 				E4A0FE111FAF73040010A661 /* electabuzz.json in Resources */,
 				E447B5431FACA5CD00D36CE9 /* growlithe.png in Resources */,
 				E4A0FE2D1FAF73040010A661 /* articuno.json in Resources */,
+				E4B8D1461FB0CC4700B90955 /* chanseysmall.png in Resources */,
 				E4A0FDFD1FAF73040010A661 /* oddish.json in Resources */,
 				E447B56E1FACA5CD00D36CE9 /* ninetales.png in Resources */,
+				E4B8D1241FB0CC4700B90955 /* spearowsmall.png in Resources */,
+				E4B8D1871FB0CC4700B90955 /* grimersmall.png in Resources */,
 				1CDB2D4E1ED3AA35007929E9 /* Info.plist in Resources */,
 				E4A0FE3E1FAF73040010A661 /* exeggutor.json in Resources */,
 				E4A0FDE61FAF73040010A661 /* alakazam.json in Resources */,
 				E4A0FE3C1FAF73040010A661 /* snorlax.json in Resources */,
+				E4B8D12B1FB0CC4700B90955 /* diglettsmall.png in Resources */,
+				E4B8D1951FB0CC4700B90955 /* bulbasaursmall.png in Resources */,
 				E447B5271FACA5CD00D36CE9 /* haunter.png in Resources */,
+				E4B8D16E1FB0CC4700B90955 /* marowaksmall.png in Resources */,
+				E4B8D1261FB0CC4700B90955 /* exeggcutesmall.png in Resources */,
 				E447B4F61FACA5CD00D36CE9 /* dugtrio.png in Resources */,
 				E447B5561FACA5CD00D36CE9 /* exeggutor.png in Resources */,
 				E4A0FDEA1FAF73040010A661 /* horsea.json in Resources */,
 				E4A0FE231FAF73040010A661 /* exeggcute.json in Resources */,
+				E4B8D17B1FB0CC4700B90955 /* electabuzzsmall.png in Resources */,
+				E4B8D1931FB0CC4700B90955 /* poliwhirlsmall.png in Resources */,
 				E4A0FDE71FAF73040010A661 /* hitmonchan.json in Resources */,
 				E4A0FE1C1FAF73040010A661 /* koffing.json in Resources */,
+				E4B8D13C1FB0CC4700B90955 /* geodudesmall.png in Resources */,
 				E4A0FE591FAF73040010A661 /* mew.json in Resources */,
 				E447B5631FACA5CD00D36CE9 /* tentacruel.png in Resources */,
+				E4B8D1381FB0CC4700B90955 /* parasectsmall.png in Resources */,
 				E4A0FE641FAF73040010A661 /* seel.json in Resources */,
 				E447B5591FACA5CD00D36CE9 /* meowth.png in Resources */,
 				E4191D8F1FAA5BB50089B718 /* Icon-29@2x.png in Resources */,
 				E447B4EC1FACA5CD00D36CE9 /* nidorino.png in Resources */,
 				E447B4F11FACA5CD00D36CE9 /* spearow.png in Resources */,
+				E4B8D10F1FB0CC4700B90955 /* hitmonchansmall.png in Resources */,
+				E4B8D15E1FB0CC4700B90955 /* snorlaxsmall.png in Resources */,
+				E4B8D12C1FB0CC4700B90955 /* eeveesmall.png in Resources */,
+				E4B8D16F1FB0CC4700B90955 /* gyaradossmall.png in Resources */,
 				E447B5251FACA5CD00D36CE9 /* starmie.png in Resources */,
 				E447B56C1FACA5CD00D36CE9 /* magneton.png in Resources */,
+				E4B8D1491FB0CC4700B90955 /* raticatesmall.png in Resources */,
 				E447B52E1FACA5CD00D36CE9 /* electrode.png in Resources */,
+				E4B8D1191FB0CC4700B90955 /* doduosmall.png in Resources */,
 				E4A0FE6D1FAF73040010A661 /* nidoqueen.json in Resources */,
 				E4A0FE1B1FAF73040010A661 /* slowpoke.json in Resources */,
+				E4B8D1321FB0CC4700B90955 /* charmeleonsmall.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1553,6 +2179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CDB2D4C1ED3A9CD007929E9 /* tensorflow_utils.mm in Sources */,
+				E46515661FB0A904005EE73B /* PokedexListViewController.m in Sources */,
 				1C3C9DCB1ED3AB4200B8B5FA /* ios_image_load.mm in Sources */,
 				E4CC2E141FABDCAB00BB86EA /* DexViewController.m in Sources */,
 				1CDB2D4A1ED3A9CD007929E9 /* CameraExampleViewController.mm in Sources */,
