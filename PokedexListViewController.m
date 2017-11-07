@@ -15,7 +15,7 @@
     UIColor *dark;
 //    NSString *entryPokemon;
 }
-@property (weak, nonatomic) IBOutlet UITableView *table;
+
 
 @end
 
@@ -38,9 +38,12 @@
                                     alpha:1.0f];
 
         pokemon = [NSMutableArray arrayWithArray:arr];
-    DexViewController *dex = (DexViewController *)[self backViewController];
     
-//    [_table scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:_index inSection:0]  atScrollPosition:UITableViewScrollPositionMiddle animated:NO];
+    if(_index < 147){
+    [_table scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:_index inSection:0]  atScrollPosition:UITableViewScrollPositionMiddle animated:YES];
+    }else{
+        [_table setContentOffset:CGPointMake(0, 1000000)];
+    }
 
 }
 

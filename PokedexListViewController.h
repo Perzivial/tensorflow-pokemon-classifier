@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface PokedexListViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UITableView *table;
+@property int index;
 @end
