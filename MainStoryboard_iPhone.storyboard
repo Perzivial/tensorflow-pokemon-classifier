@@ -97,11 +97,11 @@
         <scene sceneID="uqB-bw-mEG">
             <objects>
                 <viewController title="Entry" id="uEj-Ik-umL" customClass="DexViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="gYr-c4-t6w">
+                    <view key="view" tag="20" contentMode="scaleToFill" id="gYr-c4-t6w">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view alpha="0.29999999999999999" contentMode="scaleToFill" misplaced="YES" id="Zy4-ng-DKl">
+                            <view tag="21" contentMode="scaleToFill" misplaced="YES" id="Zy4-ng-DKl">
                                 <rect key="frame" x="55" y="62" width="210" height="210"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -132,7 +132,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" id="1Iy-yd-sek" userLabel="descbg">
+                            <view tag="22" contentMode="scaleToFill" misplaced="YES" id="1Iy-yd-sek" userLabel="descbg">
                                 <rect key="frame" x="0.0" y="409" width="320" height="159"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -158,11 +158,6 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view tag="4" contentMode="scaleToFill" misplaced="YES" id="GJc-9B-QMl" userLabel="entry">
-                                        <rect key="frame" x="8" y="0.0" width="304" height="159"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    </view>
                                     <view tag="11" contentMode="scaleToFill" misplaced="YES" id="5QO-5x-dvh">
                                         <rect key="frame" x="134" y="94" width="52" height="52"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -174,8 +169,13 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </view>
+                                    <view tag="4" contentMode="scaleToFill" misplaced="YES" id="GJc-9B-QMl" userLabel="entry">
+                                        <rect key="frame" x="8" y="0.0" width="304" height="159"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
                                 </subviews>
-                                <color key="backgroundColor" red="0.29019607843137252" green="0.66666666666666663" blue="0.92812740651484071" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.13725490196078433" green="0.58391928672790527" blue="0.8251270055770874" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -204,7 +204,7 @@
                             <tableView clipsSubviews="YES" tag="1" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="80" estimatedRowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" contentViewInsetsToSafeArea="NO" id="tEX-iX-xDC">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.1489986479" green="0.1490316391" blue="0.14899659160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" textLabel="W0b-m0-asx" detailTextLabel="gYl-zN-AAD" rowHeight="200" style="IBUITableViewCellStyleValue1" id="wtR-ou-cdh">
                                         <rect key="frame" x="0.0" y="28" width="320" height="200"/>
@@ -255,7 +255,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BRu-3r-hRh" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" leftItemsSupplementBackButton="YES" id="Olx-us-0Wa"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Bse-xd-gp6">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="Bse-xd-gp6">
                         <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.87272447347640991" green="0.0" blue="0.13093419999501527" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

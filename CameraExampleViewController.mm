@@ -45,6 +45,24 @@ const std::string input_layer_name = "input";
 const std::string output_layer_name = "final_result";
 NSString *topPokemon = @"bulbasaur";
 
+NSDictionary *types = @{
+                        @"Bug": @"152 172 26",
+                        @"Dragon": @"91 16 246",
+                        @"Ice": @"136 209 206",
+                        @"Fighting": @"176 29 31",
+                        @"Fire": @"234 107 38",
+                        @"Flying": @"151 119 236",
+                        @"Grass": @"103 192 63",
+                        @"Ghost": @"92 67 134",
+                        @"Ground": @"216 180 86",
+                        @"Electric": @"245 199 39",
+                        @"Normal": @"152 153 101",
+                        @"Poison": @"140 40 142",
+                        @"Psychic": @"244 61 117",
+                        @"Rock": @"169 145 44",
+                        @"Water": @"86 121 236",
+                        };
+
 static void *AVCaptureStillImageIsCapturingStillImageContext =
     &AVCaptureStillImageIsCapturingStillImageContext;
 
@@ -443,10 +461,10 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
   return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-- (BOOL)prefersStatusBarHidden {
-  return YES;
-}
-
+//- (BOOL)prefersStatusBarHidden {
+//  return YES;
+//}
+-(UIStatusBarStyle)preferredStatusBarStyle { return UIStatusBarStyleLightContent; }
 - (void)setPredictionValues:(NSDictionary *)newValues {
   const float decayValue = 0.75f;
   const float updateValue = 0.25f;
@@ -502,9 +520,9 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
       sortedArrayUsingDescriptors:[NSArray arrayWithObject:sort]];
 
   const float leftMargin = 10.0f;
-  const float topMargin = 50.0f;
+  const float topMargin = 70.0f;
 
-  const float labelWidth = CGRectGetWidth(self.view.bounds)-20;
+  const float labelWidth = CGRectGetWidth(self.view.bounds);
   const float labelHeight = 50.0f;
 
   const float labelMarginX = 5.0f;
@@ -523,7 +541,7 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
     [self addLabelLayerWithText:[label capitalizedString]
                         originX:leftMargin
                         originY:originY
-                          width:labelWidth/2
+                          width:labelWidth*.6
                          height:labelHeight
                       alignment:kCAAlignmentLeft];
 
@@ -566,28 +584,40 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
   const float marginSizeY = 2.0f;
 
   const CGRect backgroundBounds = CGRectMake(originX, originY, width, height);
-
+    
+    CGSize stringsize = [text sizeWithFont:[UIFont systemFontOfSize:fontSize]];
   const CGRect textBounds =
       CGRectMake((originX + marginSizeX), (originY + marginSizeY)+8,
-                 (width - (marginSizeX * 2)), (height));
+                 (width - (marginSizeX)), (height));
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     [button addTarget:self
                action:@selector(setTopPokemon:)
      forControlEvents:UIControlEventTouchUpInside];
     [button setTitle:text forState:UIControlStateNormal];
+    
     button.frame = textBounds;
     button.layer.cornerRadius = 5;
     button.layer.masksToBounds = true;
+//    button.imageEdgeInsets = UIEdgeInsetsMake(0, -40, 0, 0);
+//    button.textEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 0);
+    [button setContentHorizontalAlignment:UIControlContentHorizontalAlignmentLeft];
     NSString *imgname = [[text lowercaseString] stringByAppendingString:@"small.png"];
     [button setImage:[UIImage imageNamed:imgname] forState:UIControlStateNormal];
     button.imageView.contentMode = UIViewContentModeScaleAspectFit;
-    UIColor *clr = [UIColor colorWithRed:223.0f/255.0f
-                                        green:0.0f/255.0f
-                                         blue:33.0f/255.0f
-                                        alpha:0.5f];
+    
+    NSDictionary *dict = [self getJson:text];
 
-    button.backgroundColor = clr;
+   NSString *type = [[dict objectForKey:@"type"] componentsSeparatedByString:@" "][0];
+
+    NSArray *arr = [[types objectForKey:type] componentsSeparatedByString:@" "];
+    
+    UIColor *clr = [UIColor colorWithRed:[arr[0] floatValue]/255.0f
+                                        green:[arr[1] floatValue]/255.0f
+                                         blue:[arr[2] floatValue]/255.0f
+                                        alpha:1.0f];
+    
+	button.backgroundColor = clr;
     
     [self.view addSubview:button];
     [labelLayers addObject:button];
@@ -601,13 +631,33 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
     topPokemon = [sender.currentTitle lowercaseString];
     UIButton *viewButton = (UIButton *) [self.view viewWithTag:1];
     NSString *imgname = [[topPokemon lowercaseString] stringByAppendingString:@"small.png"];
+
     [viewButton setImage:[UIImage imageNamed:imgname] forState:UIControlStateNormal];
+    viewButton.imageEdgeInsets = UIEdgeInsetsMake(5, 5, 5, 5);
+    viewButton.imageView.contentMode = UIViewContentModeScaleAspectFit;
     [viewButton setTitle:@"" forState:UIControlStateNormal];
     UIButton *button = (UIButton *)[self.view viewWithTag:8];
     button.enabled = true;
     button.alpha = 1;
+    
+    NSDictionary *dict = [self getJson:topPokemon];
+    
+    NSString *type = [[dict objectForKey:@"type"] componentsSeparatedByString:@" "][0];
+    
+    NSArray *arr = [[types objectForKey:type] componentsSeparatedByString:@" "];
+    
+    UIColor *clr = [UIColor colorWithRed:[arr[0] floatValue]/255.0f
+                                   green:[arr[1] floatValue]/255.0f
+                                    blue:[arr[2] floatValue]/255.0f
+                                   alpha:1.0f];
+    [viewButton setBackgroundColor:clr];
+    
 }
-
+- (NSDictionary *)getJson:(NSString *)name{
+    NSString *path = [[NSBundle mainBundle] pathForResource:[name lowercaseString] ofType:@"json"];
+    NSData *data = [NSData dataWithContentsOfFile:path];
+    return [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+}
 @end
 #import <QuartzCore/QuartzCore.h>
 @implementation CALayer (Additions)

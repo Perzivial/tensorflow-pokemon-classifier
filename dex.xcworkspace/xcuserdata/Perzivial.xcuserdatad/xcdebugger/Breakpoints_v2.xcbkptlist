@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CameraExampleViewController.mm"
-            timestampString = "531834414.383094"
+            timestampString = "531849331.044058"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "556"
-            endingLineNumber = "556"
+            startingLineNumber = "574"
+            endingLineNumber = "574"
             landmarkName = "-addLabelLayerWithText:originX:originY:width:height:alignment:"
             landmarkType = "7">
          </BreakpointContent>

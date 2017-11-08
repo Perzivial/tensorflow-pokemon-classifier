@@ -175,6 +175,7 @@
 		E447B56D1FACA5CD00D36CE9 /* gengar.png in Resources */ = {isa = PBXBuildFile; fileRef = E447B4D71FACA5CD00D36CE9 /* gengar.png */; };
 		E447B56E1FACA5CD00D36CE9 /* ninetales.png in Resources */ = {isa = PBXBuildFile; fileRef = E447B4D81FACA5CD00D36CE9 /* ninetales.png */; };
 		E452F5831FB1055B00E429D2 /* entries.txt in Resources */ = {isa = PBXBuildFile; fileRef = E452F5821FB1055A00E429D2 /* entries.txt */; };
+		E45CE58E1FB356F90079A397 /* abra.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A0FD5D1FAF72F10010A661 /* abra.json */; };
 		E46515661FB0A904005EE73B /* PokedexListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46515651FB0A904005EE73B /* PokedexListViewController.m */; };
 		E46FBF6A1FAA094500717046 /* xcodeimage in Resources */ = {isa = PBXBuildFile; fileRef = E46FBF691FAA094500717046 /* xcodeimage */; };
 		E49AABD31FAA22AE00F99F80 /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49AABD21FAA22AE00F99F80 /* AppIcon.xcassets */; };
@@ -1898,6 +1899,7 @@
 				E447B5551FACA5CD00D36CE9 /* zapdos.png in Resources */,
 				E447B52F1FACA5CD00D36CE9 /* seaking.png in Resources */,
 				E447B50F1FACA5CD00D36CE9 /* beedrill.png in Resources */,
+				E45CE58E1FB356F90079A397 /* abra.json in Resources */,
 				E4B8D10E1FB0CC4700B90955 /* laprassmall.png in Resources */,
 				E4A0FDEE1FAF73040010A661 /* nidorino.json in Resources */,
 				E4B8D1881FB0CC4700B90955 /* ivysaursmall.png in Resources */,
