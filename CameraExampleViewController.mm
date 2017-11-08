@@ -600,7 +600,7 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
     button.layer.cornerRadius = 5;
     button.layer.masksToBounds = true;
 //    button.imageEdgeInsets = UIEdgeInsetsMake(0, -40, 0, 0);
-//    button.textEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 0);
+    button.titleEdgeInsets = UIEdgeInsetsMake(0, 10, 0, 0);
     [button setContentHorizontalAlignment:UIControlContentHorizontalAlignmentLeft];
     NSString *imgname = [[text lowercaseString] stringByAppendingString:@"small.png"];
     [button setImage:[UIImage imageNamed:imgname] forState:UIControlStateNormal];
@@ -615,8 +615,8 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
     UIColor *clr = [UIColor colorWithRed:[arr[0] floatValue]/255.0f
                                         green:[arr[1] floatValue]/255.0f
                                          blue:[arr[2] floatValue]/255.0f
-                                        alpha:1.0f];
-    
+                                        alpha:0.7f];
+    button.imageView.backgroundColor = clr;
 	button.backgroundColor = clr;
     
     [self.view addSubview:button];
@@ -650,6 +650,7 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
                                    green:[arr[1] floatValue]/255.0f
                                     blue:[arr[2] floatValue]/255.0f
                                    alpha:1.0f];
+
     [viewButton setBackgroundColor:clr];
     
 }
