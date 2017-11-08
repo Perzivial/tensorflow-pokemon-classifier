@@ -182,6 +182,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="yEE-Kl-EcM">
                         <barButtonItem key="backBarButtonItem" title=" " id="nHs-Ug-wwb"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="camera" id="sGh-yJ-dOj">
+                            <connections>
+                                <action selector="goback:" destination="uEj-Ik-umL" id="GxE-zO-BlZ"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="organize" id="yvV-9g-BWR">
                             <connections>
                                 <segue destination="wzK-hK-42K" kind="push" id="ayh-aO-YNM"/>

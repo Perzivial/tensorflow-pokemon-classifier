@@ -22,6 +22,9 @@ NSDictionary *dict;
     [super viewDidLoad];
     [self setEntry];
 }
+- (IBAction)goback:(id)sender {
+    [self.navigationController popViewControllerAnimated:YES];
+}
 
 -(void) setEntry{
     
