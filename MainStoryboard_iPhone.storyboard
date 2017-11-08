@@ -23,9 +23,9 @@
                                 <color key="backgroundColor" red="0.62008248730964466" green="0.62008248730964466" blue="0.62008248730964466" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
                                 <connections>
+                                    <outletCollection property="gestureRecognizers" destination="h9A-4p-3mz" appends="YES" id="Sot-i8-ewY"/>
                                     <outletCollection property="gestureRecognizers" destination="h9A-4p-3mz" appends="YES" id="Mig-C3-4wV"/>
                                     <outletCollection property="gestureRecognizers" destination="h9A-4p-3mz" appends="YES" id="gOt-Df-utM"/>
-                                    <outletCollection property="gestureRecognizers" destination="h9A-4p-3mz" appends="YES" id="Sot-i8-ewY"/>
                                 </connections>
                             </view>
                             <view contentMode="scaleToFill" misplaced="YES" id="qc9-8i-3bS" userLabel="bottomscreen">
@@ -79,6 +79,10 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="h9A-4p-3mz" appends="YES" id="wpx-IQ-odK"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" title="Scanner" id="NON-Aw-jit">
                         <barButtonItem key="backBarButtonItem" title=" " id="VJX-7B-OfL"/>
@@ -89,7 +93,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="h9A-4p-3mz"/>
+                <tapGestureRecognizer numberOfTapsRequired="2" id="h9A-4p-3mz">
+                    <connections>
+                        <action selector="switchCameras:" destination="2" id="g3Z-4C-ON6"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1129" y="10"/>
         </scene>
