@@ -106,7 +106,7 @@ NSDictionary *dict;
 
         UIImage *img = [UIImage imageNamed:imgname];
         if(!img){
-            NSLog(imgname);
+            
         }else{
             evoView.backgroundColor = evoColor;
             currentEvo.image = img;

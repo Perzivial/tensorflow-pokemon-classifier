@@ -505,7 +505,7 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
   const float topMargin = 50.0f;
 
   const float labelWidth = CGRectGetWidth(self.view.bounds)-20;
-  const float labelHeight = 26.0f;
+  const float labelHeight = 50.0f;
 
   const float labelMarginX = 5.0f;
   const float labelMarginY = 7.0f;
@@ -523,32 +523,32 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
     [self addLabelLayerWithText:[label capitalizedString]
                         originX:leftMargin
                         originY:originY
-                          width:labelWidth
+                          width:labelWidth/2
                          height:labelHeight
-                      alignment:kCAAlignmentCenter];
+                      alignment:kCAAlignmentLeft];
 
 //    if ((labelCount == 0) && (value > 0.5f)) {
 //      [self speak:[label capitalizedString]];
 //    }
-      if(labelCount == 0){
-          topPokemon = label;
-      }
+//      if(labelCount == 0){
+//          topPokemon = label;
+//      }
     labelCount += 1;
-      UIButton *button = (UIButton *)[self.view viewWithTag:8];
-      if(button.enabled == false){
-      button.enabled = true;
-      button.alpha = 1;
-      }
-//    if (labelCount > 0) {
-//      break;
-//    }
+//      UIButton *button = (UIButton *)[self.view viewWithTag:8];
+//      if(button.enabled == false){
+//      button.enabled = true;
+//      button.alpha = 1;
+//      }
+    if (labelCount > 3) {
       break;
+    }
+      //break;
   }
 }
 
 - (void)removeAllLabelLayers {
-  for (CATextLayer *layer in labelLayers) {
-    [layer removeFromSuperlayer];
+  for (UIButton *layer in labelLayers) {
+    [layer removeFromSuperview];
   }
   [labelLayers removeAllObjects];
 }
@@ -570,65 +570,43 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
   const CGRect textBounds =
       CGRectMake((originX + marginSizeX), (originY + marginSizeY)+8,
                  (width - (marginSizeX * 2)), (height));
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button addTarget:self
+               action:@selector(setTopPokemon:)
+     forControlEvents:UIControlEventTouchUpInside];
+    [button setTitle:text forState:UIControlStateNormal];
+    button.frame = textBounds;
+    button.layer.cornerRadius = 5;
+    button.layer.masksToBounds = true;
+    NSString *imgname = [[text lowercaseString] stringByAppendingString:@"small.png"];
+    [button setImage:[UIImage imageNamed:imgname] forState:UIControlStateNormal];
+    button.imageView.contentMode = UIViewContentModeScaleAspectFit;
+    UIColor *clr = [UIColor colorWithRed:223.0f/255.0f
+                                        green:0.0f/255.0f
+                                         blue:33.0f/255.0f
+                                        alpha:0.5f];
 
-  CATextLayer *background = [CATextLayer layer];
-  //[background setBackgroundColor:[UIColor blueColor].CGColor];
-  [background setOpacity:0.7f];
-  [background setFrame:backgroundBounds];
-  background.cornerRadius = 5.0f;
-    background.zPosition = -1;
-  [[self.view layer] addSublayer:background];
-  [labelLayers addObject:background];
-  CATextLayer *layer = [CATextLayer layer];
-  [layer setForegroundColor:[UIColor whiteColor].CGColor];
-  [layer setFrame:textBounds];
-  [layer setAlignmentMode:alignment];
-  [layer setWrapped:YES];
-  [layer setFont:font];
-  [layer setFontSize:fontSize];
-  layer.contentsScale = [[UIScreen mainScreen] scale];
-  [layer setString:text];
-
-  [[self.view layer] addSublayer:layer];
-
-  [labelLayers addObject:layer];
+    button.backgroundColor = clr;
+    
+    [self.view addSubview:button];
+    [labelLayers addObject:button];
+    
 }
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     DexViewController *controller = (DexViewController *)segue.destinationViewController;
     controller.pokemon = topPokemon;
 }
-//- (void)setPredictionText:(NSString *)text withDuration:(float)duration {
-//  if (duration > 0.0) {
-//    CABasicAnimation *colorAnimation =
-//        [CABasicAnimation animationWithKeyPath:@"foregroundColor"];
-//    colorAnimation.duration = duration;
-//    colorAnimation.fillMode = kCAFillModeForwards;
-//    colorAnimation.removedOnCompletion = NO;
-//    colorAnimation.fromValue = (id)[UIColor darkGrayColor].CGColor;
-//    colorAnimation.toValue = (id)[UIColor whiteColor].CGColor;
-//    colorAnimation.timingFunction =
-//        [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear];
-//    [self.predictionTextLayer addAnimation:colorAnimation
-//                                    forKey:@"colorAnimation"];
-//  } else {
-//    self.predictionTextLayer.foregroundColor = [UIColor whiteColor].CGColor;
-//  }
-//
-//  [self.predictionTextLayer removeFromSuperlayer];
-//  [[self.view layer] addSublayer:self.predictionTextLayer];
-//  [self.predictionTextLayer setString:text];
-//}
-//
-//- (void)speak:(NSString *)words {
-//  if ([synth isSpeaking]) {
-//    return;
-//  }
-//  AVSpeechUtterance *utterance =
-//      [AVSpeechUtterance speechUtteranceWithString:words];
-//  utterance.voice = [AVSpeechSynthesisVoice voiceWithLanguage:@"en-US"];
-//  utterance.rate = 0.75 * AVSpeechUtteranceDefaultSpeechRate;
-//  [synth speakUtterance:utterance];
-//}
+-(void)setTopPokemon:(UIButton*)sender{
+    topPokemon = [sender.currentTitle lowercaseString];
+    UIButton *viewButton = (UIButton *) [self.view viewWithTag:1];
+    NSString *imgname = [[topPokemon lowercaseString] stringByAppendingString:@"small.png"];
+    [viewButton setImage:[UIImage imageNamed:imgname] forState:UIControlStateNormal];
+    [viewButton setTitle:@"" forState:UIControlStateNormal];
+    UIButton *button = (UIButton *)[self.view viewWithTag:8];
+    button.enabled = true;
+    button.alpha = 1;
+}
 
 @end
 #import <QuartzCore/QuartzCore.h>
