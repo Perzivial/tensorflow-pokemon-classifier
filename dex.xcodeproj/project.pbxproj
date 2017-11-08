@@ -20,7 +20,7 @@
 		1CDB2D4C1ED3A9CD007929E9 /* tensorflow_utils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB2D481ED3A9CD007929E9 /* tensorflow_utils.mm */; };
 		1CDB2D4E1ED3AA35007929E9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CDB2D4D1ED3AA35007929E9 /* Info.plist */; };
 		54DC6C3C5F734F3A58069F0C /* libPods-tf_camera_example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA8BF92C84895BFE59D8236 /* libPods-tf_camera_example.a */; };
-		E4191D8B1FAA2C9F0089B718 /* loading.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4191D8A1FAA2C9F0089B718 /* loading.storyboard */; };
+		E4191D8B1FAA2C9F0089B718 /* launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4191D8A1FAA2C9F0089B718 /* launch.storyboard */; };
 		E4191D8E1FAA5BB50089B718 /* Icon-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4191D8C1FAA5BB40089B718 /* Icon-29@3x.png */; };
 		E4191D8F1FAA5BB50089B718 /* Icon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4191D8D1FAA5BB50089B718 /* Icon-29@2x.png */; };
 		E43BB1681FAB5F4A00529D42 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = E43BB1671FAB5F4800529D42 /* camera.png */; };
@@ -514,7 +514,7 @@
 		59A3CFF51CF4E68100C4259F /* grace_hopper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grace_hopper.jpg; sourceTree = "<group>"; };
 		59A3CFF71CF4E68100C4259F /* imagenet_comp_graph_label_strings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = imagenet_comp_graph_label_strings.txt; sourceTree = "<group>"; };
 		59A3CFF91CF4E68100C4259F /* tensorflow_inception_graph.pb */ = {isa = PBXFileReference; lastKnownFileType = file; path = tensorflow_inception_graph.pb; sourceTree = "<group>"; };
-		E4191D8A1FAA2C9F0089B718 /* loading.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = loading.storyboard; sourceTree = "<group>"; };
+		E4191D8A1FAA2C9F0089B718 /* launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = launch.storyboard; sourceTree = "<group>"; };
 		E4191D8C1FAA5BB40089B718 /* Icon-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-29@3x.png"; path = "../../../../../../tensorflow-for-poets-2/tf_files/pokemon/Icon-29@3x.png"; sourceTree = "<group>"; };
 		E4191D8D1FAA5BB50089B718 /* Icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-29@2x.png"; path = "../../../../../../tensorflow-for-poets-2/tf_files/pokemon/Icon-29@2x.png"; sourceTree = "<group>"; };
 		E43BB1671FAB5F4800529D42 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = SOURCE_ROOT; };
@@ -1032,7 +1032,7 @@
 				E49AABDF1FAA2C2D00F99F80 /* images */,
 				E4CFF5941FAA1EEF00F64B6A /* overlay.png */,
 				1C99111B1ED3B0E600A6BFB9 /* MainStoryboard_iPhone.storyboard */,
-				E4191D8A1FAA2C9F0089B718 /* loading.storyboard */,
+				E4191D8A1FAA2C9F0089B718 /* launch.storyboard */,
 				1C3C9DC81ED3AB4200B8B5FA /* ios_image_load.h */,
 				1C3C9DC91ED3AB4200B8B5FA /* ios_image_load.mm */,
 				1C3C9DCA1ED3AB4200B8B5FA /* main.mm */,
@@ -1839,7 +1839,7 @@
 				E4A0FE481FAF73040010A661 /* persian.json in Resources */,
 				E4A0FDF61FAF73040010A661 /* mr-mime.json in Resources */,
 				E4B8D1601FB0CC4700B90955 /* golducksmall.png in Resources */,
-				E4191D8B1FAA2C9F0089B718 /* loading.storyboard in Resources */,
+				E4191D8B1FAA2C9F0089B718 /* launch.storyboard in Resources */,
 				E4B8D1671FB0CC4700B90955 /* machokesmall.png in Resources */,
 				E4B8D1181FB0CC4700B90955 /* dewgongsmall.png in Resources */,
 				E447B55A1FACA5CD00D36CE9 /* rattata.png in Resources */,

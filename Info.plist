@@ -27,7 +27,7 @@
 	<key>NSCameraUsageDescription</key>
 	<string>Detect the pokemon</string>
 	<key>UILaunchStoryboardName</key>
-	<string>loading</string>
+	<string>launch</string>
 	<key>UIMainStoryboardFile</key>
 	<string>MainStoryboard_iPhone</string>
 	<key>UIRequiresFullScreen</key>
