@@ -376,6 +376,7 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
 
 // use front/back camera
 - (IBAction)switchCameras:(id)sender {
+    
   AVCaptureDevicePosition desiredPosition;
   if (isUsingFrontFacingCamera)
     desiredPosition = AVCaptureDevicePositionBack;
@@ -655,9 +656,13 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
     
 }
 - (NSDictionary *)getJson:(NSString *)name{
-    NSString *path = [[NSBundle mainBundle] pathForResource:[name lowercaseString] ofType:@"json"];
+    @try{
+    NSString *path = [[NSBundle mainBundle] pathForResource:[[name stringByReplacingOccurrencesOfString:@" " withString:@"-"] lowercaseString] ofType:@"json"];
     NSData *data = [NSData dataWithContentsOfFile:path];
     return [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+    }@catch(NSException *e){
+        
+    }
 }
 @end
 #import <QuartzCore/QuartzCore.h>

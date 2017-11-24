@@ -93,7 +93,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer numberOfTapsRequired="2" id="h9A-4p-3mz">
+                <tapGestureRecognizer enabled="NO" numberOfTapsRequired="2" id="h9A-4p-3mz">
                     <connections>
                         <action selector="switchCameras:" destination="2" id="g3Z-4C-ON6"/>
                     </connections>

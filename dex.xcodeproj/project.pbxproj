@@ -19,6 +19,7 @@
 		1CDB2D4A1ED3A9CD007929E9 /* CameraExampleViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB2D451ED3A9CD007929E9 /* CameraExampleViewController.mm */; };
 		1CDB2D4C1ED3A9CD007929E9 /* tensorflow_utils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB2D481ED3A9CD007929E9 /* tensorflow_utils.mm */; };
 		1CDB2D4E1ED3AA35007929E9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CDB2D4D1ED3AA35007929E9 /* Info.plist */; };
+		340A2193631F45FBA86DE2A0 /* libPods-dex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8CE05B45745240EB434BE5 /* libPods-dex.a */; };
 		54DC6C3C5F734F3A58069F0C /* libPods-tf_camera_example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA8BF92C84895BFE59D8236 /* libPods-tf_camera_example.a */; };
 		E4191D8B1FAA2C9F0089B718 /* launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4191D8A1FAA2C9F0089B718 /* launch.storyboard */; };
 		E4191D8E1FAA5BB50089B718 /* Icon-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4191D8C1FAA5BB40089B718 /* Icon-29@3x.png */; };
@@ -514,6 +515,7 @@
 		59A3CFF51CF4E68100C4259F /* grace_hopper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grace_hopper.jpg; sourceTree = "<group>"; };
 		59A3CFF71CF4E68100C4259F /* imagenet_comp_graph_label_strings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = imagenet_comp_graph_label_strings.txt; sourceTree = "<group>"; };
 		59A3CFF91CF4E68100C4259F /* tensorflow_inception_graph.pb */ = {isa = PBXFileReference; lastKnownFileType = file; path = tensorflow_inception_graph.pb; sourceTree = "<group>"; };
+		6C8CE05B45745240EB434BE5 /* libPods-dex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dex.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4191D8A1FAA2C9F0089B718 /* launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = launch.storyboard; sourceTree = "<group>"; };
 		E4191D8C1FAA5BB40089B718 /* Icon-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-29@3x.png"; path = "../../../../../../tensorflow-for-poets-2/tf_files/pokemon/Icon-29@3x.png"; sourceTree = "<group>"; };
 		E4191D8D1FAA5BB50089B718 /* Icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-29@2x.png"; path = "../../../../../../tensorflow-for-poets-2/tf_files/pokemon/Icon-29@2x.png"; sourceTree = "<group>"; };
@@ -986,6 +988,8 @@
 		E4D1B63A1FAA68CD00F4D280 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "../../../../../../tensorflow-for-poets-2/tf_files/pokemon/Icon-60@2x.png"; sourceTree = "<group>"; };
 		E4D1B63B1FAA68CD00F4D280 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@3x.png"; path = "../../../../../../tensorflow-for-poets-2/tf_files/pokemon/Icon-60@3x.png"; sourceTree = "<group>"; };
 		E4D1B63F1FAA749900F4D280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "../../../../../../tensorflow-for-poets-2/tf_files/pokemon/Base.lproj/pokeball.png"; sourceTree = "<group>"; };
+		EDEB58965BA0CE6F9D08A883 /* Pods-dex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dex.release.xcconfig"; path = "Pods/Target Support Files/Pods-dex/Pods-dex.release.xcconfig"; sourceTree = "<group>"; };
+		F558AEDFAEB564201B9707D5 /* Pods-dex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dex/Pods-dex.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -996,6 +1000,7 @@
 				1CB47D491ED3AD1700DF7666 /* AVFoundation.framework in Frameworks */,
 				1CA5EB931ED3ABFB00247A34 /* CoreMedia.framework in Frameworks */,
 				54DC6C3C5F734F3A58069F0C /* libPods-tf_camera_example.a in Frameworks */,
+				340A2193631F45FBA86DE2A0 /* libPods-dex.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1012,6 +1017,7 @@
 				1C0D73481ECCC41B008C1DAB /* CoreImage.framework */,
 				1CA45FFE1ECCC356002FA6A4 /* UIKit.framework */,
 				3BA8BF92C84895BFE59D8236 /* libPods-tf_camera_example.a */,
+				6C8CE05B45745240EB434BE5 /* libPods-dex.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1021,6 +1027,8 @@
 			children = (
 				3BC5BE4BBD09374D3E98F082 /* Pods-tf_camera_example.debug.xcconfig */,
 				55ED318E8D29C8AFEF03DF1E /* Pods-tf_camera_example.release.xcconfig */,
+				F558AEDFAEB564201B9707D5 /* Pods-dex.debug.xcconfig */,
+				EDEB58965BA0CE6F9D08A883 /* Pods-dex.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -2137,7 +2145,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tf_camera_example/Pods-tf_camera_example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dex/Pods-dex-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5C2D02120E3E5E09567AA946 /* [CP] Copy Pods Resources */ = {
@@ -2152,7 +2160,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tf_camera_example/Pods-tf_camera_example-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dex/Pods-dex-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		66DAEAAEE9EF6550C3A061E0 /* [CP] Check Pods Manifest.lock */ = {
@@ -2166,7 +2174,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-tf_camera_example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-dex-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2215,7 +2223,7 @@
 /* Begin XCBuildConfiguration section */
 		1C564C361ED3A92E00087306 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BC5BE4BBD09374D3E98F082 /* Pods-tf_camera_example.debug.xcconfig */;
+			baseConfigurationReference = F558AEDFAEB564201B9707D5 /* Pods-dex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -2238,7 +2246,7 @@
 		};
 		1C564C371ED3A92E00087306 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55ED318E8D29C8AFEF03DF1E /* Pods-tf_camera_example.release.xcconfig */;
+			baseConfigurationReference = EDEB58965BA0CE6F9D08A883 /* Pods-dex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -2266,6 +2274,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_OPTIMIZATION_PROFILE_FILE = "";
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -2312,6 +2321,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_OPTIMIZATION_PROFILE_FILE = "";
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
