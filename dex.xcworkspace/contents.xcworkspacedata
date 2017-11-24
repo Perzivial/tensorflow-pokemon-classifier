@@ -11,7 +11,4 @@
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:dex.xcodeproj">
-   </FileRef>
 </Workspace>
